@@ -1,10 +1,14 @@
 import React from 'react';
 import './QuizPage.css'; 
+import { useNavigate } from 'react-router-dom';
 import questionData from '../data/questions.json';
-console.log(questionData);
 
 const QuizPage = () => {
 const questions = questionData.questions;
+const navigate = useNavigate();
+const results = () => {
+    navigate('/results');
+  };
   return (
     <div className="quiz-container">
       <h1>Personality Quiz</h1>
@@ -31,7 +35,7 @@ const questions = questionData.questions;
             </div>
         </div>
         ))}
-            <button type="submit">Submit Quiz</button>
+            <button type="submit" onClick={results}>Submit Quiz</button>
         </form>
     </div>
   );
