@@ -10,8 +10,8 @@ const results = () => {
     navigate('/results');
   };
   return (
-    <div className="quiz-container">
-      <h1>Personality Quiz</h1>
+    <div className="container">
+      <h1 className="title">Personality Quiz</h1>
         <form id="quizForm">
         {questions.map((question, index) => (
         <div className="question" key={index}>

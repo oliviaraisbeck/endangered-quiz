@@ -1,20 +1,9 @@
-.homepage-container {
-    text-align: center;
-    padding: 2rem;
-    background-color: #f1f3f2;
-    min-height: 100vh;
-  }
-  
-  .homepage-title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
+
   .start-button {
     padding: 10px 20px;
     font-size: 1.2rem;
     cursor: pointer;
-    background-color: #4caf50;
+    background-color: #b46441;
     color: white;
     border: none;
     border-radius: 5px;
@@ -22,6 +11,6 @@
   }
   
   .start-button:hover {
-    background-color: #45a049;
+    background-color: #734712;
   }
   

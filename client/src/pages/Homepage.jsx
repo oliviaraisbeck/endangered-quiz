@@ -10,8 +10,8 @@ const HomePage = () => {
   };
 
   return (
-    <div className="homepage-container">
-      <h1 className="homepage-title">Welcome to the Personality Quiz</h1>
+    <div className="container">
+      <h1 className="title">Welcome to the Personality Quiz</h1>
       <button className="start-button" onClick={handleStart}>
         Start Quiz
       </button>
