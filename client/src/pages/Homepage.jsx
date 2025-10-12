@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <div className="container">
       <h1 className="title">Welcome to the Personality Quiz</h1>
-      <button className="start-button" onClick={handleStart}>
+      <button className="button1" onClick={handleStart}>
         Start Quiz
       </button>
     </div>
