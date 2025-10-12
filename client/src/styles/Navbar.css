@@ -1,30 +1,40 @@
-/* Navbar base styling */
+/* === Navbar Container === */
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
     padding: 16px 24px;
-    color: #333;
-    position: relative;
+    z-index: 1000;
+    box-sizing: border-box;
+    flex-wrap: wrap;
   }
   
+  /* === Logo === */
   .navbar-logo {
     font-size: 1.5rem;
     font-weight: bold;
   }
   
+  /* === Hamburger Button === */
   .hamburger {
     font-size: 24px;
     cursor: pointer;
     display: none;
+    z-index: 1100;
   }
   
-  /* Nav links (desktop view) */
+  /* === Nav Links (Desktop) === */
   .nav-links {
     list-style: none;
     display: flex;
     gap: 24px;
+    margin: 0;
+    padding: 0;
   }
   
   .nav-links li a {
@@ -37,26 +47,28 @@
     color: #f0c330;
   }
   
-  /* Responsive dropdown */
+  /* === Mobile Layout === */
   @media (max-width: 768px) {
     .hamburger {
       display: block;
     }
   
     .nav-links {
+      display: none; /* Hide by default */
+      flex-direction: column;
       position: absolute;
-      top: 38px;
+      top: 60px; /* Same as navbar height */
       left: 0;
       width: 100%;
-      flex-direction: column;
       background-color: #ffffff;
       gap: 16px;
-      padding: 16px;
-      display: none;
+      padding: 16px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      z-index: 999;
     }
   
     .nav-links.open {
-      display: flex;
+      display: flex; /* Show when toggled */
     }
   
     .nav-links li {
