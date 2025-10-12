@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Results = () => {
     return (
-        <div className="results-container">
-          <h1 className="results-title">Results go here</h1>
+        <div className="container">
+          <h1 className="title">Results go here</h1>
           <div>
             <span>P/Q </span>
             <span>05</span>
