@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
+import logo from '../data/chinchilla vanilla mates.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,10 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">TBD Quiz</div>
+      <div className="navbar-logo">
+        <img src={logo} alt = "logo" className="logo-img" />
+        <span>TBD Quiz</span>
+        </div>
 
       <div className="hamburger" onClick={toggleMenu}>
         &#9776; {/* Hamburger icon (☰) */}

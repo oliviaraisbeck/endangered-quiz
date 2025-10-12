@@ -1,4 +1,4 @@
-/* === Navbar Container === */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -8,19 +8,27 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    padding: 16px 24px;
+    padding: 0px 24px;
     z-index: 1000;
     box-sizing: border-box;
     flex-wrap: wrap;
   }
   
-  /* === Logo === */
   .navbar-logo {
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
   }
+
+  .logo-img {
+    height: 80px;
+    width: auto;
+    margin-right: 12px;
+    vertical-align: middle;
+  }
   
-  /* === Hamburger Button === */
+  
   .hamburger {
     font-size: 24px;
     cursor: pointer;
@@ -28,7 +36,6 @@
     z-index: 1100;
   }
   
-  /* === Nav Links (Desktop) === */
   .nav-links {
     list-style: none;
     display: flex;
@@ -44,10 +51,10 @@
   }
   
   .nav-links li a:hover {
-    color: #f0c330;
+    color: #cc802f;
   }
   
-  /* === Mobile Layout === */
+  /* Smaller Screen */
   @media (max-width: 768px) {
     .hamburger {
       display: block;
@@ -57,7 +64,7 @@
       display: none; /* Hide by default */
       flex-direction: column;
       position: absolute;
-      top: 60px; /* Same as navbar height */
+      top: 80px; /* Same as navbar height */
       left: 0;
       width: 100%;
       background-color: #ffffff;
