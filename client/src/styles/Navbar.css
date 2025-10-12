@@ -1,0 +1,66 @@
+/* Navbar base styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 16px 24px;
+    color: #333;
+    position: relative;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  /* Nav links (desktop view) */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+  }
+  
+  .nav-links li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #f0c330;
+  }
+  
+  /* Responsive dropdown */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .nav-links {
+      position: absolute;
+      top: 38px;
+      left: 0;
+      width: 100%;
+      flex-direction: column;
+      background-color: #ffffff;
+      gap: 16px;
+      padding: 16px;
+      display: none;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links li {
+      text-align: center;
+    }
+  }
+  
