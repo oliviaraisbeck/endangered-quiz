@@ -1,5 +1,5 @@
 import React from 'react';
-import './QuizPage.css'; 
+import '../styles/QuizPage.css'; 
 import { useNavigate } from 'react-router-dom';
 import questionData from '../data/questions.json';
 
