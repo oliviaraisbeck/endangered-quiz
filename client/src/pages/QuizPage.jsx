@@ -24,7 +24,7 @@ const QuizPage = () => {
 
     questions.forEach((question, index) => {
         const score = answers[index] || 0; // default to 0 if unanswered
-        const category = question.category; // Treat as single category
+        const category = question.category; 
     
         if (!categoryScores[category]) {
           categoryScores[category] = 0;
@@ -43,23 +43,47 @@ const QuizPage = () => {
           <div className="question" key={index}>
             <p>{question.text}</p>
             <div className="options">
-              {[1, 2, 3, 4, 5].map(value => (
-                <label key={value}>
-                  <input
-                    type="radio"
-                    name={`q${index}`}
-                    value={value}
-                    onChange={(e) => handleChange(e, index)}
-                  />{' '}
-                  {[
-                    'Strongly Disagree',
-                    'Disagree',
-                    'Neutral',
-                    'Agree',
-                    'Strongly Agree',
-                  ][value - 1]}
-                </label>
-              ))}
+                {question.category === 'RE/AC' ? (
+                    <>
+                        <label>
+                            <input 
+                            type="radio"
+                            name={`q${index}`}
+                            value="true"
+                            onChange={(e) => handleChange(e, index)}
+                            />
+                            True
+                        </label>
+                        <label>
+                            <input 
+                            type="radio"
+                            name={`q${index}`}
+                            value="false"
+                            onChange={(e) => handleChange(e, index)}
+                            />
+                            False
+                        </label>
+                    </>
+                ) : (
+                    [1, 2, 3, 4, 5].map(value => (
+                        <label key={value}>
+                          <input
+                            type="radio"
+                            name={`q${index}`}
+                            value={value}
+                            onChange={(e) => handleChange(e, index)}
+                          />{' '}
+                          {[
+                            'Strongly Disagree',
+                            'Disagree',
+                            'Neutral',
+                            'Agree',
+                            'Strongly Agree',
+                          ][value - 1]}
+                        </label>
+                      ))
+
+                )}
             </div>
           </div>
         ))}
