@@ -10,7 +10,15 @@ const QuizPage = () => {
   const [answers, setAnswers] = useState({});
 
   const handleChange = (e, index) => {
-    const value = parseInt(e.target.value);
+    let value; 
+
+    if (e.target.value === 'true') {
+        value = true;
+    } else if (e.target.value === 'false') {
+        value = false;
+    } else {
+        value = parseInt(e.target.value); 
+    }
     setAnswers(prev => ({
       ...prev,
       [index]: value
@@ -23,7 +31,15 @@ const QuizPage = () => {
     const categoryScores = {};
 
     questions.forEach((question, index) => {
-        const score = answers[index] || 0; // default to 0 if unanswered
+        let score = answers[index];
+        //const score = answers[index] || 0; // default to 0 if unanswered
+        if (score === true) {
+            score = 2; // true → 2 points
+          } else if (score === false) {
+            score = 1; // false → 1 point
+          } else if (typeof score !== 'number') {
+            score = 0; // unanswered → 0
+          }
         const category = question.category; 
     
         if (!categoryScores[category]) {
@@ -43,7 +59,7 @@ const QuizPage = () => {
           <div className="question" key={index}>
             <p>{question.text}</p>
             <div className="options">
-                {question.category === 'RE/AC' ? (
+                {question.category === 'Neuroticism' ? (
                     <>
                         <label>
                             <input 
