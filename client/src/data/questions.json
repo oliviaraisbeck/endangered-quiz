@@ -2,127 +2,123 @@
     "questions": [
       {
         "text": "You get your work done quickly.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "You approach most of the problems you face with a clear plan in mind.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "You are not easily distracted.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "You stick to the plans and goals you set.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "You do not struggle with motivation.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "You are a person that takes initiative.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "You prefer to have an idea of what your day holds each morning.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "You are detail-oriented.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "You think before you act and speak.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "Your living space is usually clean and organized.",
-        "category": "QU/PT"
+        "category": "Class of P/Q"
       },
       {
         "text": "It takes you awhile to trust a person.",
-        "category": "AC/R/E"
+        "category": "Social Behavior"
       },
       {
         "text": "You prioritize working efficiently over working with a group.",
-        "category": "AC/R/E"
+        "category": "Social Behavior"
       },
       {
         "text": "You have a tendency to isolate yourself.",
-        "category": "AC/R/E"
+        "category": "Social Behavior"
       },
       {
         "text": "You have trouble relying on others for big tasks.",
-        "category": "AC/R/E"
+        "category": "Social Behavior"
       },
       {
         "text": "You struggle with expressing your emotions.",
-        "category": "AC/R/E"
-      },
-      {
-        "text": "You are very careful about who you let in your life.",
-        "category": "AC/R/E"
+        "category": "Social Behavior"
       },
       {
         "text": "You don't mind being the center of attention.",
-        "category": "RE/AC"
+        "category": "Environment Behavior"
       },
       {
         "text": "You are the kind of person to start a conversation with a stranger.",
-        "category": "RE/AC"
+        "category": "Environment Behavior"
       },
       {
         "text": "You are assertive.",
-        "category": "RE/AC"
+        "category": "Environment Behavior"
       },
       {
         "text": "You are high energy.",
-        "category": "RE/AC"
+        "category": "Environment Behavior"
       },
       {
         "text": "You often forget to set aside time for yourself.",
-        "category": "RE/AC"
+        "category": "Environment Behavior"
       },
       {
         "text": "You get your bearings quickly in new places.",
-        "category": "MO/OP/ID"
+        "category": "Migration"
       },
       {
         "text": "You enjoy thinking about abstract ideas and theories.",
-        "category": "MO/OP/ID"
+        "category": "Migration"
       },
       {
         "text": "You prioritize seeking out new experiences.",
-        "category": "MO/OP/ID"
+        "category": "Migration"
       },
       {
         "text": "You are a naturally curious person.",
-        "category": "MO/OP/ID"
+        "category": "Migration"
       },
       {
         "text": "You have a big imagination.",
-        "category": "MO/OP/ID"
+        "category": "Migration"
       },
       {
         "text": "It takes a lot for you to become stressed.",
-        "category": "RE/AC"
+        "category": "Neuroticism"
       },
       {
         "text": "You are confident.",
-        "category": "RE/AC"
+        "category": "Neuroticism"
       },
       {
         "text": "You are competitive.",
-        "category": "RE/AC"
+        "category": "Neuroticism"
       },
       {
         "text": "You are not a perfectionist.",
-        "category": "RE/AC"
+        "category": "Neuroticism"
       },
       {
         "text": "You are level headed.",
-        "category": "RE/AC"
+        "category": "Neuroticism"
       }
     ]
   }

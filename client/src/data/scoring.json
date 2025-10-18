@@ -1,0 +1,35 @@
+{
+    "score": [
+        {
+            "category" : "Class of P/Q",
+            "cutoff" : 55.5,
+            "high" : "PT/QF",
+            "low" : "QL/QU"
+        },
+        {
+            "category" : "Social Behavior",
+            "cutoff" :27.5,
+            "high" : "RE",
+            "low" : "AC"
+        },
+        {
+            "category" : "Environment Behavior",
+            "cutoff" : 27.5,
+            "high" : "AC",
+            "low" : "RE"
+        },
+        {
+            "category" : "Migration",
+            "cutoff" : 27.5,
+            "high" : "MOB",
+            "low" : "IDL"
+        },
+        {
+            "category" : "Neuroticism",
+            "cutoff" : 7.5,
+            "high" : "AC",
+            "low" : "RE"
+        }
+        
+    ]
+}
