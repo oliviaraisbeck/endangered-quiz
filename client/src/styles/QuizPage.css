@@ -1,1 +1,53 @@
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radio-wrapper {
+  display: flex;
+  align-items: center; 
+  height: 30px;          
+  margin-bottom: 5px;
+}
+
+.option input[type="radio"] {
+  appearance: none;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid #ccc;
+  transition: 0.3s;
+}
+
+.option-text {
+  white-space: normal;
+  line-height: 1.2;
+  font-size: 0.75rem;
+  width: 50px;
+  text-align: center;
+}
+
+.options input.radio-1{ width: 30px; height: 30px; border-color: #cc802f; }
+.options input.radio-1:checked{ background-color: #cc802f; border-color: #cc802f; }
+
+.options input.radio-2{ width: 25px; height: 25px; border-color: #d29d86; }
+.options input.radio-2:checked{ background-color: #d29d86; border-color: #d29d86; }
+
+.options input.radio-3 { width: 20px; height: 20px; border-color: #b6b7b7; }
+.options input.radio-3:checked { background-color: #b6b7b7; border-color: #b6b7b7; }
+
+.options input.radio-4 { width: 25px; height: 25px; border-color: #ded27c; }
+.options input.radio-4:checked { background-color: #ded27c; border-color: #ded27c; }
+
+.options input.radio-5{ width: 30px; height: 30px; border-color: #96c976; }
+.options input.radio-5:checked { background-color: #96c976; border-color: #96c976; }
+
+.options input[type="radio"]:hover { transform: scale(1.2); }
+
 
