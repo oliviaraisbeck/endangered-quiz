@@ -20,33 +20,8 @@
   .question p {
     font-size: 1.2rem;
     font-weight: bolder;
-    margin-bottom: .2rem;
+    margin-bottom: .5rem;
     color: #05071e;
-  }
-  
-  /* Container for the options (radio buttons) */
-  .options {
-    display: flex;
-    justify-content: center;
-    flex-direction:row;
-    align-items: flex-start;
-    gap: 0.1rem;
-  }
-  
-  /* Radio button labels */
-  .options label {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    font-size: 1rem;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: background-color 0.2s ease;
-  }
-  
-  /* Highlight label when hovering */
-  .options label:hover {
-    background-color: #e0e0e0;
   }
   
   /* The Submit button */
@@ -68,3 +43,58 @@
     background-color: #734712;
     transform: scale(1.05);
   }
+
+/*radio buttons and text under them*/  
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radio-wrapper {
+  display: flex;
+  align-items: center; 
+  height: 30px;          
+  margin-bottom: 5px;
+}
+
+.option input[type="radio"] {
+  appearance: none;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid #ccc;
+  transition: 0.3s;
+}
+
+.option-text {
+  white-space: normal;
+  line-height: 1.2;
+  font-size: 0.75rem;
+  width: 50px;
+  text-align: center;
+}
+
+.options input.radio-1{ width: 30px; height: 30px; border-color: #cc802f; }
+.options input.radio-1:checked{ background-color: #cc802f; border-color: #cc802f; }
+
+.options input.radio-2{ width: 25px; height: 25px; border-color: #d29d86; }
+.options input.radio-2:checked{ background-color: #d29d86; border-color: #d29d86; }
+
+.options input.radio-3 { width: 20px; height: 20px; border-color: #b6b7b7; }
+.options input.radio-3:checked { background-color: #b6b7b7; border-color: #b6b7b7; }
+
+.options input.radio-4 { width: 25px; height: 25px; border-color: #ded27c; }
+.options input.radio-4:checked { background-color: #ded27c; border-color: #ded27c; }
+
+.options input.radio-5{ width: 30px; height: 30px; border-color: #96c976; }
+.options input.radio-5:checked { background-color: #96c976; border-color: #96c976; }
+
+.options input[type="radio"]:hover { transform: scale(1.2); }
+
+

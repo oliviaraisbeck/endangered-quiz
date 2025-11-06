@@ -61,41 +61,47 @@ const QuizPage = () => {
             <div className="options">
                 {question.category === 'Neuroticism' ? (
                     <>
-                        <label>
+                        <label className={'option'}>
                             <input 
                             type="radio"
                             name={`q${index}`}
                             value="true"
                             onChange={(e) => handleChange(e, index)}
+                            className="radio-5"
                             />
-                            True
+                            <span className="option-text">True</span>
                         </label>
-                        <label>
+                        <label className={'option'}>
                             <input 
                             type="radio"
                             name={`q${index}`}
                             value="false"
                             onChange={(e) => handleChange(e, index)}
+                            className="radio-1"
                             />
-                            False
+                            <span className="option-text">False</span>
                         </label>
                     </>
                 ) : (
-                    [1, 2, 3, 4, 5].map(value => (
-                        <label key={value}>
-                          <input
-                            type="radio"
-                            name={`q${index}`}
-                            value={value}
-                            onChange={(e) => handleChange(e, index)}
-                          />{' '}
-                          {[
-                            'Strongly Disagree',
-                            'Disagree',
-                            'Neutral',
-                            'Agree',
-                            'Strongly Agree',
-                          ][value - 1]}
+                    [5,4,3,2,1].map(value => (
+                        <label key={value} className={'option'}>
+                          <div className="radio-wrapper">
+                            <input
+                              type="radio"
+                              name={`q${index}`}
+                              value={value}
+                              onChange={(e) => handleChange(e, index)}
+                              className={`radio-${value}`}
+                          /></div>
+                          <span className="option-text">
+                            {[
+                              'Strongly Disagree',
+                              'Disagree',
+                              'Neutral',
+                              'Agree',
+                              'Strongly Agree',
+                            ][value - 1]}
+                          </span>
                         </label>
                       ))
 
