@@ -3,6 +3,7 @@ import '../styles/Results.css';
 import { useLocation, useNavigate } from 'react-router-dom';
 import scoringData from '../data/scoring.json';
 
+
 const Results = () => {
   const scoring = scoringData.score;
   const location = useLocation();
