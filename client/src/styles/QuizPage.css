@@ -12,7 +12,6 @@
   }
   
   .question {
-    margin-bottom: .5rem;
     padding: .1rem;
     background-color: #f2f2f2;
   }
@@ -46,6 +45,7 @@
 
 /*radio buttons and text under them*/  
 .options {
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   gap: 30px;
