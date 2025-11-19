@@ -1,0 +1,226 @@
+{
+  "African Wild Dog": {
+    "P/Q": "PT/QF",
+    "Social": "AC",
+    "Environ": "AC",
+    "Migrat": "MOB",
+    "Neuro": "AC"
+  },
+  "Northern Rockhopper Penguin": {
+    "P/Q": "PT/QF",
+    "Social": "AC",
+    "Environ": "AC",
+    "Migrat": "MOB",
+    "Neuro": "RE"
+  },
+  "Vaquita": {
+    "P/Q": "PT/QF",
+    "Social": "AC",
+    "Environ": "AC",
+    "Migrat": "IDL",
+    "Neuro": "AC"
+  },
+  "Red Wolf": {
+    "P/Q": "PT/QF",
+    "Social": "AC",
+    "Environ": "AC",
+    "Migrat": "IDL",
+    "Neuro": "RE"
+  },
+  "Orca": {
+    "P/Q": "PT/QF",
+    "Social": "AC",
+    "Environ": "RE",
+    "Migrat": "MOB",
+    "Neuro": "AC"
+  },
+  "Blakiston's Fish-owl": {
+    "P/Q": "PT/QF",
+    "Social": "AC",
+    "Environ": "RE",
+    "Migrat": "MOB",
+    "Neuro": "RE"
+  },
+  "Lion": {
+    "P/Q": "PT/QF",
+    "Social": "AC",
+    "Environ": "RE",
+    "Migrat": "IDL",
+    "Neuro": "AC"
+  },
+  "Sea Otter": {
+    "P/Q": "PT/QF",
+    "Social": "AC",
+    "Environ": "RE",
+    "Migrat": "IDL",
+    "Neuro": "RE"
+  },
+  "Great white shark": {
+    "P/Q": "PT/QF",
+    "Social": "RE",
+    "Environ": "AC",
+    "Migrat": "MOB",
+    "Neuro": "AC"
+  },
+  "Hooded Grebe": {
+    "P/Q": "PT/QF",
+    "Social": "RE",
+    "Environ": "AC",
+    "Migrat": "MOB",
+    "Neuro": "RE"
+  },
+  "Chinese Alligator": {
+    "P/Q": "PT/QF",
+    "Social": "RE",
+    "Environ": "AC",
+    "Migrat": "IDL",
+    "Neuro": "AC"
+  },
+  "(Tapanuli) Orangutan": {
+    "P/Q": "PT/QF",
+    "Social": "RE",
+    "Environ": "AC",
+    "Migrat": "IDL",
+    "Neuro": "RE"
+  },
+  "Great Hammerhead": {
+    "P/Q": "PT/QF",
+    "Social": "RE",
+    "Environ": "RE",
+    "Migrat": "MOB",
+    "Neuro": "AC"
+  },
+  "Snow Leopard": {
+    "P/Q": "PT/QF",
+    "Social": "RE",
+    "Environ": "RE",
+    "Migrat": "MOB",
+    "Neuro": "RE"
+  },
+  "Tiger": {
+    "P/Q": "PT/QF",
+    "Social": "RE",
+    "Environ": "RE",
+    "Migrat": "IDL",
+    "Neuro": "AC"
+  },
+  "Sunda Pangolin": {
+    "P/Q": "PT/QF",
+    "Social": "RE",
+    "Environ": "RE",
+    "Migrat": "IDL",
+    "Neuro": "RE"
+  },
+  "African Forest Elephant": {
+    "P/Q": "QL/QU",
+    "Social": "AC",
+    "Environ": "AC",
+    "Migrat": "MOB",
+    "Neuro": "AC"
+  },
+  "Migratory Monarch Butterfly": {
+    "P/Q": "QL/QU",
+    "Social": "AC",
+    "Environ": "AC",
+    "Migrat": "MOB",
+    "Neuro": "RE"
+  },
+  "Giant Ibis": {
+    "P/Q": "QL/QU",
+    "Social": "AC",
+    "Environ": "AC",
+    "Migrat": "IDL",
+    "Neuro": "AC"
+  },
+  "Archey's Frog": {
+    "P/Q": "QL/QU",
+    "Social": "AC",
+    "Environ": "AC",
+    "Migrat": "IDL",
+    "Neuro": "RE"
+  },
+  "Wild Camel": {
+    "P/Q": "QL/QU",
+    "Social": "AC",
+    "Environ": "RE",
+    "Migrat": "MOB",
+    "Neuro": "AC"
+  },
+  "Spoon-billed Sandpiper": {
+    "P/Q": "QL/QU",
+    "Social": "AC",
+    "Environ": "RE",
+    "Migrat": "MOB",
+    "Neuro": "RE"
+  },
+  "Cross River Gorilla": {
+    "P/Q": "QL/QU",
+    "Social": "AC",
+    "Environ": "RE",
+    "Migrat": "IDL",
+    "Neuro": "AC"
+  },
+  "Rusty Patched Bumblebee": {
+    "P/Q": "QL/QU",
+    "Social": "AC",
+    "Environ": "RE",
+    "Migrat": "IDL",
+    "Neuro": "RE"
+  },
+  "Whale Shark": {
+    "P/Q": "QL/QU",
+    "Social": "RE",
+    "Environ": "RE",
+    "Migrat": "MOB",
+    "Neuro": "AC"
+  },
+  "Green Sea Turtle": {
+    "P/Q": "QL/QU",
+    "Social": "RE",
+    "Environ": "AC",
+    "Migrat": "MOB",
+    "Neuro": "RE"
+  },
+  "Black Rhino": {
+    "P/Q": "QL/QU",
+    "Social": "RE",
+    "Environ": "RE",
+    "Migrat": "IDL",
+    "Neuro": "AC"
+  },
+  "Long-Beaked Echidnas": {
+    "P/Q": "QL/QU",
+    "Social": "RE",
+    "Environ": "AC",
+    "Migrat": "IDL",
+    "Neuro": "RE"
+  },
+  "Giant Panda": {
+    "P/Q": "QL/QU",
+    "Social": "RE",
+    "Environ": "RE",
+    "Migrat": "MOB",
+    "Neuro": "AC"
+  },
+  "Saola": {
+    "P/Q": "QL/QU",
+    "Social": "RE",
+    "Environ": "RE",
+    "Migrat": "MOB",
+    "Neuro": "RE"
+  },
+  "Kakapo": {
+    "P/Q": "QL/QU",
+    "Social": "RE",
+    "Environ": "AC",
+    "Migrat": "IDL",
+    "Neuro": "AC"
+  },
+  "Axolotl": {
+    "P/Q": "QL/QU",
+    "Social": "RE",
+    "Environ": "RE",
+    "Migrat": "IDL",
+    "Neuro": "RE"
+  }
+}
