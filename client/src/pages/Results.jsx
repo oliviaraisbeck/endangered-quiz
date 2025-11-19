@@ -68,6 +68,7 @@ const Results = () => {
             <div className="animal-details">
               <img src={animalDetails.image} alt={animalDetails.name} />
               <p>{animalDetails.description}</p>
+              <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
               <h2>Understand Your Results</h2>
               {animalDetails.understandResult.map((line, index) => (
                 <p key={index}>{line}</p>

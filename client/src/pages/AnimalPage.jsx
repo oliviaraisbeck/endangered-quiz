@@ -19,26 +19,26 @@ const AnimalPage = () => {
       <img src={animalDetails.image} alt={animalDetails.name} />
       <p>{animalDetails.description}</p>
 
-      <h2>Understand Your Results</h2>
-      {animalDetails.understandResult.map((line, index) => (
-        <p key={index}>{line}</p>
-      ))}
-
       <h2>Facts</h2>
       <ul>
         {Object.entries(animalDetails.facts).map(([key, value]) => (
           <li key={key}><strong>{key}:</strong> {value}</li>
         ))}
       </ul>
-
-      <h2>Sources</h2>
-      <ul>
-        {animalDetails.sources.map((src, idx) => (
-          <li key={idx}>
-            <a href={src} target="_blank" rel="noreferrer">{src}</a>
-          </li>
-        ))}
-      </ul>
+    
+      <div id="Donation">
+        <h2>Donation</h2>
+        <p>{animalDetails.charityDesc}</p>
+        <button
+            onClick={() => {
+            console.log("Opening URL:", animalDetails.donationURL);
+            window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
+        }}
+            >
+            Donate Now
+        </button>
+      </div>
+      
     </div>
   );
 };
