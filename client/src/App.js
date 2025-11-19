@@ -8,6 +8,7 @@ import Layout from './Layout';
 import About from './pages/About';
 import Mission from './pages/Mission';
 import Animals from './pages/Animals';
+import AnimalPage from './pages/AnimalPage';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="mission" element={<Mission />} />
           <Route path="animals" element={<Animals />} />
+          <Route path="/animals/:animalKey" element={<AnimalPage />} />
         </Route>
       </Routes>
     </Router>

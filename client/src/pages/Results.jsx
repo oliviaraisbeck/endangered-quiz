@@ -4,18 +4,11 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import animalsData from '../data/animals.json';
 
 const Results = () => {
-
-  // ---------------------------
-  // ✅ ALL HOOKS GO FIRST
-  // ---------------------------
   const location = useLocation();
   const navigate = useNavigate();
 
   const [animalDetails, setAnimalDetails] = useState(null);
 
-  // ---------------------------
-  // Now safe: these run every render
-  // ---------------------------
   const categoryScores = location.state?.categoryScores || {};
 
   const getHL = (category, score) => {
@@ -47,9 +40,6 @@ const Results = () => {
 
   const nameKey = animal?.replace(/ /g, "_");
 
-  // ---------------------------
-  // ✅ Hook is in the right place
-  // ---------------------------
   useEffect(() => {
     if (!nameKey) return;
 
@@ -58,10 +48,6 @@ const Results = () => {
       .catch((err) => console.error(err));
   }, [nameKey]);
 
-
-  // ---------------------------
-  // EARLY RETURN MUST COME *AFTER* ALL HOOKS
-  // ---------------------------
   if (Object.keys(categoryScores).length === 0) {
     return (
       <div className="container">
@@ -71,22 +57,22 @@ const Results = () => {
     );
   }
 
-  // ---------------------------
-  // MAIN RENDER
-  // ---------------------------
   return (
     <div className="container">
-      <h1 className="title">Your Quiz Results</h1>
-
-      <h2>Your Animal</h2>
+      <h1 className="title">Your animal is the...</h1>
       {animal ? (
         <>
-          <h3>{animal}</h3>
+          <h2>{animal}!</h2>
 
           {animalDetails ? (
             <div className="animal-details">
               <img src={animalDetails.image} alt={animalDetails.name} />
               <p>{animalDetails.description}</p>
+              <h2>Understand Your Results</h2>
+              {animalDetails.understandResult.map((line, index) => (
+                <p key={index}>{line}</p>
+              ))}
+              <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Learn More</button>
             </div>
           ) : (
             <p>Loading animal details...</p>
