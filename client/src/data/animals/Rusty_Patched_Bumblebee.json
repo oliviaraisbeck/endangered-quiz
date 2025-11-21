@@ -1,0 +1,31 @@
+{
+  "name": "Rusty Patched Bumblebee",
+  "description": "The Rusty Patched Bumblebee is a famously social insect, and highly cooperative with others. Especially when defending its hive, where it resides the entirety of its life, it can get defensive.",
+  "image": "/images/bumblebee_key.jpeg",
+  "understandResult": [
+    "Division of tasks and systems are crucial to the life of a bumblebee. You are organized and enjoy having a schedule.",
+    "A eusocial species, bees have some of the most complex social structures found in the animal kingdom. You lead with your heart, and want to make choices that are in the best interest of everyone.",
+    "Rusty Patched Bees prefer to warn other animals before they resort to stinging. They are deeply connected with their hive. You enjoy socializing and meeting new people.",
+    "Once a hive is established, foragers are the only ones who depart regularly, flying up to one mile from their hive for food. You are grounded, and focus on concrete details.",
+    "Their behavior is entirely defensive, and they are more likely to take flight, than fight. You can be conflict avoidant, and sometimes stress can get the better of you."
+  ],
+  "facts": {
+    "General Facts": "The most famous social insect, this species is one of 21 in North America, and has faced huge loss of habitat.",
+    "Physical Description": "What sets the rusty patched bumblebee apart is a rusty patch on the abdomen of their worker bees and males. Like other bumblebee species, they have a round body covered entirely in yellow and black hairs.",
+    "Predator or Prey?": "Bees are generalist foragers and collect pollen and nectar from many plant species. Rusty patched bees return to the hive where other workers process their collected food. They do not produce honey but are essential pollinators in their ecosystems.",
+    "Community and Trust": "A eusocial species, rusty patched bees live with multiple generations, divide labor into distinct roles, and raise young collectively. Their social organization is among the most complex in the animal kingdom.",
+    "Assertiveness": "Rusty patched bumblebees avoid stinging unless absolutely necessary. They warn intruders first and can sting multiple times without losing their stinger. They are extremely social even with other species.",
+    "Does it Migrate?": "Nests form underground or in grass clumps and can house up to 1,000 bees. Each winter the hive dies off, except for a hibernating queen who restarts the colony in spring. Only foragers travel, flying up to one mile away.",
+    "Food Chain": "This species is preyed upon by birds, spiders, larger insects, and even badgers. They rely on defensive behavior and flight rather than aggression.",
+    "Endangered Status": "The Rusty Patched Bumblebee was the first bumblebee listed as endangered in the United States. Once widespread across the eastern US, they have lost approximately 83% of their population from habitat loss and climate change."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/bumble-bee/",
+    "https://www.iucnredlist.org/species/44937399/46440196",
+    "https://ncwf.org/blog/rusty-patched-bumblebee/",
+    "https://www.fws.gov/species/rusty-patched-bumble-bee-bombus-affinis"
+  ], 
+  "charity": "https://us.whales.org/",
+  "charityDesc": "The National Wildlife Federation preserves the United State's natural landscapes for future generations of people and endangered species.",
+  "donationURL": "https://support.nwf.org/page/89607/donate/1?ea.tracking.id=SRC&gclsrc=aw.ds&gad_source=1&gad_campaignid=23266753855&gbraid=0AAAAAD_rpHUnqMvZaNXTrvaOEU9V38Exe&gclid=CjwKCAiA8vXIBhAtEiwAf3B-gyjH2z63O97sbyanZx3g7-rT2EWko6wHTpw9cjWNqKSnDCeBu707DxoCOfsQAvD_BwE"
+}
