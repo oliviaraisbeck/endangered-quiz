@@ -62,13 +62,16 @@ const Results = () => {
       <h1 className="title">Your animal is the...</h1>
       {animal ? (
         <>
-          <h2>{animal}!</h2>
-
           {animalDetails ? (
             <div className="animal-details">
-              <img src={animalDetails.image} alt={animalDetails.name} />
-              <p>{animalDetails.description}</p>
-              <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
+              <div className="animal-header">
+                <div className="animal-info">
+                  <h2>{animal}!</h2>
+                  <p className="description">{animalDetails.description}</p>
+                  <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
+                </div>
+                <img src={animalDetails.image} alt={animalDetails.name} />
+              </div>
               <h2>Understand Your Results</h2>
               {animalDetails.understandResult.map((line, index) => (
                 <p key={index}>{line}</p>
