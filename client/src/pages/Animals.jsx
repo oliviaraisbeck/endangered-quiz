@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Animals.css';
 
-// Dynamically import all JSON files in /data/animals
 const importAllAnimals = () => {
   const context = require.context('../data/animals', false, /\.json$/);
   return context.keys().map(context);
