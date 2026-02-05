@@ -19,7 +19,7 @@ const AnimalPage = () => {
       <img src={animalDetails.image} alt={animalDetails.name} />
       <p>{animalDetails.description}</p>
 
-      <h2>Facts</h2>
+      <h2>About the {animalDetails.name}</h2>
       <ul>
         {Object.entries(animalDetails.facts).map(([key, value]) => (
           <li key={key}><strong>{key}:</strong> {value}</li>
@@ -27,7 +27,7 @@ const AnimalPage = () => {
       </ul>
     
       <div id="Donation">
-        <h2>Donation</h2>
+        <h2>Help the {animalDetails.name}</h2>
         <p>{animalDetails.charityDesc}</p>
         <button
             onClick={() => {
