@@ -1,0 +1,48 @@
+{
+  "name": "African Forest Elephant",
+  "title": "Creative Director",
+  "description": "A friendly giant with a large range, the African Forest Elephant relies on others for protection, but with this herd comes confidence.",
+  "image": "/images/african_forest_elephant.jpeg",
+  "understandResult": [
+    "Herbivore scavengers, African Forest Elephants must be flexible and adaptable. You are spontaneous, and open to new information.",
+    "These elephants form deep social bonds, and live in herds of mothers and their calves, while males can be more solitary or live in bachelor groups. You prioritize your relationships and the feelings of your loved ones.",
+    "They live peacefully along with many creatures and other elephants in their territories. You are outgoing, and are energized by social interactions.",
+    "They are fully nomadic, and travel extensively for resources and to mate. You pride yourself on your openmindedness, and exploring ideas and theories excites you.",
+    "Due to their size and dominance, they do not have natural predators as adults. You are also confident and resilient."
+  ],
+  "traits": [
+    "Resilient",
+    "Empathetic",
+    "Outgoing",
+    "Imaginative",
+    "Confident"
+  ],
+  "likes": [
+    "Empty planners",
+    "Team games",
+    "Friend's friends",
+    "Creative hobbies"
+  ],
+  "dislikes": [
+    "Instruction manuals",
+    "Bad manners",
+    "Too much alone time",
+    "Memorization"
+  ],
+  "facts": {
+    "General Facts": "Extremely intelligent, this social giant might be among the first when you imagine the animals of Africa.",
+    "Physical Description": "Weighing up to six tons and growing up to ten feet tall, the African Forest Elephant is awe-inspiring. Relative to other elephants, its tusks are straighter, which help it move through the jungle. When communicating with others, they produce sounds so low they can't be heard by humans.",
+    "Predator or Prey?": "Herbivores, their diet consists of fruit, brush, and leaves. Elephants don't have natural predators due to their large size, but when they are young they are susceptible to attack.",
+    "Community and Trust": "Forest elephants are matriarchal and care for their young for several years. Multiple females and their calves form herds to protect themselves from threats, and are highly social. Males, on the other hand, tend to live alone or in bachelor groups.",
+    "Assertiveness": "They are tolerant of other creatures in their territory, and often share ranges with other creatures. Males tend not to fight one another, save for during mating season or to compete over limited resources. Do African Forest Elephants Migrate? They are fully nomadic, and travel extensively to find resources and to mate. Much of their life is spent roaming their dense forest homes, searching for water holes and navigating the brush.",
+    "Food Chain": "Due to their size and dominance, they do not have natural predators as adults. As calves, they are protected by their herds. When they are very old, lions and hyenas pose a threat.",
+    "Endangered Status": "The African Forest Elephant is classified as critically endangered by the IUCN Red List. Poaching and loss of habitat are significant threats. To improve their chances, we must protect the forests they rely on and continue to prohibit hunting."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/african-forest-elephant/",
+    "https://www.iucnredlist.org/species/181007989/204404464"
+  ],
+  "charity": "DONATE LINK:",
+  "charityDesc": "The African Wildlife Foundation is based in Africa. Its focus on collaborating with local organizations makes them uniquely equipped to drive change.",
+  "donationURL": "https://secure.awf.org/page/119125/donate/1"
+}
