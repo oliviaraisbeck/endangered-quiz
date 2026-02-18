@@ -62,9 +62,6 @@ const Results = () => {
       <h1 className="title">Your animal is the...</h1>
       {animal ? (
         <>
-          <div>
-            <h2>{animalsData.name}!</h2>
-          </div>
           {animalDetails ? (
             <div className="animal-details">
               <div className="animal-header">

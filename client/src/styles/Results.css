@@ -21,10 +21,6 @@ img {
     flex-direction: column;
 }
 
-.description {
-    
-}
-
 @media (max-width: 768px) { /*mobile stuff to do more and change later */
   img {
     width: 50%;        
