@@ -51,13 +51,62 @@ const QuizPage = () => {
     navigate('/results', { state: { categoryScores } });
   };
 
+  const GradientArrow = () => {
+    return (
+      <svg
+        viewBox="0 0 400 40"
+        className="gradient-arrow"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <defs>
+          <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="#96c976" />
+            <stop offset="50%" stopColor="#b6b7b7" />
+            <stop offset="100%" stopColor="#cc802f" />
+          </linearGradient>
+        </defs>
+
+        <polygon
+          points="
+            0,20 
+            20,0 
+            20,13 
+            380,13 
+            380,0 
+            400,20 
+            380,40 
+            380,27 
+            20,27 
+            20,40
+          "
+          fill="url(#arrowGradient)"
+        />
+      </svg>
+    );
+  };
+
   return (
     <div className="container">
-      <h1 className="title">Personality Quiz</h1>
+      <h1 className="title">Which endangered animal are you most similar to?</h1>
+      <div className="instructions">
+        <h1>Quiz Instructions</h1>
+        <p>Rank the following by how much you agree or disagree with each statement.</p>
+        <div className="scale-visual">
+          <GradientArrow />
+
+          <div className="scale-labels">
+            {[5,4,3,2,1].map((value, i) => (
+              <span key={i} className={`scale-tick tick-${value}`}>
+                {['Strongly Agree','Agree','Neutral','Disagree','Strongly Disagree'][5 - value]}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
       <form id="quizForm" onSubmit={handleSubmit}>
         {questions.map((question, index) => (
           <div className="question" key={index}>
-            <p>{question.text}</p>
+            <h3>{question.text}</h3>
             <div className="options">
                 {question.category === 'Neuroticism' ? (
                     <>

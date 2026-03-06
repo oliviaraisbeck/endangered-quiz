@@ -1,49 +1,50 @@
-.container {
-    padding-top: 2rem;
-    text-align: center;
-    background-color: #f2f2f2;
-  }
-  
-  .title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #05071e;
-  }
-  
-  .question {
-    padding: .1rem;
-    background-color: #f2f2f2;
-  }
-  
-  .question p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-    margin-bottom: .5rem;
-    color: #05071e;
-  }
-  
-  /* The Submit button */
-  button[type="submit"] {
-    margin-top: 20px;
-    padding: 12px 30px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #b46441;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  /* Submit button hover effect */
-  button[type="submit"]:hover {
-    background-color: #734712;
-    transform: scale(1.05);
+.instructions{
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.scale-visual {
+  width: 100%;
+  max-width: 600px; 
+  margin: 30px auto;
+  text-align: center;
+}
+
+.gradient-arrow {
+  width: 100%;
+  height: auto; 
+  display: block;
+  margin-bottom: 5px;
+}
+
+.scale-labels {
+  display: flex;
+  justify-content: space-between; 
+  font-size: 0.8rem; 
+  margin-top: 5px;
+}
+
+.scale-labels span {
+  flex: 1; 
+  text-align: center;
+  line-height: 1.2;
+  white-space: normal;
+  font-weight: bold;
+}
+
+/*TODO: phone screen stuff do late */
+@media (max-width: 480px) {
+  .scale-labels {
+    font-size: 0.65rem;
   }
 
-/*radio buttons and text under them*/  
+  .option-text {
+    font-size: 0.65rem;
+    width: 40px;
+  }
+}
+
 .options {
   margin-top: 1rem;
   display: flex;
@@ -80,6 +81,7 @@
   text-align: center;
 }
 
+/* Radio button colors */
 .options input.radio-1{ width: 30px; height: 30px; border-color: #cc802f; }
 .options input.radio-1:checked{ background-color: #cc802f; border-color: #cc802f; }
 

@@ -1,0 +1,45 @@
+{
+  "name": "Lion",
+  "title": "Leader",
+  "description": "A bold and collaborative creature, the lion's territorial nature keeps threats out, and its pride close.",
+  "image": "/images/lion.jpg",
+  "logo": "/logo/lion_logo.png",
+  "understandResult": [
+    "Organization"
+  ],
+  "traits": [
+    "Methodical",
+    "Fierce friend",
+    "Talkative",
+    "Pragmatic",
+    "Confident"
+  ],
+  "likes": [
+    "To-do lists",
+    "Collaborative work",
+    "Telling stories",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Unclear rules",
+    "Bad manners",
+    "The quiet game",
+    "Unproven theories"
+  ],
+  "facts": {
+    "General Facts": "Wow, look at that hairdoo! Known as Africa's apex predators, they're social, competitive, and tenacious.",
+    "Physical Description": "Lions have a short coat of golden fur and a gorgeous mane. At the end of their long tail, another patch of fur resembles a mini-mane!",
+    "Predator or Prey?": "Lions are proactive and strategic hunters. When hunting with other members of their community, or pride, they have a 30% success rate. Alone, they are much less likely to succeed in taking down their next meal.",
+    "Community and Trust": "Lions live in prides that average 5-15 related female lions, with 1-3 male lions being typical. They have highly defined social hierarchies, with female lions ruling over the group. Females are also responsible for most of the hunting.",
+    "Assertiveness": "Highly territorial, lions maintain territories up to 150 square miles if food is scarce. They keep a defined core area that they defend intensely, with a larger range where some overlap with other prides is permitted. They mark their turf using scent and their mighty roars, which can be heard from up to five miles away. Do Lions Migrate? Lions establish territories and tend to remain in their turf once it's established. Some prides have even been known to remain in the same territory for generations, with the land being passed down from mothers to their daughters.",
+    "Food Chain": "Despite being called the \"king of beasts,\" lions actually face a great deal of daily threats and challenges. They can be taken down by many of their prey, and fight other predators for limited resources across their savannah homes. However, they are confident overall, and are aggressive towards humans when confronted.",
+    "Endangered Status": "Lions as a species are classified as vulnerable by the IUCN Red List. The West Africa subpopulation of lions is considered critically endangered. Without protections, lions are widely hunted by locals and the international community. Further intervention is needed to prevent the 36% decrease in population that has continued for the last three observed generations."
+  },
+  "sources": [
+    "https://www.britannica.com/animal/lion",
+    "https://www.iucnredlist.org/species/15951/115130419"
+  ],
+  "charity": "DONATE LINK:",
+  "charityDesc": "Panthera is devoted to preservation of wild big cats. This focused mission helps drive their effectiveness and trustworthiness.",
+  "donationURL": "https://panthera.org/support-us"
+}
