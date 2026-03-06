@@ -1,11 +1,30 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Homepage.css';
- //'../data/tiger.jpg';
+
+const importAllAnimals = () => {
+  const context = require.context('../data/animals', false, /\.json$/);
+  return context.keys().map(context);
+};
+
+const animals = importAllAnimals();
+
+const shuffleArray = (array) => {
+  const arr = [...array]; // copy array so original is not mutated
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+};
 
 const HomePage = () => {
   const navigate = useNavigate();
   const bannerImage = "/images/tiger.jpg";
+  const goToAnimalPage = (name) => {
+    navigate(`/animals/${name.replace(/\s+/g, "_")}`);
+  };
+  const shuffledAnimals = shuffleArray(animals);
 
   return (
     <div className="container">
@@ -38,10 +57,22 @@ const HomePage = () => {
       </div>
       <div className="our-animals">
         <h2>Our Animals</h2>
-        
+        <p>Every critter on this quiz needs our help, whether they have a current population of seven or are the biggest surviving land mammal.</p>
+          <div className="animals-grid">
+            {shuffledAnimals.map((animal, index) => (
+              <div key={index} className="animal-section">
+                <img src={animal.image} alt={animal.name} className="animal-logo" />
+                <h3>{animal.name}</h3>
+                <p className="learn-more" onClick={() => goToAnimalPage(animal.name)}>
+                  Learn More →
+                </p>
+              </div>
+            ))}
+          </div>
+      </div>
+      <div className="mission">
 
       </div>
-      
     </div>
   );
 };
