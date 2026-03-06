@@ -1,5 +1,6 @@
 .container {
     padding-top: 80px;
+    padding-bottom: 40px;
     text-align: center;
     background-color: #f1f3f2;
     min-height: 100vh;
@@ -24,15 +25,16 @@
   
   button:hover {
     transform: scale(1.05);
-    background-color: #734712;
+    background-color: #8b4a2f;
   }
 
   .button1{
-    background-color: #02123f;
+    background-color: #96c976;
+    color: black;
   }
 
   .button1:hover{
     transform: scale(1.05);
-    background-color: #04071e;
+    background-color: #6aa94f;
   }
 

@@ -40,6 +40,15 @@
   text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* makes text readable */
 }
 
+.learn-more {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
 /* TODO: mobile stuff */
 @media (max-width: 768px) {
   .stat-line h1 {
