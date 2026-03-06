@@ -1,0 +1,54 @@
+{
+  "name": "Northern Rockhopper Penguin",
+  "title": "Event Planner",
+  "description": "The Northern Rockhopper Penguin is a highly social animal and mates for life. They're avid hunters, and spend days in the open ocean. This adventurous streak is coupled with a caution against predators.",
+  "image": "/images/northern_rockhopper_penguin.jpg",
+  "logo": "/logo/northern_rockhopper_penguin_logo.png",
+  "understandResult": [
+    "Organization",
+    "As predator and prey, the Rockhopper is a meticulous hunter, but remains adaptable. You prefer a plan, but as needed you can adapt and change gears.",
+    "Community",
+    "These penguins are monogamous and mate for life. They prefer to nest in the same spot year after year. You form strong connections, and cultivate trust in your friends.",
+    "Extroversion",
+    "These penguins are social, and coexist peacefully with other creatures in their environments. You are energized by positive social interactions.",
+    "Exploration",
+    "A true traveler, penguins spend days at a time at sea hunting for food. They can even sleep in the water by floating on the surface. You value possibilities, enjoy exploring ideas and theories, and pride yourself on being open minded.",
+    "Confidence",
+    "Since penguins are so susceptible to predators, they have to be highly aware of themselves and their chicks at all times. Sometimes stress and nerves can get the better of you."
+  ],
+  "traits": [
+    "Dedicated",
+    "Understanding",
+    "Outgoing",
+    "Imaginative",
+    "Sensitive and aware"
+  ],
+  "likes": [
+    "Organized spaces",
+    "Team games",
+    "Friend's friends",
+    "Talking about hopes and dreams"
+  ],
+  "dislikes": [
+    "Unclear communication",
+    "Bad manners",
+    "Long presentations",
+    "Facts and figures"
+  ],
+  "facts": {
+    "General Facts": "Chatty and colorful, this rock-loving penguin is recognizable, and a lifelong romantic.",
+    "Physical Description": "The Northern Rockhopper Penguin is distinguishable from other penguins by its red beak, and yellow tufts of feathers that stick out from its head. They weigh between 4-11 pounds, and stand at 18-23 inches tall.",
+    "Predator or Prey?": "Northern Rockhopper Penguins hunt krill and small squid, and are carnivores. However, they also serve as prey to orcas, blue sharks, and leopard seals, to name a few. As chicks, they are also eaten by larger birds.",
+    "Community and Trust": "These penguins are monogamous and mate for life, not unlike other birds. What makes them romantic by human standards is that they prefer to return to the same nesting spot with their mate year after year. When their egg is laid, both parents care for it for 4 months. Also of note, Rockhopper Penguins have a wider variety of calls compared to other penguin species.",
+    "Assertiveness": "The only time these penguins are particularly aggressive is during mating season, and when they are raising their young. However, they must still reside together, with communities of nesting penguins ranging from 25,000 to 65,000 individuals. They are a sociable and adaptable bunch, and aggression towards other species, besides their prey, has not been documented. Does the Northern Rockhopper Penguin Migrate? In early spring to late summer, the populations converge for mating. When mating and rearing of chicks is complete, the penguins depart to reside largely at sea for days at a time. They travel as needed in the pursuit of food, and can even sleep while in the water by floating on the surface.",
+    "Food Chain": "Since penguins are so susceptible to predators, they have to be highly aware of themselves and their chicks at all times. These critters have a variety of methods to keep themselves safe. When hunting and swimming, they travel in groups to decrease the likelihood of being picked off. As chicks, they huddle in protective groups called creches. They also huddle in groups when they are vulnerable to predators during molting season.",
+    "Endangered Status": "Due to global warming, habitat destruction, and overfishing, the population of the Northern Rockhopper Penguin is in decline. The IUCN Red List classifies them as endangered. Now is the time to step up and make a difference in this species\u2019 future."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/rockhopper-penguin/",
+    "https://www.iucnredlist.org/species/22734408/184698049"
+  ],
+  "charity": "DONATE LINK:",
+  "charityDesc": "A worldwide charity that supports direct protection, legislative change, and education for endangered birds.",
+  "donationURL": "https://www.birdlife.org/donate/"
+}

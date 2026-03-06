@@ -1,0 +1,51 @@
+{
+  "name": "African Wild Dog",
+  "title": "Best Friend",
+  "description": "The African Wild Dog is a perseverant hunter, true social animal, and one of many competing predators in its Savannah home.",
+  "image": "/images/african_wild_dog.jpg",
+  "logo": "/logo/african_wild_dog_logo.png",
+  "understandResult": [
+    "Organization",
+    "The African Wild Dog has come up with the perfect hunting strategy for each animal, leading to a high rate of success. You are organized, and come up with an attack plan before you pursue a goal.",
+    "Community",
+    "The most sociable dogs in the world, they live in packs of 10-30 dogs. They have even been observed exhibiting behavior similar to voting! You make decisions based on how other people will feel, and your values guide you over reason.",
+    "Extroversion",
+    "If a large enough predator asserts itself, they might need to back down from their prey. You need time to recharge, and can get overwhelmed in large groups.",
+    "Exploration"
+  ],
+  "traits": [
+    "Type-A",
+    "Empathetic",
+    "Introverted",
+    "Creative",
+    "Overworked"
+  ],
+  "likes": [
+    "Goals and guidelines",
+    "Team games",
+    "Independent hobbies",
+    "Talking about hopes and dreams"
+  ],
+  "dislikes": [
+    "Surprises",
+    "Misunderstandings",
+    "Loud parties",
+    "Memorization"
+  ],
+  "facts": {
+    "General Facts": "",
+    "Physical Description": "Their fur is red, black, white, brown and yellow in a random pattern, leading to the nickname \u201cpainted dog.\u201d They have four toes on each paw, and round, perky ears.",
+    "Predator or Prey?": "African Wild Dogs hunt in a pack, and their targets are usually much faster and larger. As a result, they are known for their dogged persistence in chasing after their prey until the animal is too tired to continue. Then, they corner the animal as a pack. Wild Dogs have a distinct hunting strategy for each type of prey, leading to an estimated success rate between 60-90%. Examples of those prey consist of antelope, warthog, and wildebeest.",
+    "Community and Trust": "The most sociable dogs in the world, their packs have strict ranking systems, led by the dominant breeding pair. Within the pack, they raise their young, care for their sick, and eat together. Packs are composed of 10-30 individuals. Some scientists have even observed behavior akin to \"voting,\" through the use of sneezes when the pack rallies!",
+    "Assertiveness": "These dogs must coexist with a wide variety of other predators and dangerous prey. Their small size relative to other predators requires them to abandon some prey if a large enough competitor asserts itself. Adaptability in situations with others is an important part of their survival. Do African Wild Dogs Migrate? Since African Wild Dogs maintain some territory but require large expanses to maintain their packs, they roam large areas of their Savannah homes.",
+    "Food Chain": "As individuals, they must be cautious as they can be picked off by other predators. But as a unit, African Wild Dogs are confident and powerful.",
+    "Endangered Status": "Habitat destruction and human intervention have led the African Wild Dog to critically endangered status by the IUCN Red List for all of its subpopulations. Like many other African species, stronger protections for their savannah homes will make all the difference in these dogs\u2019 future."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/african-wild-dog/",
+    "https://www.iucnredlist.org/species/16991111/176626828"
+  ],
+  "charity": "DONATE LINK:",
+  "charityDesc": "The African Wildlife Foundation is based in Africa. Its focus on collaborating with local organizations makes them uniquely equipped to drive change.",
+  "donationURL": "https://secure.awf.org/page/119125/donate/1"
+}

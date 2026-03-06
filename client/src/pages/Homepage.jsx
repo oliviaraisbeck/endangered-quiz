@@ -51,20 +51,24 @@ const HomePage = () => {
         </div>
       </div>
       <div className="about">
-        <h2>About Your Animal Ally</h2>
-        <p>The Animal Ally Quiz matches your unique traits with one of 32 endangered animals. Take the quiz to find out more about yourself, and how you can make a difference for your critter.  </p>
-        <button className="button1" onClick={() => navigate('/quiz')}>Take The Quiz</button>
-        <p className="learn-more" onClick={() => navigate("/about") } >
-          Learn More →
-        </p>
+        <h2 className="right"> About Your Animal Ally</h2>
+        <p className="right">The Animal Ally Quiz matches your unique traits with one of 32 endangered animals. Take the quiz to find out more about yourself, and how you can make a difference for your critter.  </p>
+        <div className="navs right">
+          <button className="button1" onClick={() => navigate('/quiz')}>Take The Quiz</button>
+          <p className="learn-more" onClick={() => navigate("/about") } >
+            Learn More →
+          </p>
+        </div>
       </div>
       <div className="our-animals">
-        <h2>Our Animals</h2>
-        <p>Every critter on this quiz needs our help, whether they have a current population of seven or are the biggest surviving land mammal.</p>
+        <h2 className="right">Our Animals</h2>
+        <p className="right">Every critter on this quiz needs our help, whether they have a current population of seven or are the biggest surviving land mammal.</p>
           <div className="animals-grid">
             {shuffledAnimals.map((animal, index) => (
               <div key={index} className="animal-section">
-                <img src={animal.image} alt={animal.name} className="animal-logo" />
+                <div className="animal-logo-wrapper">
+                  <img src={animal.logo} alt={animal.name} className="animal-logo" />
+                </div>
                 <h3>{animal.name}</h3>
                 <p className="learn-more" onClick={() => goToAnimalPage(animal.name)}>
                   Learn More →

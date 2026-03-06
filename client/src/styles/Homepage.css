@@ -45,6 +45,11 @@
   text-shadow: 2px 2px 4px rgba(0,0,0,0.6); 
 }
 
+.navs{
+  display: flex;
+  gap: 50px;
+}
+
 .learn-more {
   cursor: pointer;
   font-weight: 500;
@@ -53,6 +58,43 @@
 .learn-more:hover {
   text-decoration: underline;
 }
+
+.right{
+  padding-left: 15%;
+  max-width: 70%;
+  text-align: left;
+}
+
+.animals-grid {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.animal-logo-wrapper {
+  width: 200px;       
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem; /* center and spacing below */
+  background-color: var(--animal-bg);
+}
+
+.animal-logo {
+  width: 170px;         
+  height: 170px;
+  object-fit: contain;
+}
+
+/* Cycle 4 colors every 4 items */
+.animal-section:nth-child(4n+1) .animal-logo-wrapper { --animal-bg: #5895bb; } 
+.animal-section:nth-child(4n+2) .animal-logo-wrapper { --animal-bg: #96c97c; } 
+.animal-section:nth-child(4n+3) .animal-logo-wrapper { --animal-bg: #9ad2db; } 
+.animal-section:nth-child(4n+4) .animal-logo-wrapper { --animal-bg: #d54f53; } 
 
 .mission-banner {
   position: relative;

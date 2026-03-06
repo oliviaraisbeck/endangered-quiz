@@ -13,7 +13,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-logo">
         <img src={logo} alt = "logo" className="logo-img" />
-        <span>TBD Quiz</span>
+        <span>Your Animal Ally</span>
         </div>
 
       <div className="hamburger" onClick={toggleMenu}>
