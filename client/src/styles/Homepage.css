@@ -73,6 +73,22 @@
   grid-template-columns: repeat(3, 1fr); 
 }
 
+.animal-section {
+  padding: 30px;
+  text-align: center;
+  border-right: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  position: relative;
+}
+
+.animal-section:nth-child(3n) {
+  border-right: none;
+}
+
+.animal-section:nth-last-child(-n + 2) {
+  border-bottom: none;
+}
+
 .animal-logo-wrapper {
   width: 200px;       
   height: 200px;
