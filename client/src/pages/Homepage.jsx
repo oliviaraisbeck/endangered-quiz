@@ -67,7 +67,7 @@ const HomePage = () => {
             {shuffledAnimals.map((animal, index) => (
               <div key={index} className="animal-section">
                 <div className="animal-logo-wrapper">
-                  <img src={animal.logo} alt={animal.name} className="animal-logo" />
+                  <img src={animal.logo} alt={animal.name} className="animal-logo-home" />
                 </div>
                 <h3>{animal.name}</h3>
                 <p className="learn-more" onClick={() => goToAnimalPage(animal.name)}>
