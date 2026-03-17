@@ -69,10 +69,31 @@ const Results = () => {
                   <h2>{animal}!</h2>
                   <p className="description">{animalDetails.description}</p>
                   <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
+                  <h2>Why the {animal}</h2>
+                  <p> {animalDetails.why} </p>
                 </div>
                 <img src={animalDetails.image} alt={animalDetails.name} />
               </div>
-              <h2>Understand Your Results</h2>
+              <div className="animals-grid"> {/* cssed in main cause idk whats happening? */}
+                <div className="traits">
+                  <p className="traits-header"> Your friends call you...</p>
+                  {animalDetails.traits.map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))}
+                </div>
+                <div className="traits">
+                  <p className="traits-header"> Likes</p>
+                  {animalDetails.likes.map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))}
+                </div>
+                <div className="traits">
+                  <p className="traits-header"> Dislikes</p>
+                  {animalDetails.dislikes.map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))}
+                </div>
+              </div>
               {animalDetails.understandResult.map((line, index) => (
                 <p key={index}>{line}</p>
               ))}
