@@ -59,45 +59,65 @@ const Results = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Your animal is the...</h1>
       {animal ? (
         <>
           {animalDetails ? (
             <div className="animal-details">
               <div className="animal-header">
-                <div className="animal-info">
-                  <h2>{animal}!</h2>
+                <div className="animal-info left">
+                  <div className="animal-title">
+                    <h2>{"Your animal is the...  "}</h2>
+                    <h2 className="animal-name bold">{animal}!</h2>
+                  </div>
                   <p className="description">{animalDetails.description}</p>
-                  <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
-                  <h2>Why the {animal}</h2>
+                  <button className="button1" onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
+                  <h2 >Why the {animal}</h2>
                   <p> {animalDetails.why} </p>
                 </div>
-                <img src={animalDetails.image} alt={animalDetails.name} />
+                <div className="polaroid"> 
+                  <img className="polaroid-img" src={animalDetails.image} alt={animalDetails.name} />
+                  <p className="polaroid-title bold">"The {animalDetails.title}"</p>
+                  <div className="animal-logo-circle">
+                    <img
+                      src={animalDetails.logo.replace("client/src/", "/")}
+                      alt={`${animalDetails.name} logo`}
+                      className="animal-logo"
+                    />
+                  </div>
+                </div>
               </div>
               <div className="animals-grid"> {/* cssed in main cause idk whats happening? */}
                 <div className="traits">
-                  <p className="traits-header"> Your friends call you...</p>
+                  <p className="traits-header bold"> Your friends call you...</p>
                   {animalDetails.traits.map((line, index) => (
                     <p key={index}>{line}</p>
                   ))}
                 </div>
                 <div className="traits">
-                  <p className="traits-header"> Likes</p>
+                  <p className="traits-header bold"> Likes</p>
                   {animalDetails.likes.map((line, index) => (
                     <p key={index}>{line}</p>
                   ))}
                 </div>
-                <div className="traits">
-                  <p className="traits-header"> Dislikes</p>
+                <div className="">
+                  <p className="traits-header bold"> Dislikes</p>
                   {animalDetails.dislikes.map((line, index) => (
                     <p key={index}>{line}</p>
                   ))}
                 </div>
               </div>
-              {animalDetails.understandResult.map((line, index) => (
-                <p key={index}>{line}</p>
-              ))}
-              <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Learn More</button>
+              <div className="animal-understand left">
+                <h2> Understand your results</h2>
+                {animalDetails.understandResult.map((line, index) => (
+                  <p key={index}>{line}</p>
+                ))}
+                <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Learn More</button>
+              </div>
+              <div className="banner">
+                <h2> Endangered Status</h2>
+                <p>{animalDetails.facts["Endangered Status"]}</p>
+                <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
+              </div>
             </div>
           ) : (
             <p>Loading animal details...</p>
