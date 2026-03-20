@@ -45,7 +45,7 @@ const HomePage = () => {
               <h1>7 Minutes</h1>
             </div>
           </div>
-          <button onClick={() => navigate('/quiz')}>
+          <button className="banner-button" onClick={() => navigate('/quiz')}>
             Which Endangered <br /> Animal Are You
           </button>
         </div>

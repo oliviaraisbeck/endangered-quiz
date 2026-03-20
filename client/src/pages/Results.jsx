@@ -60,7 +60,7 @@ const Results = () => {
   return (
     <div className="container">
       {animal ? (
-        <>
+        <div className="animal-results">
           {animalDetails ? (
             <div className="animal-details">
               <div className="animal-header">
@@ -122,7 +122,7 @@ const Results = () => {
           ) : (
             <p>Loading animal details...</p>
           )}
-        </>
+        </div>
       ) : (
         <p>No animal found for this profile.</p>
       )}

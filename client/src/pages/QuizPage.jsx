@@ -158,7 +158,7 @@ const QuizPage = () => {
             </div>
           </div>
         ))}
-        <button type="submit">Submit Quiz</button>
+        <button className="submit-button" type="submit">Submit Quiz</button>
       </form>
     </div>
   );

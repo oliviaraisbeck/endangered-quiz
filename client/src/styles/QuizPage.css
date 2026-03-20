@@ -81,6 +81,10 @@
   text-align: center;
 }
 
+.submit-button {
+  margin-top: 2rem;
+}
+
 /* Radio button colors */
 .options input.radio-1{ width: 50px; height: 50px; border-color: #cc802f; }
 .options input.radio-1:checked{ background-color: #cc802f; border-color: #cc802f; }

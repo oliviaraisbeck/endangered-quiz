@@ -34,6 +34,10 @@
   text-align: center;
 }
 
+.banner-button{
+  width: 18rem;
+}
+
 .stats {
   margin-bottom: 10px;
 }
@@ -121,9 +125,9 @@
 
 .mission-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 15%;
+  
   text-align: left;
 }
 
