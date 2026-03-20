@@ -162,36 +162,38 @@ const traitRanges = {
                   const percentClamped = Math.min(100, Math.max(0, percent));
 
                   return (
-                    
-                    <div key={index} className="understand-row">
-                    
-                    <div className="understand-visual">
-                      <h3 className="understand-title">{item.title}</h3>
-                      <div className="bar-container">
-                        <div className="bar" />
+                    <div className="understand-section"> 
+                    <h3 className="understand-title">{item.title}</h3>
+                      <div key={index} className={`understand-row ${index % 2 === 1 ? "reverse" : ""}`}>
+                      
+                      <div className="understand-visual">
+                        
+                        <div className="bar-container">
+                          <div className="bar" />
 
-                        <div
-                          className="arrow-wrapper"
-                          style={{ left: `${percentClamped}%` }}
-                        >
-                          <span className="arrow-label">
-                            {Math.round(percentClamped)}%
-                          </span>
-                          <div className="arrow" />
+                          <div
+                            className="arrow-wrapper"
+                            style={{ left: `${percentClamped}%` }}
+                          >
+                            <span className="arrow-label">
+                              {Math.round(percentClamped)}%
+                            </span>
+                            <div className="arrow" />
+                          </div>
+                        </div>
+
+                        <div className="bar-labels">
+                          <span>{traitLabels[item.key]?.left}</span>
+                          <span>{traitLabels[item.key]?.right}</span>
                         </div>
                       </div>
 
-                      <div className="bar-labels">
-                        <span>{traitLabels[item.key]?.left}</span>
-                        <span>{traitLabels[item.key]?.right}</span>
+                      <div className="understand-text">
+                        <p>{item.text}</p>
                       </div>
-                    </div>
+                      </div>
 
-                    <div className="understand-text">
-                      <p>{item.text}</p>
                     </div>
-
-                  </div>
                   );
                 })}
               </div>

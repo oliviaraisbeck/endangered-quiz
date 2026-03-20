@@ -59,7 +59,7 @@
   margin-left: calc((100% - (50% + 22rem + 50px)) / 2);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 0rem;
 }
 
 .understand-card {
@@ -76,6 +76,7 @@
 .bar {
   width: 100%;
   height: 30px;
+  border-radius: 15px;
   background: linear-gradient(to right, #5895bb, #96c976);
 }
 
@@ -118,7 +119,7 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
   align-items: center; /* THIS vertically centers the bar vs text */
 }
 
@@ -135,7 +136,13 @@
   justify-content: center;
 }
 
+.understand-title{
+  text-align: center;
+}
 
+.understand-row.reverse {
+  flex-direction: row-reverse;
+}
 
 @media (max-width: 768px) { /*mobile stuff to do more and change later */
   img {
