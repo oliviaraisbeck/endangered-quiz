@@ -54,18 +54,86 @@
   font-size: 24px;
 }
 
-.animal-understand{
+.understand-grid {
   width: calc(50% + 22rem + 50px);
   margin-left: calc((100% - (50% + 22rem + 50px)) / 2);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
- /*img {
-  width: 400px;                
-  height: auto;
-  border-radius: 5px;
-  object-fit: cover;
-  flex-shrink: 0; 
-} */
+.understand-card {
+    margin-bottom: 3rem;
+}
+
+.bar-container {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  margin: 20px 0;
+}
+
+.bar {
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(to right, #5895bb, #96c976);
+}
+
+/* Wrapper that holds arrow + percentage */
+.arrow-wrapper {
+  position: absolute;
+  top: -20px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Percentage label */
+.arrow-label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+/* Arrow pointer */
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid black;
+}
+
+/* Labels under the bar (Low / High or custom) */
+.bar-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 4px;
+  opacity: 0.7;
+}
+
+.understand-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: center; /* THIS vertically centers the bar vs text */
+}
+
+/* Left side */
+.understand-text {
+  width: 50%;
+}
+
+/* Right side */
+.understand-visual {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 

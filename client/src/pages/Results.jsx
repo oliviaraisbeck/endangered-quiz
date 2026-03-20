@@ -57,6 +57,37 @@ const Results = () => {
     );
   }
 
+  const traitLabels = {
+  "Class of P/Q": {
+    left: "Low",
+    right: "High"
+  },
+  "Social Behavior": {
+    left: "Low",
+    right: "High"
+  },
+  "Environment Behavior": {
+    left: "Low",
+    right: "High"
+  },
+  "Migration": {
+    left: "Low",
+    right: "High"
+  },
+  "Neuroticism": {
+    left: "Low",
+    right: "High"
+  }
+};
+
+const traitRanges = {
+  "Class of P/Q": { min: 10, max: 50 },
+  "Social Behavior": { min: 5, max: 25 },
+  "Environment Behavior": { min: 5, max: 25 },
+  "Migration": { min: 5, max: 25 },
+  "Neuroticism": { min: 5, max: 10 }
+};
+
   return (
     <div className="container">
       {animal ? (
@@ -70,7 +101,15 @@ const Results = () => {
                     <h2 className="animal-name bold">{animal}!</h2>
                   </div>
                   <p className="description">{animalDetails.description}</p>
-                  <button className="button1" onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
+                  <button
+                    className="button1"
+                    onClick={() => {
+                    console.log("Opening URL:", animalDetails.donationURL);
+                    window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
+                  }}
+                    >
+                    HELP NOW!
+                  </button>
                   <h2 >Why the {animal}</h2>
                   <p> {animalDetails.why} </p>
                 </div>
@@ -106,17 +145,67 @@ const Results = () => {
                   ))}
                 </div>
               </div>
-              <div className="animal-understand left">
+              {/*<div className="animal-understand left">
                 <h2> Understand your results</h2>
                 {animalDetails.understandResult.map((line, index) => (
                   <p key={index}>{line}</p>
                 ))}
                 <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Learn More</button>
+              </div> */}
+              <div className="understand-grid left">
+                <h2> Understand your results</h2>
+                {animalDetails.understandResult.map((item, index) => {
+                  const score = categoryScores[item.key] || 0;
+
+                  const range = traitRanges[item.key];
+                  const percent = range ? ((score - range.min) / (range.max - range.min)) * 100 : 0;
+                  const percentClamped = Math.min(100, Math.max(0, percent));
+
+                  return (
+                    
+                    <div key={index} className="understand-row">
+                    
+                    <div className="understand-visual">
+                      <h3 className="understand-title">{item.title}</h3>
+                      <div className="bar-container">
+                        <div className="bar" />
+
+                        <div
+                          className="arrow-wrapper"
+                          style={{ left: `${percentClamped}%` }}
+                        >
+                          <span className="arrow-label">
+                            {Math.round(percentClamped)}%
+                          </span>
+                          <div className="arrow" />
+                        </div>
+                      </div>
+
+                      <div className="bar-labels">
+                        <span>{traitLabels[item.key]?.left}</span>
+                        <span>{traitLabels[item.key]?.right}</span>
+                      </div>
+                    </div>
+
+                    <div className="understand-text">
+                      <p>{item.text}</p>
+                    </div>
+
+                  </div>
+                  );
+                })}
               </div>
               <div className="banner">
                 <h2> Endangered Status</h2>
                 <p>{animalDetails.facts["Endangered Status"]}</p>
-                <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
+                <button
+                  onClick={() => {
+                  console.log("Opening URL:", animalDetails.donationURL);
+                  window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
+                  }}
+                  >
+                  HELP NOW!
+                </button>
               </div>
             </div>
           ) : (

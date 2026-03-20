@@ -6,11 +6,31 @@
   "logo": "/logo/rusty_patched_bumblebee_logo.png",
   "why": "You are an organized, caring person who puts their hive first. Your skills in teamwork and reasoning make you a valuable member of any team, and while you can doubt yourself, you always see the best in others.",
   "understandResult": [
-    "Division of tasks and systems are crucial to the life of a bumblebee. You are organized and enjoy having a schedule.",
-    "A eusocial species, bees have some of the most complex social structures found in the animal kingdom. You lead with your heart, and want to make choices that are in the best interest of everyone.",
-    "Rusty Patched Bees prefer to warn other animals before they resort to stinging. They are deeply connected with their hive. You enjoy socializing and meeting new people.",
-    "Once a hive is established, foragers are the only ones who depart regularly, flying up to one mile for food. You are grounded, and focus on concrete details.",
-    "Bees' behavior is entirely defensive, and they are more likely to take flight than fight. You can be conflict avoidant, and sometimes stress can get the better of you."
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Division of tasks and systems are crucial to the life of a bumblebee. You are organized and enjoy having a schedule."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "A eusocial species, bees have some of the most complex social structures found in the animal kingdom. You lead with your heart, and want to make choices that are in the best interest of everyone."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Rusty Patched Bees prefer to warn other animals before they resort to stinging. They are deeply connected with their hive. You enjoy socializing and meeting new people."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Once a hive is established, foragers are the only ones who depart regularly, flying up to one mile for food. You are grounded, and focus on concrete details."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Bees' behavior is entirely defensive, and they are more likely to take flight than fight. You can be conflict avoidant, and sometimes stress can get the better of you."
+    }
   ],
   "traits": [
     "Organized",
