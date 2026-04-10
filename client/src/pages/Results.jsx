@@ -11,6 +11,8 @@ const Results = () => {
 
   const categoryScores = location.state?.categoryScores || {};
 
+  const [activeIndex, setActiveIndex] = useState(0);
+
   const getHL = (category, score) => {
     switch (category) {
       case 'Class of P/Q': return score >= 30 ? 'PT/QF' : 'QL/QU';
@@ -78,7 +80,7 @@ const Results = () => {
     left: "Low",
     right: "High"
   }
-};
+  };
 
 const traitRanges = {
   "Class of P/Q": { min: 10, max: 50 },
@@ -145,57 +147,88 @@ const traitRanges = {
                   ))}
                 </div>
               </div>
-              {/*<div className="animal-understand left">
-                <h2> Understand your results</h2>
-                {animalDetails.understandResult.map((line, index) => (
-                  <p key={index}>{line}</p>
-                ))}
-                <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Learn More</button>
-              </div> */}
               <div className="understand-grid left">
-                <h2> Understand your results</h2>
-                {animalDetails.understandResult.map((item, index) => {
-                  const score = categoryScores[item.key] || 0;
+                <h2>Understand your results</h2>
 
-                  const range = traitRanges[item.key];
-                  const percent = range ? ((score - range.min) / (range.max - range.min)) * 100 : 0;
-                  const percentClamped = Math.min(100, Math.max(0, percent));
+                <div className="understand-layout">
+                  {/* Left BARS */}
+                  <div className="understand-bars">
+                    {animalDetails.understandResult.map((item, index) => {
+                      const score = categoryScores[item.key] || 0;
+                      const range = traitRanges[item.key];
 
-                  return (
-                    <div className="understand-section"> 
-                    <h3 className="understand-title">{item.title}</h3>
-                      <div key={index} className={`understand-row ${index % 2 === 1 ? "reverse" : ""}`}>
-                      
-                      <div className="understand-visual">
-                        
-                        <div className="bar-container">
-                          <div className="bar" />
+                      const percent = range
+                        ? ((score - range.min) / (range.max - range.min)) * 100
+                        : 0;
 
-                          <div
-                            className="arrow-wrapper"
-                            style={{ left: `${percentClamped}%` }}
-                          >
-                            <span className="arrow-label">
-                              {Math.round(percentClamped)}%
-                            </span>
-                            <div className="arrow" />
+                      const percentClamped = Math.min(100, Math.max(0, percent));
+                      const isActive = index === activeIndex;
+
+                      return (
+                        <div
+                          key={index}
+                          className={`bar-wrapper ${isActive ? "active" : ""}`}
+                          onClick={() => setActiveIndex(index)}
+                        >
+                          
+                          <div className="bar-container">
+                            <div className="bar" />
+                            <div className="bar-floating-title">
+                            {item.title}
+                          </div>
+                            <div
+                              className="arrow-wrapper"
+                              style={{ left: `${percentClamped}%` }}
+                            >
+                              <div className="arrow" />
+                            </div>
+                          </div>
+
+                          <div className="bar-labels">
+                            <span>{traitLabels[item.key]?.left}</span>
+                            <span>{traitLabels[item.key]?.right}</span>
                           </div>
                         </div>
+                      );
+                    })}
+                  </div>
+                  {/* LEFT TEXT */}
+                  <div className="understand-text-panel">
+                    <button
+                      className="nav-arrow"
+                      onClick={() =>
+                        setActiveIndex((prev) =>
+                          (prev - 1 + animalDetails.understandResult.length) %
+                          animalDetails.understandResult.length
+                        )
+                      }
+                    >
+                      ←
+                    </button>
 
-                        <div className="bar-labels">
-                          <span>{traitLabels[item.key]?.left}</span>
-                          <span>{traitLabels[item.key]?.right}</span>
-                        </div>
-                      </div>
-
-                      <div className="understand-text">
-                        <p>{item.text}</p>
-                      </div>
-                      </div>
-
+                    <div className="detail-content">
+                      <h3>
+                        {animalDetails.understandResult[activeIndex].title}
+                      </h3>
+                      <p>
+                        {animalDetails.understandResult[activeIndex].text}
+                      </p>
                     </div>
-                  );
-                })}
+
+                    <button
+                      className="nav-arrow"
+                      onClick={() =>
+                        setActiveIndex((prev) =>
+                          (prev + 1) % animalDetails.understandResult.length
+                        )
+                      }
+                    >
+                      →
+                    </button>
+
+                  </div>
+
+                </div>
               </div>
               <div className="banner">
                 <h2> Endangered Status</h2>
