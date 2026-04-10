@@ -61,24 +61,24 @@ const Results = () => {
 
   const traitLabels = {
   "Class of P/Q": {
-    left: "Low",
-    right: "High"
+    left: "Organized",
+    right: "Adaptable"
   },
   "Social Behavior": {
-    left: "Low",
-    right: "High"
+    left: "Family First",
+    right: "Independent"
   },
   "Environment Behavior": {
-    left: "Low",
-    right: "High"
+    left: "Extrovert",
+    right: "Introvert"
   },
   "Migration": {
-    left: "Low",
-    right: "High"
+    left: "Open-minded",
+    right: "Fact-forward"
   },
   "Neuroticism": {
-    left: "Low",
-    right: "High"
+    left: "Confident",
+    right: "Introspective"
   }
   };
 
@@ -174,12 +174,15 @@ const traitRanges = {
                           <div className="bar-container">
                             <div className="bar" />
                             <div className="bar-floating-title">
-                            {item.title}
-                          </div>
+                              {item.title}
+                            </div>
                             <div
                               className="arrow-wrapper"
                               style={{ left: `${percentClamped}%` }}
                             >
+                              <span className="arrow-label">
+                                {Math.round(percentClamped)}%
+                              </span>
                               <div className="arrow" />
                             </div>
                           </div>
@@ -195,7 +198,7 @@ const traitRanges = {
                   {/* LEFT TEXT */}
                   <div className="understand-text-panel">
                     <button
-                      className="nav-arrow"
+                      className="nav-arrow nav-left"
                       onClick={() =>
                         setActiveIndex((prev) =>
                           (prev - 1 + animalDetails.understandResult.length) %
@@ -203,7 +206,7 @@ const traitRanges = {
                         )
                       }
                     >
-                      ←
+                      ‹
                     </button>
 
                     <div className="detail-content">
@@ -216,14 +219,14 @@ const traitRanges = {
                     </div>
 
                     <button
-                      className="nav-arrow"
+                      className="nav-arrow nav-right"
                       onClick={() =>
                         setActiveIndex((prev) =>
                           (prev + 1) % animalDetails.understandResult.length
                         )
                       }
                     >
-                      →
+                      ›
                     </button>
 
                   </div>

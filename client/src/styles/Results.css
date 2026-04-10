@@ -54,27 +54,8 @@
   font-size: 24px;
 }
 
-.understand-text-panel {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.text-nav {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-}
-
-.text-nav button {
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
-}
 .understand-grid {
+  margin-bottom: 2rem;
   width: calc(50% + 22rem + 50px);
   margin-left: calc((100% - (50% + 22rem + 50px)) / 2);
   display: flex;
@@ -92,6 +73,7 @@
 
 .understand-bars {
   width: 50%;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -142,6 +124,10 @@
   background: #ddd; /* IMPORTANT fallback so you always see it */
 }
 
+.bar:hover{
+  cursor: pointer;
+}
+
 .bar-labels {
   display: flex;
   justify-content: space-between;
@@ -156,7 +142,7 @@
 
 .arrow-wrapper {
   position: absolute;
-  top: -5px;
+  top: -22px;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
@@ -165,7 +151,9 @@
 
 .arrow-label {
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 600;
+  margin-bottom: 2px;
+  opacity: 0.75;
 }
 
 .arrow {
@@ -175,20 +163,73 @@
   border-right: 6px solid transparent;
   border-top: 10px solid black;
 }
+
+.understand-text-panel {
+  width: 50%;
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+.text-nav {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.text-nav button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-arrow {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  opacity: 0.6;          /* ALWAYS visible */
+  color: #000;           /* ensures contrast */
+  transition: 0.2s ease;
+  width: 4rem;
+  height: 17rem;
+  padding: 0.5rem;
+  line-height: 1;
+}
+
+.nav-arrow:hover {
+  background: none;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.nav-left {
+  left: 0;
+}
+
+.nav-right {
+  right: 0;
+  left: auto;
+}
+
+.detail-content {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  
+  align-items: center;
+  padding: 0rem 0rem;   /* space so arrows don’t overlap text */
+}
+
 /*
 
 .understand-card {
     margin-bottom: 3rem;
 }
 
-
-
-.bar {
-  width: 100%;
-  height: 30px;
-  border-radius: 15px;
-  background: linear-gradient(to right, #5895bb, #96c976);
-}
 
 /* Wrapper that holds arrow + percentage */
 /*
