@@ -41,7 +41,7 @@ const Animals = () => {
                   <button className="learn-more" onClick={() => goToAnimalPage(animal.name)}>
                       Learn More →
                   </button>
-                  <p className="animal-description">{animal.charityDesc}</p>
+                  {/*<p className="animal-description">{animal.charityDesc}</p>*/}
                   <button 
                     className="button1 char-button" 
                     onClick={() => {
