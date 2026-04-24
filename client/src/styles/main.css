@@ -21,6 +21,7 @@
   }
 
   button {
+    width: 13rem;
     padding: 12px 25px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -54,5 +55,13 @@
     color: #ffffff;
     padding: 20px;             
     text-align: center;
+}
+
+.left{
+  text-align: left;
+}
+
+.bold{
+  font-weight: 600;
 }
 

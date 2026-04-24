@@ -11,6 +11,8 @@ const Results = () => {
 
   const categoryScores = location.state?.categoryScores || {};
 
+  const [activeIndex, setActiveIndex] = useState(0);
+
   const getHL = (category, score) => {
     switch (category) {
       case 'Class of P/Q': return score >= 30 ? 'PT/QF' : 'QL/QU';
@@ -57,31 +59,197 @@ const Results = () => {
     );
   }
 
+  const traitLabels = {
+  "Class of P/Q": {
+    left: "Organized",
+    right: "Adaptable"
+  },
+  "Social Behavior": {
+    left: "Family First",
+    right: "Independent"
+  },
+  "Environment Behavior": {
+    left: "Extrovert",
+    right: "Introvert"
+  },
+  "Migration": {
+    left: "Open-minded",
+    right: "Fact-forward"
+  },
+  "Neuroticism": {
+    left: "Confident",
+    right: "Introspective"
+  }
+  };
+
+const traitRanges = {
+  "Class of P/Q": { min: 10, max: 50 },
+  "Social Behavior": { min: 5, max: 25 },
+  "Environment Behavior": { min: 5, max: 25 },
+  "Migration": { min: 5, max: 25 },
+  "Neuroticism": { min: 5, max: 10 }
+};
+
   return (
     <div className="container">
-      <h1 className="title">Your animal is the...</h1>
       {animal ? (
-        <>
+        <div className="animal-results">
           {animalDetails ? (
             <div className="animal-details">
               <div className="animal-header">
-                <div className="animal-info">
-                  <h2>{animal}!</h2>
+                <div className="animal-info left">
+                  <div className="animal-title">
+                    <h2>{"Your animal is the...  "}</h2>
+                    <h2 className="animal-name bold">{animal}!</h2>
+                  </div>
                   <p className="description">{animalDetails.description}</p>
-                  <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Help Now</button> {/*make go to donations part with anchor later */}
+                  <button
+                    className="button1"
+                    onClick={() => {
+                    console.log("Opening URL:", animalDetails.donationURL);
+                    window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
+                  }}
+                    >
+                    HELP NOW!
+                  </button>
+                  <h2 >Why the {animal}</h2>
+                  <p> {animalDetails.why} </p>
                 </div>
-                <img src={animalDetails.image} alt={animalDetails.name} />
+                <div className="polaroid"> 
+                  <img className="polaroid-img" src={animalDetails.image} alt={animalDetails.name} />
+                  <p className="polaroid-title bold">"The {animalDetails.title}"</p>
+                  <div className="animal-logo-circle">
+                    <img
+                      src={animalDetails.logo.replace("client/src/", "/")}
+                      alt={`${animalDetails.name} logo`}
+                      className="animal-logo"
+                    />
+                  </div>
+                </div>
               </div>
-              <h2>Understand Your Results</h2>
-              {animalDetails.understandResult.map((line, index) => (
-                <p key={index}>{line}</p>
-              ))}
-              <button onClick={() => navigate(`/animals/${animalDetails.name.replace(/\s+/g, "_")}`)}>Learn More</button>
+              <div className="animals-grid"> {/* cssed in main cause idk whats happening? */}
+                <div className="traits">
+                  <p className="traits-header bold"> Your friends call you...</p>
+                  {animalDetails.traits.map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))}
+                </div>
+                <div className="traits">
+                  <p className="traits-header bold"> Likes</p>
+                  {animalDetails.likes.map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))}
+                </div>
+                <div className="">
+                  <p className="traits-header bold"> Dislikes</p>
+                  {animalDetails.dislikes.map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))}
+                </div>
+              </div>
+              <div className="understand-grid left">
+                <h2>Understand your results</h2>
+
+                <div className="understand-layout">
+                  {/* Left BARS */}
+                  <div className="understand-bars">
+                    {animalDetails.understandResult.map((item, index) => {
+                      const score = categoryScores[item.key] || 0;
+                      const range = traitRanges[item.key];
+
+                      const percent = range
+                        ? ((score - range.min) / (range.max - range.min)) * 100
+                        : 0;
+
+                      const percentClamped = Math.min(100, Math.max(0, percent));
+                      const isActive = index === activeIndex;
+
+                      return (
+                        <div
+                          key={index}
+                          className={`bar-wrapper ${isActive ? "active" : ""}`}
+                          onClick={() => setActiveIndex(index)}
+                        >
+                          
+                          <div className="bar-container">
+                            <div className="bar" />
+                            <div className="bar-floating-title">
+                              {item.title}
+                            </div>
+                            <div
+                              className="arrow-wrapper"
+                              style={{ left: `${percentClamped}%` }}
+                            >
+                              <span className="arrow-label">
+                                {Math.round(percentClamped)}%
+                              </span>
+                              <div className="arrow" />
+                            </div>
+                          </div>
+
+                          <div className="bar-labels">
+                            <span>{traitLabels[item.key]?.left}</span>
+                            <span>{traitLabels[item.key]?.right}</span>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                  {/* LEFT TEXT */}
+                  <div className="understand-text-panel">
+                    <button
+                      className="nav-arrow nav-left"
+                      onClick={() =>
+                        setActiveIndex((prev) =>
+                          (prev - 1 + animalDetails.understandResult.length) %
+                          animalDetails.understandResult.length
+                        )
+                      }
+                    >
+                      ‹
+                    </button>
+
+                    <div className="detail-content">
+                      <h3>
+                        {animalDetails.understandResult[activeIndex].title}
+                      </h3>
+                      <p>
+                        {animalDetails.understandResult[activeIndex].text}
+                      </p>
+                    </div>
+
+                    <button
+                      className="nav-arrow nav-right"
+                      onClick={() =>
+                        setActiveIndex((prev) =>
+                          (prev + 1) % animalDetails.understandResult.length
+                        )
+                      }
+                    >
+                      ›
+                    </button>
+
+                  </div>
+
+                </div>
+              </div>
+              <div className="banner">
+                <h2> Endangered Status</h2>
+                <p>{animalDetails.facts["Endangered Status"]}</p>
+                <button
+                  onClick={() => {
+                  console.log("Opening URL:", animalDetails.donationURL);
+                  window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
+                  }}
+                  >
+                  HELP NOW!
+                </button>
+              </div>
             </div>
           ) : (
             <p>Loading animal details...</p>
           )}
-        </>
+        </div>
       ) : (
         <p>No animal found for this profile.</p>
       )}

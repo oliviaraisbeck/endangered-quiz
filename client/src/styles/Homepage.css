@@ -34,6 +34,10 @@
   text-align: center;
 }
 
+.banner-button{
+  width: 18rem;
+}
+
 .stats {
   margin-bottom: 10px;
 }
@@ -100,7 +104,7 @@
   background-color: var(--animal-bg);
 }
 
-.animal-logo {
+.animal-logo-home {
   width: 170px;         
   height: 170px;
   object-fit: contain;
@@ -121,9 +125,9 @@
 
 .mission-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 15%;
+  
   text-align: left;
 }
 

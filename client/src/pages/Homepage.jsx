@@ -45,7 +45,7 @@ const HomePage = () => {
               <h1>7 Minutes</h1>
             </div>
           </div>
-          <button onClick={() => navigate('/quiz')}>
+          <button className="banner-button" onClick={() => navigate('/quiz')}>
             Which Endangered <br /> Animal Are You
           </button>
         </div>
@@ -67,7 +67,7 @@ const HomePage = () => {
             {shuffledAnimals.map((animal, index) => (
               <div key={index} className="animal-section">
                 <div className="animal-logo-wrapper">
-                  <img src={animal.logo} alt={animal.name} className="animal-logo" />
+                  <img src={animal.logo} alt={animal.name} className="animal-logo-home" />
                 </div>
                 <h3>{animal.name}</h3>
                 <p className="learn-more" onClick={() => goToAnimalPage(animal.name)}>
