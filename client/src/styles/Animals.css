@@ -5,7 +5,7 @@
     padding-left: 60px;
 }
 
-.animal-name{
+.our-animal-name{
     margin: 0;
 }
 
@@ -65,11 +65,11 @@
     flex-direction: column;   
 }
 
-.animal-name{
+.our-animal-name{
     font-weight: bold;
 }
 
-.animal-title{
+.our-animal-title{
     margin-top: 0;
     margin-bottom: 0;
     color: #5895bb;
