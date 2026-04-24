@@ -96,7 +96,7 @@ const traitRanges = {
         <div className="animal-results">
           {animalDetails ? (
             <div className="animal-details">
-              <div className="animal-header">
+              <div className="animal-header section">
                 <div className="animal-info left">
                   <div className="animal-title">
                     <h2>{"Your animal is the...  "}</h2>
@@ -112,8 +112,8 @@ const traitRanges = {
                     >
                     HELP NOW!
                   </button>
-                  <h2 >Why the {animal}</h2>
-                  <p> {animalDetails.why} </p>
+                  <h2 className="why">Why the {animal}</h2>
+                  <p className="description"> {animalDetails.why} </p>
                 </div>
                 <div className="polaroid"> 
                   <img className="polaroid-img" src={animalDetails.image} alt={animalDetails.name} />
@@ -127,7 +127,7 @@ const traitRanges = {
                   </div>
                 </div>
               </div>
-              <div className="animals-grid"> {/* cssed in main cause idk whats happening? */}
+              <div className="animals-grid section"> {/* cssed in main cause idk whats happening? */}
                 <div className="traits">
                   <p className="traits-header bold"> Your friends call you...</p>
                   {animalDetails.traits.map((line, index) => (
@@ -147,7 +147,7 @@ const traitRanges = {
                   ))}
                 </div>
               </div>
-              <div className="understand-grid left">
+              <div className="understand-grid left section">
                 <h2>Understand your results</h2>
 
                 <div className="understand-layout">

@@ -25,6 +25,10 @@
   margin-top: 5px;
 }
 
+.question{
+  padding-bottom: 2rem;
+}
+
 .scale-labels span {
   flex: 1; 
   text-align: center;

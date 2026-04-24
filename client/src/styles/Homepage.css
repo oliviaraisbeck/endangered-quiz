@@ -35,7 +35,10 @@
 }
 
 .banner-button{
-  width: 18rem;
+  width: 24rem;
+  height: 6rem;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .stats {

@@ -9,14 +9,23 @@
 .animal-title{
   display: flex;
   align-items: flex-end;
-  height: 10rem;
 }
 
 .animal-name{
   margin-left: 1rem;
 }
 
+.why{
+  margin-top: 4rem;
+}
+
+.description{
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .animal-info {
+    margin-top: 5rem;
     width: 50%;
     display:flex;
     flex-direction: column;

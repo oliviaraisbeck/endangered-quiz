@@ -46,11 +46,11 @@ const HomePage = () => {
             </div>
           </div>
           <button className="banner-button" onClick={() => navigate('/quiz')}>
-            Which Endangered <br /> Animal Are You
+            Which Endangered Animal Are You
           </button>
         </div>
       </div>
-      <div className="about">
+      <div className="section">
         <h2 className="right"> About Your Animal Ally</h2>
         <p className="right">The Animal Ally Quiz matches your unique traits with one of 32 endangered animals. Take the quiz to find out more about yourself, and how you can make a difference for your critter.  </p>
         <div className="navs right">
@@ -60,7 +60,7 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-      <div className="our-animals">
+      <div className="section">
         <h2 className="right">Our Animals</h2>
         <p className="right">Every critter on this quiz needs our help, whether they have a current population of seven or are the biggest surviving land mammal.</p>
           <div className="animals-grid">
