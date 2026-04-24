@@ -12,7 +12,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt = "logo" className="logo-img" />
+        <Link to="/home">
+          <img src={logo} alt="Go to Home page" className="logo-img"/>
+        </Link>
         <span>Your Animal Ally</span>
         </div>
 
@@ -21,11 +23,10 @@ function Navbar() {
       </div>
 
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <li><Link to="/home" onClick={() => setIsOpen(false)}>Home</Link></li>
-        <li><Link to="/quiz" onClick={() => setIsOpen(false)}>Quiz</Link></li>
-        <li><Link to="/about" onClick={() => setIsOpen(false)}>About the Quiz</Link></li>
-        <li><Link to="/mission" onClick={() => setIsOpen(false)}>Our Mission</Link></li>
+        <li><Link to="/quiz" onClick={() => setIsOpen(false)}>Take the Quiz</Link></li>
+        <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
         <li><Link to="/animals" onClick={() => setIsOpen(false)}>Our Animals</Link></li>
+        <li><Link to="/mission" onClick={() => setIsOpen(false)}>Our Mission</Link></li>
       </ul>
     </nav>
   );
