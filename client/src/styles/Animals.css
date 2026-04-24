@@ -5,26 +5,44 @@
 
 .animal-item{
     display: flex;
-    padding: 2rem; 
+    padding-top: 2rem; 
+    padding-right: 2rem; 
     gap: 2rem;
-    min-height: 300px;
+    height: fit-content;
     align-items: flex-start;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #234155;
 }
 
 .animal-text{
     display: flex;
     flex-direction: column;
-    height: 300px;        
+    min-height: 300px;        
 }
 
 .animal-text h2 {
     margin: 0;        /* I don't know why it adds such a big space without this */
 }
 
-hr {
-  border: none; 
-  height: 7px; 
-  background-color: #234155; 
+.animal-name{
+    font-weight: bold;
+}
+
+.animal-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #5895bb;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.animal-description{
+    margin-top: 0rem;
+}
+
+.char-button{
+    width: fit-content;
+    margin-bottom: 1rem;
 }
 
 .animal-thumb{
@@ -36,6 +54,7 @@ hr {
 
 .learn-more{
     margin-top: auto;
+    margin-bottom: 1rem;
 }
 
 .animal-image{
