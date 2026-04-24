@@ -1,12 +1,21 @@
 .animal-container{
     text-align: left;
-    padding: 40px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.animal-name{
+    margin: 0;
 }
 
 .animals-list{
+    padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    column-gap: 4rem;
+    row-gap: 2rem;
+    align-items: start;
     position: relative;
 }
 
@@ -16,30 +25,44 @@
     top: 0;
     bottom: 0;
     left: 50%;
-    width: 3px;
+    width: 2px;
     background: #234155;
     transform: translateX(-50%);
 }
 
-.animal-item{
-
+.animal-wrapper{
     display: flex;
-    padding-top: 2rem; 
-    padding-right: 2rem; 
-    gap: 2rem;
+    flex-direction: column;
+    position: relative;
     height: 100%;
+
+}
+
+.animal-wrapper::after{
+    content: "";
+    position: absolute;
+    left: -2rem;
+    right: -2rem;
+    bottom: 0rem;
+    height: 2px;
+    background: #234155;
+}
+
+.animal-wrapper:nth-last-child(-n+1)::after{ /*should be -n+2 once an even number*/
+    display: none;
+}
+
+.animal-item{
+    display: flex;
+    padding: 1rem 2rem 2rem 0;
+    gap: 1rem;
     align-items: flex-start;
-    border-bottom: 3px solid #234155;
+    padding-bottom: 2rem;
 }
 
 .animal-text{
     display: flex;
-    flex-direction: column;
-    min-height: 300px;        
-}
-
-.animal-text h2 {
-    margin: 0;        /* I don't know why it adds such a big space without this */
+    flex-direction: column;   
 }
 
 .animal-name{
@@ -55,24 +78,15 @@
 }
 
 .animal-description{
-    margin-top: 0rem;
+    margin-top: 1rem;
 }
 
-.char-button{
-    width: fit-content;
-    margin-bottom: 1rem;
-}
 
 .animal-thumb{
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     border-radius: 0 !important;
     object-fit: cover;
-}
-
-.learn-more{
-    margin-top: auto;
-    margin-bottom: 1rem;
 }
 
 .animal-image{
@@ -80,9 +94,9 @@
     flex-shrink: 0;
 
     display: flex;
+    align-self: flex-end;
     justify-content: center;
-    align-items: center;
-
+    
     margin-left: auto; 
 }
 
@@ -91,8 +105,8 @@
     top: -30px;
     right: -30px;
 
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 
     background: #5895bb;
     border-radius: 50%;
@@ -104,7 +118,7 @@
 }
 
 .animal-logo{
-    width: 105px;
-    height: 105px;
+    width: 85px;
+    height: 85px;
     object-fit: contain;
 }
