@@ -3,14 +3,32 @@
     padding: 40px;
 }
 
+.animals-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    position: relative;
+}
+
+.animals-list::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    background: #234155;
+    transform: translateX(-50%);
+}
+
 .animal-item{
+
     display: flex;
     padding-top: 2rem; 
     padding-right: 2rem; 
     gap: 2rem;
-    height: fit-content;
+    height: 100%;
     align-items: flex-start;
-    padding-bottom: 1rem;
     border-bottom: 3px solid #234155;
 }
 
@@ -46,8 +64,8 @@
 }
 
 .animal-thumb{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 0 !important;
     object-fit: cover;
 }

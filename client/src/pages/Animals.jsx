@@ -41,14 +41,14 @@ const Animals = () => {
                   <button className="learn-more" onClick={() => goToAnimalPage(animal.name)}>
                       Learn More →
                   </button>
-                  {/*<p className="animal-description">{animal.charityDesc}</p>*/}
+                  {/*<p className="animal-description">{animal.charityDesc}</p>
                   <button 
                     className="button1 char-button" 
                     onClick={() => {
                     console.log("Opening URL:", animal.donationURL);
                     window.open(animal.donationURL, "_blank", "noopener,noreferrer");
                     }}>
-                      Donate to {animal.charity}</button>
+                      Donate to {animal.charity}</button> */}
                 </div>
                 <div className="animal-image">
                   <img
