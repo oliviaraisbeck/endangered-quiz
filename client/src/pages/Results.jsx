@@ -99,7 +99,7 @@ const traitRanges = {
               <div className="animal-header section">
                 <div className="animal-info left">
                   <div className="animal-title">
-                    <h2>{"Your animal is the...  "}</h2>
+                    <h2>{"Your ally is the...  "}</h2>
                     <h2 className="animal-name bold">{animal}!</h2>
                   </div>
                   <p className="description">{animalDetails.description}</p>
