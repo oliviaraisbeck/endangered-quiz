@@ -1,41 +1,92 @@
 .animal-container{
     text-align: left;
-    padding: 40px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.our-animal-name{
+    margin: 0;
+}
+
+.animals-list{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 2rem;
+    align-items: start;
+    position: relative;
+}
+
+.animals-list::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: #234155;
+    transform: translateX(-50%);
+}
+
+.animal-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+
+}
+
+.animal-wrapper::after{
+    content: "";
+    position: absolute;
+    left: -2rem;
+    right: -2rem;
+    bottom: 0rem;
+    height: 2px;
+    background: #234155;
+}
+
+.animal-wrapper:nth-last-child(-n+1)::after{ /*should be -n+2 once an even number*/
+    display: none;
 }
 
 .animal-item{
     display: flex;
-    padding: 2rem; 
-    gap: 2rem;
-    min-height: 300px;
+    padding: 1rem 2rem 2rem 0;
+    gap: 1rem;
     align-items: flex-start;
+    padding-bottom: 2rem;
 }
 
 .animal-text{
     display: flex;
-    flex-direction: column;
-    height: 300px;        
+    flex-direction: column;   
 }
 
-.animal-text h2 {
-    margin: 0;        /* I don't know why it adds such a big space without this */
+.our-animal-name{
+    font-weight: bold;
 }
 
-hr {
-  border: none; 
-  height: 7px; 
-  background-color: #234155; 
+.our-animal-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #5895bb;
+    font-style: italic;
+    font-size: 30px;
 }
+
+.animal-description{
+    margin-top: 1rem;
+}
+
 
 .animal-thumb{
-    width: 300px;
-    height: 300px;
+    width: 240px;
+    height: 240px;
     border-radius: 0 !important;
     object-fit: cover;
-}
-
-.learn-more{
-    margin-top: auto;
 }
 
 .animal-image{
@@ -43,9 +94,9 @@ hr {
     flex-shrink: 0;
 
     display: flex;
+    align-self: flex-end;
     justify-content: center;
-    align-items: center;
-
+    
     margin-left: auto; 
 }
 
@@ -54,8 +105,8 @@ hr {
     top: -30px;
     right: -30px;
 
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 
     background: #5895bb;
     border-radius: 50%;
@@ -67,7 +118,7 @@ hr {
 }
 
 .animal-logo{
-    width: 105px;
-    height: 105px;
+    width: 85px;
+    height: 85px;
     object-fit: contain;
 }

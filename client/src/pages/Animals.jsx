@@ -32,19 +32,25 @@ const Animals = () => {
         <h1 className="title">Our Animals</h1>
         <div className="animals-list">
           {animals.map((animal, index) => (
-            <div key={index}>
+            <div className="animal-wrapper" key={index}>
+              <div className="atitle">
+                <h2 className="our-animal-name">{animal.name}</h2>
               <div className="animal-item">
                 <div className="animal-text">
-                  <h2>{animal.name}</h2>
+                  
+                  <p className="our-animal-title">The {animal.title}</p>
                   <p className="animal-description">{animal.description}</p>
-                  <p className="animal-general-fact">{animal.facts["General Facts"]}</p>
-                  {animal.traits && animal.traits.length > 0 && (
-                    <p>Traits: {animal.traits.join(", ")}
-                    </p>
-                  )}
-                  <p className="learn-more" onClick={() => goToAnimalPage(animal.name)}>
+                  <button onClick={() => goToAnimalPage(animal.name)}>
                       Learn More →
-                    </p>
+                  </button>
+                  {/*<p className="animal-description">{animal.charityDesc}</p>
+                  <button 
+                    className="button1 char-button" 
+                    onClick={() => {
+                    console.log("Opening URL:", animal.donationURL);
+                    window.open(animal.donationURL, "_blank", "noopener,noreferrer");
+                    }}>
+                      Donate to {animal.charity}</button> */}
                 </div>
                 <div className="animal-image">
                   <img
@@ -61,7 +67,7 @@ const Animals = () => {
                   </div>
                 </div> 
               </div>
-              <hr className="animal-divider" />
+              </div>
             </div>
             
           ))} 
