@@ -33,11 +33,11 @@ const Results = () => {
   };
 
   const animal = Object.entries(animalsData).find(([name, data]) =>
-    data['P/Q'] === profileObj['P/Q'] &&
-    data['Social'] === profileObj['Social'] &&
-    data['Environ'] === profileObj['Environ'] &&
-    data['Migrat'] === profileObj['Migrat'] &&
-    data['Neuro'] === profileObj['Neuro']
+    data['Class of P/Q'] === profileObj['P/Q'] &&
+    data['Social Behavior'] === profileObj['Social'] &&
+    data['Environment Behavior'] === profileObj['Environ'] &&
+    data['Migration'] === profileObj['Migrat'] &&
+    data['Neuroticism'] === profileObj['Neuro']
   )?.[0];
 
   const nameKey = animal?.replace(/ /g, "_");

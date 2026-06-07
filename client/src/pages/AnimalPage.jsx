@@ -5,6 +5,7 @@ import animalTypes from "../data/animals.json";
 
 const AnimalPage = () => {
   const navigate = useNavigate();
+  const [flippedCards, setFlippedCards] = useState({});
   const { animalKey } = useParams(); 
   const [animalDetails, setAnimalDetails] = useState(null);
   const animalNames = Object.keys(animalTypes).sort();
@@ -16,6 +17,8 @@ const AnimalPage = () => {
   currentIndex !== -1
     ? fileKeys[(currentIndex + 1) % fileKeys.length]
     : fileKeys[0];
+
+  
 
   useEffect(() => {
     import(`../data/animals/${animalKey}.json`)
@@ -56,6 +59,29 @@ const AnimalPage = () => {
   }
   };
 
+  const traitDirectionMap = {
+    "Social Behavior": {
+      "AC": "right",
+      "RE": "right"
+    },
+    "Environment Behavior": {
+      "AC": "right",
+      "RE": "left"
+    },
+    "Migration": {
+      "MOB": "right",
+      "IDL": "left"
+    },
+    "Neuroticism": {
+      "AC": "right",
+      "RE": "left"
+    },
+    "Class of P/Q": {
+      "PT/QF": "right",
+      "QL/QU": "left"
+    }
+  };
+
   const factEntries = Object.entries(animalDetails.facts || {}).filter(
     ([key]) =>
       key !== "Physical Description" 
@@ -77,9 +103,10 @@ const AnimalPage = () => {
         >
           Next Animal →
         </button>
+        
       </div>
       <div className="page-content">
-        <div className="animal-header section">
+        <div className="animal-header-page section">
           <div className="animal-header-text">
             <h1>{animalDetails.name}</h1>
             <p>{animalDetails.description}</p>
@@ -107,48 +134,119 @@ const AnimalPage = () => {
           </div>
         </div>
 
-        <h2>About the {animalDetails.name}</h2>
-        <p>{animalDetails.facts["Physical Description"]}</p>
-        <div className="personality-section">
-          <div className="nickname-section">
-            <h2>{animalDetails.title}</h2>
-
-            <h3>Why this nickname?</h3>
+        <h2 className="left">About the {animalDetails.name}</h2>
+        <p className="left section">{animalDetails.facts["Physical Description"]}</p>
+        <div className="personality-section section">
+          <div className="nickname-section left">
+            <h2 className="our-animal-title bold">"The {animalDetails.title}"</h2>
+            <h2>Why this nickname?</h2>
             <p>{animalDetails.why}</p>
             <button className="button1" onClick={() => navigate('/quiz')}>Take The Quiz</button>
           </div>
-          <div className="trait-sliders-section">
+          <div className="animal-page-bars">
             {animalDetails.understandResult?.map((item, index) => {
               const labels = traitLabels[item.key] || { left: "Left", right: "Right" };
 
+              const traitCode = animalTypes[animalDetails.name][item.key]; 
+              const value = traitDirectionMap[item.key]?.[traitCode];
+
               return (
-                <div className="trait-slider-card" key={index}>
-                  <div className="trait-header">
-                    <span>{labels.left}</span>
-                    <span>{labels.right}</span>         
+                <div className="bar-container" key={index}>
+                  <div className="bar"></div>
+
+                  <div className="bar-floating-title">
+                    {item.title}
                   </div>
-                  <div className="slider-track">
-                    <div className="slider-indicator left"></div>
+                  
+                  <div className="bar-labels">
+                    <span className={value === "left" ? "active-label" : ""}>
+                      {labels.left}
+                    </span>
+
+                    <span className={value === "right" ? "active-label" : ""}>
+                      {labels.right}
+                    </span>
                   </div>
+
+                  <div className={`arrow-wrapper ${value}`}>
+                    <div className="arrow" />
+                  </div>
+
                 </div>
               );
             })}
           </div>
         </div>
 
-        <section className="facts-section">
-          <h2>More About This Species</h2>
+       
+<section className="facts-section">
+  <h2>More About This Species</h2>
 
-          <div className="facts-grid">
-            {factEntries.map(([title, text], index) => (
-              <div className="fact-card" key={index}>
-                <h3>{title}</h3>
-                <p>{text}</p>
+  <div className="facts-two-column">
+    <div className="facts-column">
+      {factEntries
+        .slice(0, Math.ceil(factEntries.length / 2))
+        .map(([title, text], index) => {
+          const isOpen = flippedCards[index];
+
+          return (
+            <div
+              key={title}
+              className={`fact-card color-${index % 6}`}
+              onClick={() =>
+                setFlippedCards(prev => ({
+                  ...prev,
+                  [index]: !prev[index]
+                }))
+              }
+            >
+              <h3>{title}</h3>
+
+              <div className="fact-content">
+                {isOpen && <p>{text}</p>}
               </div>
-            ))}
-          </div>
-        </section>
-      
+
+              <div className="fact-arrow">
+                {isOpen ? "▲" : "▼"}
+              </div>
+            </div>
+          );
+        })}
+    </div>
+
+    <div className="facts-column">
+      {factEntries
+        .slice(Math.ceil(factEntries.length / 2))
+        .map(([title, text], index) => {
+          const realIndex = index + Math.ceil(factEntries.length / 2);
+          const isOpen = flippedCards[realIndex];
+
+          return (
+            <div
+              key={title}
+              className={`fact-card color-${realIndex % 6}`}
+              onClick={() =>
+                setFlippedCards(prev => ({
+                  ...prev,
+                  [realIndex]: !prev[realIndex]
+                }))
+              }
+            >
+              <h3>{title}</h3>
+
+              <div className="fact-content">
+                {isOpen && <p>{text}</p>}
+              </div>
+
+              <div className="fact-arrow">
+                {isOpen ? "▲ Close" : "▼ Open"}
+              </div>
+            </div>
+          );
+        })}
+    </div>
+  </div>
+</section>
         <div id="Donation">
           <h2>Help the {animalDetails.name}</h2>
           <p>{animalDetails.charityDesc}</p>
