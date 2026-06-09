@@ -18,8 +18,6 @@ const AnimalPage = () => {
     ? fileKeys[(currentIndex + 1) % fileKeys.length]
     : fileKeys[0];
 
-  
-
   useEffect(() => {
     import(`../data/animals/${animalKey}.json`)
       .then(module => setAnimalDetails(module.default))
@@ -61,7 +59,7 @@ const AnimalPage = () => {
 
   const traitDirectionMap = {
     "Social Behavior": {
-      "AC": "right",
+      "AC": "left",
       "RE": "right"
     },
     "Environment Behavior": {
@@ -84,7 +82,8 @@ const AnimalPage = () => {
 
   const factEntries = Object.entries(animalDetails.facts || {}).filter(
     ([key]) =>
-      key !== "Physical Description" 
+      key !== "Physical Description" &&
+      key !== "General Facts"
   );
 
   return (
@@ -135,7 +134,7 @@ const AnimalPage = () => {
         </div>
 
         <h2 className="left">About the {animalDetails.name}</h2>
-        <p className="left section">{animalDetails.facts["Physical Description"]}</p>
+        <p className="left section">{animalDetails.facts["General Facts"]} {animalDetails.facts["Physical Description"]}</p>
         <div className="personality-section section">
           <div className="nickname-section left">
             <h2 className="our-animal-title bold">"The {animalDetails.title}"</h2>
@@ -176,77 +175,75 @@ const AnimalPage = () => {
               );
             })}
           </div>
-        </div>
+        </div>              
+        <section className="facts-section">
+          <h2>More About the {animalDetails.name}</h2>
 
-       
-<section className="facts-section">
-  <h2>More About This Species</h2>
+          <div className="facts-two-column">
+            <div className="facts-column">
+              {factEntries
+                .slice(0, Math.ceil(factEntries.length / 2))
+                .map(([title, text], index) => {
+                  const isOpen = flippedCards[index];
 
-  <div className="facts-two-column">
-    <div className="facts-column">
-      {factEntries
-        .slice(0, Math.ceil(factEntries.length / 2))
-        .map(([title, text], index) => {
-          const isOpen = flippedCards[index];
+                  return (
+                    <div
+                      key={title}
+                      className={`fact-card color-${index % 7}`}
+                      onClick={() =>
+                        setFlippedCards(prev => ({
+                          ...prev,
+                          [index]: !prev[index]
+                        }))
+                      }
+                    >
+                      <h3>{title}</h3>
 
-          return (
-            <div
-              key={title}
-              className={`fact-card color-${index % 6}`}
-              onClick={() =>
-                setFlippedCards(prev => ({
-                  ...prev,
-                  [index]: !prev[index]
-                }))
-              }
-            >
-              <h3>{title}</h3>
+                      <div className="fact-content">
+                        {isOpen && <p>{text}</p>}
+                      </div>
 
-              <div className="fact-content">
-                {isOpen && <p>{text}</p>}
-              </div>
-
-              <div className="fact-arrow">
-                {isOpen ? "▲" : "▼"}
-              </div>
+                      <div className="fact-arrow">
+                        {isOpen ? "▲" : "▼"}
+                      </div>
+                    </div>
+                  );
+                })}
             </div>
-          );
-        })}
-    </div>
 
-    <div className="facts-column">
-      {factEntries
-        .slice(Math.ceil(factEntries.length / 2))
-        .map(([title, text], index) => {
-          const realIndex = index + Math.ceil(factEntries.length / 2);
-          const isOpen = flippedCards[realIndex];
+            <div className="facts-column">
+              {factEntries
+                .slice(Math.ceil(factEntries.length / 2))
+                .map(([title, text], index) => {
+                  const realIndex = index + Math.ceil(factEntries.length / 2);
+                  const isOpen = flippedCards[realIndex];
 
-          return (
-            <div
-              key={title}
-              className={`fact-card color-${realIndex % 6}`}
-              onClick={() =>
-                setFlippedCards(prev => ({
-                  ...prev,
-                  [realIndex]: !prev[realIndex]
-                }))
-              }
-            >
-              <h3>{title}</h3>
+                  return (
+                    <div
+                      key={title}
+                      className={`fact-card color-${realIndex % 6}`}
+                      onClick={() =>
+                        setFlippedCards(prev => ({
+                          ...prev,
+                          [realIndex]: !prev[realIndex]
+                        }))
+                      }
+                    >
+                      <h3>{title}</h3>
 
-              <div className="fact-content">
-                {isOpen && <p>{text}</p>}
-              </div>
+                      <div className="fact-content">
+                        {isOpen && <p>{text}</p>}
+                      </div>
 
-              <div className="fact-arrow">
-                {isOpen ? "▲ Close" : "▼ Open"}
-              </div>
+                      <div className="fact-arrow">
+                        {isOpen ? "▲" : "▼"}
+                      </div>
+                    </div>
+                  );
+                })}
             </div>
-          );
-        })}
-    </div>
-  </div>
-</section>
+          </div>
+        </section>
         <div id="Donation">
           <h2>Help the {animalDetails.name}</h2>
           <p>{animalDetails.charityDesc}</p>

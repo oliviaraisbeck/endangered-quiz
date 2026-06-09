@@ -236,6 +236,27 @@
   padding: 0rem 0rem;   /* space so arrows don’t overlap text */
 }
 
+.endangered-info {
+ 
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  color: white !important;
+}
+
+.endangered-info * {
+  color: white;
+}
+
+.endangered-info > * {
+  flex: 1;
+}
+
+.endangered-info .status-scale{
+  flex-direction: row; 
+}
+
+
 /*
 
 .understand-card {
