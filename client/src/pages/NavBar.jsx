@@ -13,9 +13,9 @@ function Navbar() {
       <div className="navbar-logo">
         <Link to="/home">
           <img src={logo} alt="Go to Home page" className="logo-img"/>
+          <span>Animal Ally </span>
         </Link>
-        <span>Animal Ally</span>
-        </div>
+      </div>
 
       <div className="hamburger" onClick={toggleMenu}>
         &#9776; {/* Hamburger icon (☰) */}

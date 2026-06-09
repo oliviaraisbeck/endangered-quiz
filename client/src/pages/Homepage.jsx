@@ -51,7 +51,7 @@ const HomePage = () => {
           </button>
         </div>
       </div>
-      <div className="right lower-padding about-animal-section">
+      <div className="right about-animal-section">
         <div>
           <h2> About Your Animal Ally</h2>
           <p>The Animal Ally Quiz matches your unique traits with one of 32 endangered animals. Take the quiz to find out more about yourself, and how you can make a difference for your critter.  </p>
@@ -98,8 +98,7 @@ const HomePage = () => {
             <button onClick={() => navigate('/mission')}>
               Read More
             </button>
-            <button className="button1" onClick={() => { //set as national wildlife organization idk if we want a different one? 
-            window.open(donationLink, "_blank", "noopener,noreferrer");}}>
+            <button className="button1" onClick={() => navigate('/helpNow')}>
               HELP NOW!
             </button> 
           </div>
