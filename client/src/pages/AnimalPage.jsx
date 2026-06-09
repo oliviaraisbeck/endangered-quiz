@@ -244,6 +244,7 @@ const AnimalPage = () => {
             </div>
           </div>
         </section>
+        {/*
         <div id="Donation">
           <h2>Help the {animalDetails.name}</h2>
           <p>{animalDetails.charityDesc}</p>
@@ -256,7 +257,7 @@ const AnimalPage = () => {
               Donate Now
           </button>
         </div>
-        
+        */}
       </div>
     </div>
   );

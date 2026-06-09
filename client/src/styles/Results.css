@@ -237,97 +237,29 @@
 }
 
 .endangered-info {
- 
-  justify-content: space-between;
+  display: flex;
   align-items: center;
   gap: 2rem;
-  color: white !important;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-.endangered-info * {
+.endangered-banner * {
   color: white;
 }
 
-.endangered-info > * {
-  flex: 1;
+.endangered-info .status-label{
+  color: white;
 }
 
-.endangered-info .status-scale{
-  flex-direction: row; 
+.endangered-img{
+  margin-top: 1rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 6rem;
+  object-fit: cover;
+  background: #5895bb;
 }
-
-
-/*
-
-.understand-card {
-    margin-bottom: 3rem;
-}
-
-
-/* Wrapper that holds arrow + percentage */
-/*
-.arrow-wrapper {
-  position: absolute;
-  top: -20px;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Percentage label */
-/*
-.arrow-label {
-  font-size: 12px;
-  font-weight: bold;
-  margin-bottom: 2px;
-}
-
-/* Arrow pointer */
-/*
-.arrow {
-  width: 0;
-  height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-bottom: 10px solid black;
-}
-
-/* Labels under the bar (Low / High or custom) *//*
-.bar-labels {
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  margin-top: 4px;
-  opacity: 0.7;
-}
-
-.understand-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-bottom: 0rem;
-  align-items: center; /* THIS vertically centers the bar vs text */
-/*}
-
-/* Left side */
-/*
-.understand-text {
-  width: 50%;
-} */
-
-/* Right side */
-/*
-.understand-visual {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.understand-title{
-  text-align: center;
-}*/
 
 
 

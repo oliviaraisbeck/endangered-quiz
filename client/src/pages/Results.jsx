@@ -242,13 +242,16 @@ const traitRanges = {
                 </div>
               </div>
               <div className="banner endangered-banner">
+                
                 <div className="endangered-info">
-                  <div>
+                  <div className='endangered-sm'>
+                    <img className="endangered-img" src={animalDetails.logo} alt={animalDetails.name} />
+                  </div>
+                  <div className="endangered-status">
                     <h2>Endangered Status</h2>
                     <div className="status-scale">
                       {statusOptions.map((item) => {
                         const isActive = animalDetails.status === item.key;
-
                         return (
                           <div className="status-item" key={item.key}>
                             <div className={`status-circle ${item.key} ${isActive ? "active" : ""}`}>
@@ -259,9 +262,8 @@ const traitRanges = {
                         );
                       })}
                     </div>
-                  </div>
-                  <div>
                     <p>{animalDetails.facts["Endangered Status"]}</p>
+                    <p>{animalDetails.charityDesc}</p>
                     <button
                       onClick={() => {
                       console.log("Opening URL:", animalDetails.donationURL);
@@ -270,6 +272,9 @@ const traitRanges = {
                       >
                       HELP NOW!
                     </button>
+                  </div>
+                  <div className='endangered-sm'>
+                    <img className="endangered-img" src={animalDetails.image} alt={animalDetails.name} />
                   </div>
                 </div>
               </div>
