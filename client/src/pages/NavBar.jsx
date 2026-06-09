@@ -15,7 +15,7 @@ function Navbar() {
         <Link to="/home">
           <img src={logo} alt="Go to Home page" className="logo-img"/>
         </Link>
-        <span>Your Animal Ally</span>
+        <span>Animal Ally</span>
         </div>
 
       <div className="hamburger" onClick={toggleMenu}>

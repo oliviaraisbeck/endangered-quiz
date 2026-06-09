@@ -13,6 +13,14 @@ const Results = () => {
 
   const [activeIndex, setActiveIndex] = useState(0);
 
+  const statusOptions = [
+    { key: "DD", label: "Data Deficient" },
+    { key: "V", label: "Vulnerable" },
+    { key: "NE", label: "Near Endangered" },
+    { key: "EN", label: "Endangered" },
+    { key: "CR", label: "Critically Endangered" }
+  ];
+
   const getHL = (category, score) => {
     switch (category) {
       case 'Class of P/Q': return score >= 30 ? 'PT/QF' : 'QL/QU';
@@ -33,11 +41,11 @@ const Results = () => {
   };
 
   const animal = Object.entries(animalsData).find(([name, data]) =>
-    data['P/Q'] === profileObj['P/Q'] &&
-    data['Social'] === profileObj['Social'] &&
-    data['Environ'] === profileObj['Environ'] &&
-    data['Migrat'] === profileObj['Migrat'] &&
-    data['Neuro'] === profileObj['Neuro']
+    data['Class of P/Q'] === profileObj['P/Q'] &&
+    data['Social Behavior'] === profileObj['Social'] &&
+    data['Environment Behavior'] === profileObj['Environ'] &&
+    data['Migration'] === profileObj['Migrat'] &&
+    data['Neuroticism'] === profileObj['Neuro']
   )?.[0];
 
   const nameKey = animal?.replace(/ /g, "_");
@@ -99,7 +107,7 @@ const traitRanges = {
               <div className="animal-header section">
                 <div className="animal-info left">
                   <div className="animal-title">
-                    <h2>{"Your ally is the...  "}</h2>
+                    <h2>{"Your animal is the...  "}</h2>
                     <h2 className="animal-name bold">{animal}!</h2>
                   </div>
                   <p className="description">{animalDetails.description}</p>
@@ -233,17 +241,37 @@ const traitRanges = {
 
                 </div>
               </div>
-              <div className="banner">
-                <h2> Endangered Status</h2>
-                <p>{animalDetails.facts["Endangered Status"]}</p>
-                <button
-                  onClick={() => {
-                  console.log("Opening URL:", animalDetails.donationURL);
-                  window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
-                  }}
-                  >
-                  HELP NOW!
-                </button>
+              <div className="banner endangered-banner">
+                <div className="endangered-info">
+                  <div>
+                    <h2>Endangered Status</h2>
+                    <div className="status-scale">
+                      {statusOptions.map((item) => {
+                        const isActive = animalDetails.status === item.key;
+
+                        return (
+                          <div className="status-item" key={item.key}>
+                            <div className={`status-circle ${item.key} ${isActive ? "active" : ""}`}>
+                              {item.key}
+                            </div>
+                            <p className="status-label">{item.label}</p>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                  <div>
+                    <p>{animalDetails.facts["Endangered Status"]}</p>
+                    <button
+                      onClick={() => {
+                      console.log("Opening URL:", animalDetails.donationURL);
+                      window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
+                      }}
+                      >
+                      HELP NOW!
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           ) : (

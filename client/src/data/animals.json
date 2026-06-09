@@ -161,11 +161,11 @@
     "Neuro": "AC"
   },
   "Rusty Patched Bumblebee": {
-    "P/Q": "QL/QU",
-    "Social": "AC",
-    "Environ": "RE",
-    "Migrat": "IDL",
-    "Neuro": "RE"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "AC",
+    "Environment Behavior": "RE",
+    "Migration": "IDL",
+    "Neuroticism": "RE"
   },
   "Whale Shark": {
     "P/Q": "QL/QU",
