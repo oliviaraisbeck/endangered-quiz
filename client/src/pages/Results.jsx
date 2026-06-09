@@ -104,7 +104,7 @@ const traitRanges = {
         <div className="animal-results">
           {animalDetails ? (
             <div className="animal-details">
-              <div className="animal-header lower-padding">
+              <div className="animal-header">
                 <div className="animal-info left">
                   <div className="animal-title">
                     <h2>{"Your animal is the...  "}</h2>
@@ -135,24 +135,30 @@ const traitRanges = {
                   </div>
                 </div>
               </div>
-              <div className="animals-grid lower-padding"> {/* cssed in main cause idk whats happening? */}
-                <div className="traits">
+              <div className="traits-grid lower-padding"> 
+                <div>
                   <p className="traits-header bold"> Your friends call you...</p>
-                  {animalDetails.traits.map((line, index) => (
-                    <p key={index}>{line}</p>
-                  ))}
+                  <div className='traits-list'>
+                    {animalDetails.traits.map((line, index) => (
+                        <p className="trait-item bold traits-color1" key={index}>{line}</p>
+                    ))}
+                  </div>
                 </div>
-                <div className="traits">
+                <div>
                   <p className="traits-header bold"> Likes</p>
-                  {animalDetails.likes.map((line, index) => (
-                    <p key={index}>{line}</p>
-                  ))}
+                  <div className='traits-list'>
+                    {animalDetails.likes.map((line, index) => (
+                      <p  className="trait-item bold traits-color2" key={index}>{line}</p>
+                    ))}
+                  </div>
                 </div>
-                <div className="">
+                <div>
                   <p className="traits-header bold"> Dislikes</p>
-                  {animalDetails.dislikes.map((line, index) => (
-                    <p key={index}>{line}</p>
-                  ))}
+                  <div className='traits-list'>
+                    {animalDetails.dislikes.map((line, index) => (
+                      <p className="trait-item bold traits-color3" key={index}>{line}</p>
+                    ))}
+                  </div>
                 </div>
               </div>
               <div className="understand-grid left lower-padding">

@@ -69,7 +69,7 @@ const HomePage = () => {
       <div className="lower-padding">
         <h2 className="right">Our Animals</h2>
         <p className="right">Every critter on this quiz needs our help, whether they have a current population of seven or are the biggest surviving land mammal.</p>
-          <div className="animals-grid">
+          <div className="animals-grid lower-padding">
             {shuffledAnimals.map((animal, index) => (
               <div key={index} className="animal-section">
                 <div className="animal-logo-wrapper">

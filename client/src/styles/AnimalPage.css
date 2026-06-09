@@ -107,8 +107,7 @@
 .nickname-section {
   border-radius: 24px;
   padding: 2rem;
-  align-self: start;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 .animal-page-bars{
@@ -121,7 +120,7 @@
 }
 
 .page-content .bar{
-    background: linear-gradient(to right, #5895bb, #96c976);
+    background: linear-gradient(to right, #96c976, #5895bb);
 }
 .active-label {
   font-weight: 700;
@@ -181,6 +180,10 @@
   opacity: 0.7;
 }
 
+.fact-card:hover .fact-arrow{
+  font-size: .9rem;
+  opacity: 1;
+}
 
 
 .expand-arrow.open {

@@ -55,13 +55,43 @@
   font-size: 32px;
 }
 
-.traits{
-  border-right: 3px solid #ddd;
+.traits-grid{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 3rem;
 }
 
 .traits-header{
   font-size: 24px;
 }
+
+.traits-list{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.traits-list > :nth-child(odd) {
+  align-self: flex-start; 
+}
+
+.trait-item {
+  border-radius: 24px;
+  padding: 1rem;
+  min-width: 40%;
+  max-width: 60%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin: 0.4rem;
+}
+
+.traits-color1{ background: rgba(154, 210, 219, 1);}
+.traits-color3{ background: rgba(213, 79, 83, 0.8);}
+.traits-color2{ background: rgba(150, 201, 118, 1); }
 
 .understand-grid {
   margin-bottom: 2rem;
@@ -100,26 +130,6 @@
 }
 
 /* each bar row */
-.bar-row {
-  opacity: 0.4;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.bar-row.active {
-  opacity: 1;
-}
-
-/* default = gray */
-.bar-row .bar {
-  background: #ddd;
-}
-
-/* active = gradient */
-.bar-row.active .bar {
-  background: linear-gradient(to right, #5895bb, #96c976);
-}
-
 .bar-container {
   position: relative;
   width: 100%;
@@ -149,7 +159,7 @@
 }
 
 .bar-wrapper.active .bar {
-  background: linear-gradient(to right, #5895bb, #96c976);
+  background: linear-gradient(to right, #96c976, #5895bb);
 }
 
 .arrow-wrapper {
@@ -177,30 +187,22 @@
 }
 
 .understand-text-panel {
+  transform: translateY(-1.5rem);
   width: 50%;
   flex-shrink: 0;
   position: relative;
   display: flex;
   align-items: stretch;
-}
-
-.text-nav {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-}
-
-.text-nav button {
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
+  border-radius: 24px;
+  padding-top: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .nav-arrow {
+  transform: translateY(-1.4rem);
   background: none;
   border: none;
-  font-size: 28px;
+  font-size: 68px;
   cursor: pointer;
   opacity: 0.6;          /* ALWAYS visible */
   color: #000;           /* ensures contrast */
@@ -214,7 +216,7 @@
 .nav-arrow:hover {
   background: none;
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.1) translateY(-1.4rem);
 }
 
 .nav-left {
