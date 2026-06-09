@@ -2,11 +2,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
-import logo from '../data/chinchilla vanilla mates.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
+  const logo = "/images/chinchilla_vanilla.png"; 
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (

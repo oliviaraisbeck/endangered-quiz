@@ -1,5 +1,6 @@
 .page-content {
   padding: 0 6rem;
+  margin-bottom: 4rem;
 }
 
 .animal-top-nav {
@@ -141,12 +142,12 @@
 
 /* FACTS */
 
-.fact-card.color-2 { background: rgba(88, 149, 187, 0.5); }
-.fact-card.color-1 { background: rgba(213, 79, 83, 0.5); }
-.fact-card.color-5 { background: rgba(222, 210, 124, 0.75); }
-.fact-card.color-3 { background: rgba(204, 128, 47, 0.6); }
-.fact-card.color-0 { background: rgba(150, 201, 118, 0.5); }
-.fact-card.color-4 { background: rgba(154, 210, 219, 0.6); }
+.fact-card.color-2 { background: rgba(88, 149, 187, 0.7); }
+.fact-card.color-1 { background: rgba(213, 79, 83, 0.6); }
+.fact-card.color-5 { background: rgba(222, 210, 124, 1); }
+.fact-card.color-3 { background: rgba(204, 128, 47, 0.7); }
+.fact-card.color-0 { background: rgba(150, 201, 118, 0.8); }
+.fact-card.color-4 { background: rgba(154, 210, 219, 0.9); }
 /*.fact-card.color-6 { background: rgba(210, 157, 134, 0.6)} */
 
 .facts-two-column {

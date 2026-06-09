@@ -108,7 +108,7 @@
     width: 100px;
     height: 100px;
 
-    background: #5895bb;
+    /*background: #5895bb;*/
     border-radius: 50%;
 
     display: flex;
@@ -116,6 +116,12 @@
     justify-content: center;
     
 }
+
+.animal-wrapper:nth-child(5n+5) .animal-logo-circle { background: #5895bb; } 
+.animal-wrapper:nth-child(5n+4) .animal-logo-circle { background: #96c97c; } 
+.animal-wrapper:nth-child(5n+1) .animal-logo-circle { background: #9ad2db; } 
+.animal-wrapper:nth-child(5n+3) .animal-logo-circle { background: #d54f53; } 
+.animal-wrapper:nth-child(5n+2) .animal-logo-circle { background: #b46441; } 
 
 .animal-logo{
     width: 85px;

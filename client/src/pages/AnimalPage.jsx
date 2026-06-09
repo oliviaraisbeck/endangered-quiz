@@ -105,7 +105,7 @@ const AnimalPage = () => {
         
       </div>
       <div className="page-content">
-        <div className="animal-header-page section">
+        <div className="animal-header-page lower-padding">
           <div className="animal-header-text">
             <h1>{animalDetails.name}</h1>
             <p>{animalDetails.description}</p>
@@ -134,8 +134,8 @@ const AnimalPage = () => {
         </div>
 
         <h2 className="left">About the {animalDetails.name}</h2>
-        <p className="left section">{animalDetails.facts["General Facts"]} {animalDetails.facts["Physical Description"]}</p>
-        <div className="personality-section section">
+        <p className="left lower-padding">{animalDetails.facts["General Facts"]} {animalDetails.facts["Physical Description"]}</p>
+        <div className="personality-section lower-padding">
           <div className="nickname-section left">
             <h2 className="our-animal-title bold">"The {animalDetails.title}"</h2>
             <h2>Why this nickname?</h2>
@@ -244,6 +244,7 @@ const AnimalPage = () => {
             </div>
           </div>
         </section>
+        
         {/*
         <div id="Donation">
           <h2>Help the {animalDetails.name}</h2>
@@ -259,6 +260,30 @@ const AnimalPage = () => {
         </div>
         */}
       </div>
+      <div className="banner endangered-banner">
+          <div className="endangered-info">
+            <div className='endangered-sm'>
+              <img className="endangered-img" src={animalDetails.logo} alt={animalDetails.name} style={{background: animalDetails.color}}/>
+            </div>
+            <div className="endangered-status">
+              <h2>Endangered Status</h2>
+              <p>{animalDetails.facts["Endangered Status"]}</p>
+              <h2>How to Help</h2>
+              <p>{animalDetails.charityDesc}</p>
+              <button
+                onClick={() => {
+                console.log("Opening URL:", animalDetails.donationURL);
+                window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
+                }}
+                >
+                HELP NOW!
+              </button>
+            </div>
+            <div className='endangered-sm'>
+              <img className="endangered-img" src={animalDetails.image} alt={animalDetails.name} />
+            </div>
+          </div>
+        </div>
     </div>
   );
 };

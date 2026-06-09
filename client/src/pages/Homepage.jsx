@@ -22,6 +22,7 @@ const HomePage = () => {
   const navigate = useNavigate();
   const bannerTiger = "/images/tiger.jpg";
   const bannerButterfly = "/images/migratory_monarch_butterfly.jpg"
+  const logoLink = "images/homepage-link.png"
   const donationLink = "https://support.nwf.org/page/89607/donate/1?ea.tracking.id=SRC&gclsrc=aw.ds&gad_source=1&gad_campaignid=23266753855&gbraid=0AAAAAD_rpHUnqMvZaNXTrvaOEU9V38Exe&gclid=CjwKCAiA8vXIBhAtEiwAf3B-gyjH2z63O97sbyanZx3g7-rT2EWko6wHTpw9cjWNqKSnDCeBu707DxoCOfsQAvD_BwE"
   
   const goToAnimalPage = (name) => {
@@ -50,17 +51,22 @@ const HomePage = () => {
           </button>
         </div>
       </div>
-      <div className="section">
-        <h2 className="right"> About Your Animal Ally</h2>
-        <p className="right">The Animal Ally Quiz matches your unique traits with one of 32 endangered animals. Take the quiz to find out more about yourself, and how you can make a difference for your critter.  </p>
-        <div className="navs right">
-          <button className="button1" onClick={() => navigate('/quiz')}>Take The Quiz</button>
-          <p className="learn-more" onClick={() => navigate("/about") } >
-            Learn More →
-          </p>
+      <div className="right lower-padding about-animal-section">
+        <div>
+          <h2> About Your Animal Ally</h2>
+          <p>The Animal Ally Quiz matches your unique traits with one of 32 endangered animals. Take the quiz to find out more about yourself, and how you can make a difference for your critter.  </p>
+          <div className="navs">
+            <button className="button1" onClick={() => navigate('/quiz')}>Take The Quiz</button>
+            <p className="learn-more" onClick={() => navigate("/about") } >
+              Learn More →
+            </p>
+          </div>
+        </div>
+        <div className="logo-img-wrapper">
+          <img src={logoLink} alt="Banner" className="logoLink"/>
         </div>
       </div>
-      <div className="section">
+      <div className="lower-padding">
         <h2 className="right">Our Animals</h2>
         <p className="right">Every critter on this quiz needs our help, whether they have a current population of seven or are the biggest surviving land mammal.</p>
           <div className="animals-grid">

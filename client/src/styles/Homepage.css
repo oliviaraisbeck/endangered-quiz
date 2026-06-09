@@ -57,6 +57,24 @@
   gap: 50px;
 }
 
+.about-animal-section{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.logo-img-wrapper{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.logoLink{
+  width: 20rem;
+}
+
 .learn-more {
   cursor: pointer;
   font-weight: 500;
@@ -113,11 +131,12 @@
   object-fit: contain;
 }
 
-/* Cycle 4 colors every 4 items */
-.animal-section:nth-child(4n+1) .animal-logo-wrapper { --animal-bg: #5895bb; } 
-.animal-section:nth-child(4n+2) .animal-logo-wrapper { --animal-bg: #96c97c; } 
-.animal-section:nth-child(4n+3) .animal-logo-wrapper { --animal-bg: #9ad2db; } 
-.animal-section:nth-child(4n+4) .animal-logo-wrapper { --animal-bg: #d54f53; } 
+/* Cycle 5 colors every 5 items */
+.animal-section:nth-child(5n+1) .animal-logo-wrapper { --animal-bg: #5895bb; } 
+.animal-section:nth-child(5n+5) .animal-logo-wrapper { --animal-bg: #96c97c; } 
+.animal-section:nth-child(5n+3) .animal-logo-wrapper { --animal-bg: #9ad2db; } 
+.animal-section:nth-child(5n+4) .animal-logo-wrapper { --animal-bg: #d54f53; } 
+.animal-section:nth-child(5n+2) .animal-logo-wrapper { --animal-bg: #b46441; } 
 
 .mission-banner {
   position: relative;

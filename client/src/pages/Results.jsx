@@ -104,7 +104,7 @@ const traitRanges = {
         <div className="animal-results">
           {animalDetails ? (
             <div className="animal-details">
-              <div className="animal-header section">
+              <div className="animal-header lower-padding">
                 <div className="animal-info left">
                   <div className="animal-title">
                     <h2>{"Your animal is the...  "}</h2>
@@ -126,7 +126,7 @@ const traitRanges = {
                 <div className="polaroid"> 
                   <img className="polaroid-img" src={animalDetails.image} alt={animalDetails.name} />
                   <p className="polaroid-title bold">"The {animalDetails.title}"</p>
-                  <div className="animal-logo-circle">
+                  <div className="animal-logo-circle" style={{background: animalDetails.color}}>
                     <img
                       src={animalDetails.logo.replace("client/src/", "/")}
                       alt={`${animalDetails.name} logo`}
@@ -135,7 +135,7 @@ const traitRanges = {
                   </div>
                 </div>
               </div>
-              <div className="animals-grid section"> {/* cssed in main cause idk whats happening? */}
+              <div className="animals-grid lower-padding"> {/* cssed in main cause idk whats happening? */}
                 <div className="traits">
                   <p className="traits-header bold"> Your friends call you...</p>
                   {animalDetails.traits.map((line, index) => (
@@ -155,7 +155,7 @@ const traitRanges = {
                   ))}
                 </div>
               </div>
-              <div className="understand-grid left section">
+              <div className="understand-grid left lower-padding">
                 <h2>Understand your results</h2>
 
                 <div className="understand-layout">
@@ -245,7 +245,7 @@ const traitRanges = {
                 
                 <div className="endangered-info">
                   <div className='endangered-sm'>
-                    <img className="endangered-img" src={animalDetails.logo} alt={animalDetails.name} />
+                    <img className="endangered-img" src={animalDetails.logo} alt={animalDetails.name} style={{background: animalDetails.color}}/>
                   </div>
                   <div className="endangered-status">
                     <h2>Endangered Status</h2>
@@ -263,6 +263,7 @@ const traitRanges = {
                       })}
                     </div>
                     <p>{animalDetails.facts["Endangered Status"]}</p>
+                    <h2>How to Help</h2>
                     <p>{animalDetails.charityDesc}</p>
                     <button
                       onClick={() => {
@@ -274,7 +275,7 @@ const traitRanges = {
                     </button>
                   </div>
                   <div className='endangered-sm'>
-                    <img className="endangered-img" src={animalDetails.image} alt={animalDetails.name} />
+                    <img className="endangered-img" src={animalDetails.image} alt={animalDetails.name}/>
                   </div>
                 </div>
               </div>
