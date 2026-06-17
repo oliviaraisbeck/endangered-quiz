@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../styles/Animals.css';
+import '../styles/OurAnimals.css';
 
 const importAllAnimals = () => {
   const context = require.context('../data/animals', false, /\.json$/);

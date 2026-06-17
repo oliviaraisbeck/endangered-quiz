@@ -1,0 +1,74 @@
+{
+  "name": "Archey's Frog",
+  "title": "Helper",
+  "description": "Archey's frog is known as a living fossil because it has characteristics that reveal what it looked like centuries ago. Only found in New Zealand, it is rare among amphibians for its protective instincts.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "Above all, you are adaptable. Like Archey\u2019s Frog, you can camouflage socially, but your many close friends know your personality beyond your anxiety. You care deeply for those in your life, and view the world from the perspective of your lived experience.",
+  "image": "/images/archey's_frog.jpg",
+  "logo": "/logo/archey's_frog_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "When not catching worms, invertebrates and insects with its sticky tongue, it must avoid many predators. You too flex as situations change and are adaptable."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "A contender for father of the year, males solely care for their offspring, carrying them on their back before and after they hatch. They then care for their froglets for three to four years. You prioritize your loved ones, and lead with your heart, less than your head."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Serving as predator and prey, this frog must adapt to every situation it enters. You enjoy social interactions, and do well in groups, but need occasional alone time."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "It is only found in the Waikato Region of the North Island, New Zealand. You think through your decisions carefully, and value facts, experience, and familiar ground."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "They avoid predation by having poison glands around their heads, but they also use camouflage. You can be conflict avoidant, and sometimes nerves can get the better of you."
+    }
+  ],
+  "traits": [
+    "Prepared",
+    "Family first",
+    "Friendly",
+    "Grounded",
+    "Hyper aware"
+  ],
+  "likes": [
+    "Flexibility in scheduling",
+    "Sharing emotions",
+    "Friend's friends",
+    "Comfort movies and shows"
+  ],
+  "dislikes": [
+    "Instruction manuals",
+    "Bad manners",
+    "Long presentations",
+    "Navigating new cities"
+  ],
+  "facts": {
+    "General Facts": "An amphibian that ignores classic characteristics, this \"living fossil\" is only found in New Zealand.",
+    "Physical Description": "A \"living fossil,\" the Archey's Frog has evolutionary holdovers from centuries ago. Two include that the frog has muscles for tail-wagging, despite not having a tail, and it has more vertebrae in its spine than similar species. In the modern day, Archey's Frog can only be found in small regions of New Zealand. They grow to be an average of 1.4 inches, vary in coloration, and are primarily nocturnal. Archey's Frog: Predator and Prey Their primary diet consists of small invertebrates, insects, and worms. When they are not catching their next meal with their sticky tongues, they spend much of their time avoiding predators.",
+    "Community and Trust": "Males are the primary caregivers of their young. They prepare \"nests\" where they guard their gelatinous eggs until they hatch, secreting antimicrobial peptides to help their development. Unlike many frogs, all development happens on land. When they hatch, froglets remain with their fathers for between three and four years, riding on their backs. Beyond this strong link, little else is known about their adult social behavior.",
+    "Is it Assertive": "As a species that serves both as predator and prey, the Archey's Frog coexists peacefully with much of its environment.",
+    "Does it Migrate?": "It is only found in the Waikato Region of the North Island, New Zealand. They prefer humid, high altitude environments on ridges away from creeks. They do not migrate seasonally.",
+    "Where is it on the Food Chain?": "They avoid predation by having poison glands around their heads, but they also use camouflage. Notably, they do not vocalise, except when startled. They are low on the overall food chain for their habitat, but also serve as a predator.",
+    "Endangered Status": "The IUCN Red List categorizes Archey's Frog as critically endangered, but fortunately its population has stabilized as of this publication. The causes of their precarious status are disease, habitat destruction, and the introduction of new predators. To save this unusual frog, interventions to eliminate invasive species and destructive diseases must be undertaken."
+  },
+  "sources": [
+    "https://www.edgeofexistence.org/blog/species-of-the-week-archeys-frog/",
+    "https://www.iucnredlist.org/species/11450/66654575",
+    "https://en.wikipedia.org/wiki/Archey%27s_frog"
+  ],
+  "charity": "Sanctuary Mountain",
+  "charityURL": "https://www.sanctuarymountain.co.nz/",
+  "charityDesc": "Sanctuary Mountain is New Zealand's largest fenced eco-sanctuary, protecting dozens of endangered species in the Waikato Region that don't exist anywhere else.",
+  "donationURL": "https://donorbox.org/general-donation-202"
+}

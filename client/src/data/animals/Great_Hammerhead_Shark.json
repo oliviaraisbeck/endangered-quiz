@@ -1,0 +1,74 @@
+{
+  "name": "Great Hammerhead Shark",
+  "title": "Inventor",
+  "description": "Great Hammerhead Sharks are fearless, independent hunters. Avid explorers, they seek shallow waters full of marine life, but live alone.",
+  "color": "#5895bb",
+  "status": null,
+  "why": "Your independent streak and intelligence makes you a force to reckon with in any field. You handle things your own way, and are unafraid to devise new methods. Strangers may find you quiet, but your few close friends know how to get you animated.",
+  "image": "/images/great_hammerhead_shark.jpg",
+  "logo": "/logo/great_hammerhead_shark_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "An apex predator among apex predators, the Great Hammerhead even goes after other smaller sharks. You are equally structured and determined in your approach to work."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "It is a very solitary creature, and will attack anything it perceives as a threat. You believe in analyzing the world through facts, and it can take time to gain your trust."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "It is an independent creature, a trait you share. You value time to yourself, and in a group, you're a good listener."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "The Great Hammerhead has been observed worldwide. You enjoy exploring ideas and theories, and carve your own path."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Humans are the only significant threat to this unique creature. You are similarly confident in your environment, and emotionally stable overall."
+    }
+  ],
+  "traits": [
+    "Methodical",
+    "Discerning",
+    "Introverted",
+    "Curious",
+    "Resilient"
+  ],
+  "likes": [
+    "Devising strategies",
+    "Reasoning problems",
+    "Learning on your own",
+    "Exploring big ideas"
+  ],
+  "dislikes": [
+    "Disorganized events",
+    "Too many check-ins",
+    "Rowdy parties",
+    "Homework"
+  ],
+  "facts": {
+    "General Facts": "Its eyes may be on opposite sides of its head, but as an aquatic apex predator, its eye is always on its next catch.",
+    "Physical Description": "Grey brown in color, its eyes sit on opposite ends of its flat, mallet shaped head, giving the shark a 360 degree field of vision. Electromagnetic sensors allow it to find prey completely hidden under the ocean floor. The largest Great Hammerhead studied as of publication was 20 feet long, weighing 1,200 pounds.",
+    "Is it Predator or Prey?": "The Great Hammerhead is an apex predator as well as an opportunistic scavenger. They hunt stringrays, crustaceans, squids, and even small sharks.",
+    "Community and Trust": "Great Hammerheads are highly solitary creatures. They have been observed swimming in schools, but prefer to be alone, and will attack anything they perceive as a threat. There are few recorded attacks involving humans on record, with just 16 confirmed since 1900.",
+    "Is it Assertive": "As apex predators known for their aggression, they are fearless in the water. Orcas are their only documented predator. As such, they like to go it alone, and do not enjoy the company of other species.",
+    "Does it Migrate?": "Great Hammerheads have been observed worldwide, migrating for food and reproduction. Their favorite habitats include prey-rich shallow waters over continental shelves, and coral reefs.",
+    "Where is it on the Food Chain?": "Humans are the biggest threat to this unique creature. They are caught in nets accidentally, as well as hunted purposefully for their fins, which are used illegally for medicine and in fine dining.",
+    "Endangered Status": "In part due to overfishing and global warming, the Great Hammerhead is classified as critically endangered by the IUCN Red List. Protecting our oceans is crucial to preserve this beautiful species for future generations."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/great-hammerhead-shark/",
+    "https://www.iucnredlist.org/species/39386/2920499"
+  ],
+  "charity": "Oceana",
+  "charityURL": "https://oceana.org/",
+  "charityDesc": "Direct from their website; \"Oceana is the largest international advocacy organization focused solely on ocean conservation.\" Their focus on sustainable fishing benefits animals, the environment, and endangered creatures.",
+  "donationURL": "https://oceana.org/resources/ways-to-give-donate-now/"
+}

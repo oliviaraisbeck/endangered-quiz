@@ -279,7 +279,7 @@ const traitRanges = {
           )}
         </div>
       ) : (
-        <p>No animal found for this profile.</p>
+        <p>{profileObj['P/Q']} No animal found for this profile.</p>
       )}
     </div>
   );

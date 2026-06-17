@@ -1,0 +1,75 @@
+{
+  "name": "Black Rhino",
+  "title": "Great Mind",
+  "description": "With a tough hide and even tougher head, the black rhino is a confident inhabitant of what little remains of its divided African habitat. They are fiercely independent and maintain a territory, but live peacefully alongside many other creatures as herbivores.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "Your confidence and intelligence makes you a force to be reckoned with, and you have been accused of being \u201chardheaded.\u201d You prefer to think of it as not letting emotions cloud your decisions. Time to yourself is important to you, and the close friends you do keep",
+  "image": "/images/black_rhino.jpg",
+  "logo": "/logo/black_rhino_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Grass, fruit, and shrubs foraged in the Savannah make up the bulk of their diet. You are flexible and spontaneous, also taking opportunities as they come."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Unlike white rhinos, black rhinos are solitary creatures, and there may be as few as one every 600 miles in their natural habitats. You identify with being a realist, and think logically when making decisions."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "They are assertive in their territory, but willing to exist alongside others. You lean towards being introverted, but don't mind receiving (rightfully deserved) attention."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "If necessary, they will embark on long journeys for food or mating, but prefer their territories. You focus on concrete details, and are practical in your decision making."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "The black rhinoceros' dominance means that they have few predators. You are emotionally stable and confident."
+    }
+  ],
+  "traits": [
+    "Relaxed",
+    "Fact-driven",
+    "Introverted",
+    "Intelligent",
+    "Confident"
+  ],
+  "likes": [
+    "Well planned surprises",
+    "Riddles and puzzles",
+    "Solo hobbies",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Strict guidelines",
+    "Oversharing",
+    "Loud talking",
+    "Going off of instincts"
+  ],
+  "facts": {
+    "General Facts": "From its horn to its tough hide, this large African charger is as rare as it is impressive.",
+    "Physical Description": "Black rhinos are the second largest land animal, and reside in small ranges of Africa. They differ from other species of rhino with their triangle upper lip, two horns, and they have a darker shade of leathery hide. Their relatively short legs can achieve speeds of up to 40 miles per hour!",
+    "Is it Predator or Prey?": "They are herbivores, and eat plant matter such as grass, fruit, shrubs, and bark to meet their nutritional needs. They face few consistent predators, and often can only be taken down when weakened due to age or illness.",
+    "Community and Trust": "Black rhinos are very solitary, unlike white rhinos. In fact, there can be as few as one black rhino every 600 miles. After they are born, kids remain with their mothers for two years until they're old enough to be independent.",
+    "Is it Assertive": "Since the black rhino has such strong defenses due to its size, thick skin, and willingness to chase off threats, they are assertive in their territory. They are willing to live beside other creatures, sharing watering holes and territory with other wildlife as long as they do not pose a threat.",
+    "Does it Migrate?": "Black rhinos maintain territories, which limits the amount they move throughout their lives. If necessary, they will depart their turf for food or mating.",
+    "Where is it on the Food Chain?": "The black rhinoceros' dominance means that they have few predators save from when they are young, old, and ill, when they are vulnerable.",
+    "Endangered Status": "Black rhinos are critically endangered according to the IUCN Red List. While they have a long way to go, many experts believe they have a high chance of recovery. If conservation efforts continue, it's believed their population levels will improve in the next decade. Protecting their habitats, continuing to ban hunting, and educating locals and tourists are the best ways to safeguard their future."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/rhinoceros/",
+    "https://www.iucnredlist.org/species/6557/152728945",
+    "https://biologyinsights.com/are-rhinos-aggressive-and-why-they-might-charge/"
+  ],
+  "charity": "The African Wildlife Foundation",
+  "charityURL": "https://www.awf.org/",
+  "charityDesc": "The African Wildlife Foundation is based in Africa. Its focus on collaborating with local organizations makes them uniquely equipped to drive change.",
+  "donationURL": "https://secure.awf.org/page/119125/donate/1"
+}

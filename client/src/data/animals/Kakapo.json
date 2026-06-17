@@ -1,0 +1,75 @@
+{
+  "name": "Kakapo",
+  "title": "Debater",
+  "description": "Flightless, nocturnal, and the world\u2019s heaviest parrot, the kakapo is one of a kind. When it\u2019s not foraging along the forest floor of New Zealand, it can use its strong talons to climb up, and glide down from the trees. Have we mentioned its dance skills? Talk about a multi-talented bird!",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "Anything but a small personality, you\u2019re a force to be reckoned with. When you apply your intelligence and analysis to any problem, no matter how difficult, you get results. However, to the lucky few who know you well, your goofy side is on full display.",
+  "image": "/images/kakapo.jpg",
+  "logo": "/logo/kakapo_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Moving from low on the ground to high in the trees, the flightless kakapo is an explorer. You are adaptable, able to glide along as needed."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "For being solitary, the kakapo's mating dances and calls are some of the most flashy in the animal kingdom. You consider the emotions of those you really care about, but use your head to make decisions."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Kakapos prefer to be alone, and warn away other birds with a loud \"kraak\" sound. However, during mating, they must attract as much attention as possible with their dancing. You need your alone time, but fall somewhere between introverted and extraverted."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "The entire population is now limited to a few islands off of New Zealand that serve as predator-free sanctuaries. You focus on concrete details, and think through your decisions carefully."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Since the kakapo's evolved with few natural predators, it eventually grew to be the large, ground dwelling bird it is today. You are resilient and confident."
+    }
+  ],
+  "traits": [
+    "Adaptable",
+    "Independent",
+    "Energetic",
+    "Pragmatic",
+    "Confident"
+  ],
+  "likes": [
+    "Trying new things",
+    "Solo hobbies",
+    "Talking about your passions",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Detailed instructions",
+    "Trust falls",
+    "Long presentations",
+    "Trusting your gut"
+  ],
+  "facts": {
+    "General Facts": "The only parrot that\u2019s flightless, chubby, and nocturnal!",
+    "Physical Description": "Distinct and adorable birds, kakapos have green brown feathers, short beaks, and are distinctly flightless. They can also use their claws and talons to climb into the trees. Despite being flightless, their wings allow them to safely float back to the ground. They are not only the heaviest species of parrot in the world, but are unique for being nocturnal!",
+    "Is it Predator or Prey?": "Kakapos are prey animals, but they weren\u2019t always. Their herbivorous diet consists of fruit, flowers, roots, and seeds from the floor of the New Zealand jungle they call home. While they were evolving, they lacked predators, which led to their large size and flightlessness. Today, invasive species have reduced their numbers, causing them to become endangered.",
+    "Community and Trust": "For being solitary, the kakapo's courtship ritual is elaborate. Males leave their homes to congregate on hilltops, where they each clear out a large area. Females travel through the different clearings, allowing each male to display their mating dance complete with loud, booming calls and chirps. If the male succeeds in impressing the female and they mate, the female is solely responsible for chick-rearing. The rest of their lives they spend alone.",
+    "Is it Assertive": "Kakapos live alongside many other creatures, and are generally non-aggressive. However, especially during mating season, kakapos warn away trespassers with loud sounds and by puffing up their feathers.",
+    "Does it Migrate?": "The entire population is now limited to a few islands off of New Zealand that serve as predator-free sanctuaries. They leave their territories during mating season, but tend to remain in the same area throughout their lives.",
+    "Where is it on the Food Chain?": "The kakapo's large size is the result of their evolution with few natural predators. At 25 inches and 13 pounds, they grew to rely on smarts and camouflage to evade larger birds. As a result, when European settlers introduced predators such as stoats, cats, and ferrets, the kakapo was unprepared to handle them.",
+    "Endangered Status": "Today, the kakapo stands a chance. Now at 200 individuals, up from a historic low of 50 in the 90s, The IUCN Red List still categorizes them as critically endangered. But with continued funding for their conservation and better invasive species awareness, scientists are optimistic that the oldest, largest, and arguably suavest parrot will continue to touch our hearts."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/kakapo/",
+    "https://www.iucnredlist.org/species/22685245/129751169",
+    "https://www.edgeofexistence.org/blog/kakapos-the-flightless-bird-whose-numbers-are-soaring/"
+  ],
+  "charity": "Sanctuary Mountain",
+  "charityURL": "https://www.sanctuarymountain.co.nz/",
+  "charityDesc": "Sanctuary Mountain is New Zealand's largest fenced eco-sanctuary, protecting dozens of endangered species in the Waikato Region that don't exist anywhere else.",
+  "donationURL": "https://donorbox.org/general-donation-202"
+}

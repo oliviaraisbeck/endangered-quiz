@@ -1,0 +1,74 @@
+{
+  "name": "Red Wolf",
+  "title": "Guard",
+  "description": "Less social than a grey wolf and more so than a coyote, the red wolf is a go-getter and skilled hunter, but must be cautious in its environment.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "A fierce guard of your loved ones and yourself,  you can be quiet in a gathering, but amongst your close friends, you\u2019re affectionate and passionate. You are organized, but can be overwhelmed under high stress.",
+  "image": "/images/red_wolf.jpg",
+  "logo": "/logo/red_wolf_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Red wolves hunt as a pack. When undertaking a mission, you work with your connections to create a plan."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Monogamous, they mate with the same partner every year, and packs are tight knit once they're established. You form tight bonds, and prioritize the feelings of your loved ones."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "When faced with fight or flight, they prefer to keep their distance. You benefit from alone time to recharge, and are known as a good listener."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Red Wolves are habitat generalists, so anywhere they can find enough food and free range, they remain as long as possible. You value realism, and when you explore new concepts, focus on details and facts."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "As apex predators, red wolves have no natural predators. However, they are extremely afraid of humans and can be threatened by other wolves and predators. You can be sensitive to stress, and can get emotional from time to time."
+    }
+  ],
+  "traits": [
+    "Motivated",
+    "Empathetic",
+    "Quiet with new people",
+    "Pragmatic",
+    "A perfectionist"
+  ],
+  "likes": [
+    "To-do lists",
+    "Helping others",
+    "Solo hobbies",
+    "Facts and reasoning"
+  ],
+  "dislikes": [
+    "Unclear rules",
+    "Bad manners",
+    "Loud parties",
+    "Trusting only vibes"
+  ],
+  "facts": {
+    "General Facts": "A tragic example of mistaken identity, this North American predator has been extinct in the wild multiple times.",
+    "Physical Description": "Between the size of a coyote and a grey wolf, the red wolf has distinct rust colored fur, and light grey markings around its face similar to a wolf's. Their weight ranges from 45-85 pounds.",
+    "Is it Predator or Prey?": "Since their reintroduction to the wild, their diet largely consists of white-tailed deer, pigs, and raccoons. They are skilled predators, and collaborate with their pack when hunting.",
+    "Community and Trust": "Red wolves are more social than coyotes, but less social than grey wolves. They are monogamous, and have between 6-7 pups per litter. Pups tend to distance themselves from their parent's, but once established, packs are incredibly tight knit. They are composed of 5-8 individuals on average, made up of the breeding pair and some relatives. Wolves communicate through body language and sound.",
+    "Is it Assertive": "When given the choice between fight and flight, they prefer to keep their distance. Within their species, they are territorial and will assert themselves if strange wolves enter their territory. They make themselves known by marking their territory with scent, and calling out with their loud cries.",
+    "Does it Migrate?": "Red Wolves are habitat generalists, so anywhere they can find enough food and free range, they remain as long as possible.",
+    "Where is it on the Food Chain?": "As apex predators, red wolves have no natural predators. However, they are extremely afraid of humans and can be threatened by other wolves and large predators. As a result of farmers and landowners killing red wolves, efforts to reintroduce them in the wild have had varying levels of success over time.",
+    "Endangered Status": "Red wolves are often killed by vehicles, and people mistake red wolves for coyotes and grey wolves. Under the Endangered Species Act, the red wolf is classified as endangered. Further, the IUCN has listed the red wolf as a Critically Endangered species. The red wolf has been classified as extinct in the wild multiple times, with 20-30 individuals now believed to exist in the wild. Reintroduction efforts vary in success, but time has not yet run out."
+  },
+  "sources": [
+    "https://www.fws.gov/species/red-wolf-canis-rufus",
+    "https://www.iucnredlist.org/species/3747/163509841"
+  ],
+  "charity": "National Wildlife Federation",
+  "charityURL": "https://www.nwf.org/",
+  "charityDesc": "The National Wildlife Federation preserves the United State's natural landscapes for future generations of people and endangered species.",
+  "donationURL": "https://support.nwf.org/page/89607/donate/1?ea.tracking.id=SRC&gclsrc=aw.ds&gad_source=1&gad_campaignid=23266753855&gbraid=0AAAAAD_rpHUnqMvZaNXTrvaOEU9V38Exe&gclid=CjwKCAiA8vXIBhAtEiwAf3B-gyjH2z63O97sbyanZx3g7-rT2EWko6wHTpw9cjWNqKSnDCeBu707DxoCOfsQAvD_BwE"
+}

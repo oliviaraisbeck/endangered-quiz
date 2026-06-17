@@ -1,0 +1,72 @@
+{
+  "name": "Great White Shark",
+  "title": "Executive",
+  "description": "The Great White Shark is a formidable hunter, and carries itself with confidence. Not needing to rely on others, it is truly mobile and independent.",
+  "color": "#5895bb",
+  "status": "VU",
+  "why": "Driven, charismatic, and confident, you are a natural and gifted leader. You keep your cards close to your chest, and your vision helps you rise to the top in any group or workplace.",
+  "image": "/images/great_white_shark.jpg",
+  "logo": "/logo/great_white_shark_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Once this apex predator sets its eyes on a catch, it rarely needs to strike twice. You finish what you start, and create an attack plan."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Some sharks have been observed associating for some time, but largely they are independent creatures. You prioritize rationality and prioritizing logic when making decisions."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Great White Sharks coexist with many other creatures, and only attack when provoked. During most human encounters Great Whites use \"exploratory bites,\" where they bite to see if a person is prey, not to kill. You are outgoing and enjoy sharing your ideas, and always make an impression. (But hopefully not one as impactful as a Great White.)"
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Great Whites travel wherever food is available, but prefer temperate seas. You pride yourself on your imagination, and explore new possibilities and ideas."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Great Whites are highly secure in their environment, but humans are their biggest threat. You are generally confident, and do not struggle to regulate your emotions."
+    }
+  ],
+  "traits": [
+    "Methodical",
+    "Discerning",
+    "Extroverted",
+    "Open minded",
+    "Self-assured"
+  ],
+  "likes": [
+    "Checking off tasks",
+    "Riddles and puzzles",
+    "Parties",
+    "Wild theories"
+  ],
+  "dislikes": [
+    "Vague plans",
+    "Therapy speak",
+    "The quiet game",
+    "Memorization"
+  ],
+  "facts": {
+    "General Facts": "With a reputation far scarier than its bite, this talented predator is more than the star of a scary movie.",
+    "Physical Description": "The Great White Shark is one of the most famous marine creatures for a reason. Its distinct triangular dorsal fin, 300+ teeth, and white underbelly make it easily identifiable in and out of the water. They can grow to be anywhere from 18-23 feet long, making it a large shark, but not the largest. Great White Shark: Predator and Prey? As an apex predator, this shark is known as one of the most formidable predators in the world. The power of its bite and skill in hunting mean that its prey\u2014 sea lions, seals, porpoises are a few examples\u2014 are unlikely to escape once they're targeted. Due to their bad eyesight, they track their kill with scent and vibrations in the water, and then deliver a powerful bite. However, they can be hunted by orca whales, and are often killed by humans as bycatch.",
+    "Community and Trust": "Little is known about Great White social behavior, but they have been observed associating together for some time and traveling together. Some social hierarchy in feeding areas has been observed, with smaller sharks waiting for larger, dominant sharks to eat upon occasion. Is the Great White Shark Aggressive? Unprovoked aggression towards other sharks, and even humans, is extremely rare. The fierce reputation of this creature comes from the fact that most fatal shark bites can be attributed to white sharks. However, these encounters are overwhelmingly either provoked, with the humans engaging the shark, or accidental. Great white sharks use an \"exploratory bite\" when they are not sure of the identity of a creature. They do not intentionally kill humans, because we aren't a part of their diet. Many species of shark  can peacefully coexist in their marine environment.",
+    "Does it Migrate?": "These sharks travel wherever food is available. They prefer temperate water, and hunt in the shallows. This behavior is largely why Great Whites have so many interactions with humans. Completely by coincidence, where we prefer to swim, they prefer to hunt.",
+    "Where is it on the Food Chain?": "Great Whites are highly secure in their environment. Their only predators are Killer Whales as adolescents, and humans. Unfortunately, humans hunt them for many reasons, from their teeth to their fins, and they are too often bycatch by fisherman.",
+    "Endangered Status": "Great White Sharks are listed as vulnerable by the IUCN Red List, and in Europe they are critically endangered. In order to keep these important predators protected, public perception must improve, and protective measures increase."
+  },
+  "sources": [
+    "https://www.britannica.com/animal/white-shark/Reproduction",
+    "https://www.iucnredlist.org/species/3855/212629880"
+  ],
+  "charity": "Mote (Marine Laboratory and Aquarium)",
+  "charityURL": "https://mote.org/",
+  "charityDesc": "MOTE, the Marine Laboratory and Aquarium, powers research on the oceans to drive change. From their mission statement: \"We advance marine science and education leading to new discoveries, revitalization, sustainability and greater public understanding of our oceans.",
+  "donationURL": "https://mote.org/support/donate/"
+}
