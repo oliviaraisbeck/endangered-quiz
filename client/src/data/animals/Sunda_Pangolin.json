@@ -1,0 +1,74 @@
+{
+  "name": "Sunda Pangolin",
+  "title": "The Data Scientist",
+  "description": "The pangolin is the only scaled mammal. This tree dweller has a knack for sniffing out its insect prey, and to avoid becoming prey itself, employs the iconic defensive roll.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "You may not roll into a defensive ball, but you have been described as a difficult nut to crack. You\u2019re a meticulous, grounded person, and prefer a small gathering with close friends to a weekend on the town.",
+  "image": "/images/sunda_pangolin.jpg",
+  "logo": "/logo/sunda_pangolin_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "The Sunda Pangolin is an insectivore, and digs and sniffs out its prey. You research and prepare a plan when starting a big project."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Pangolins tend to be shy and antisocial, and usually live alone. You take time to trust others, and keep a tight inner circle."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Not only are pangolins territorial, they deploy a defensive roll when threatened. You have an introverted nature, and prefer quiet, intimate gatherings to large parties."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Sunda Pangolins aren't migratory, and spend much of their lives in the trees. You focus on concrete details, and value facts and experience."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "They can even release a noxious spray to ward off predators. You can be conflict avoidant, and can struggle with feeling overwhelmed."
+    }
+  ],
+  "traits": [
+    "Organized",
+    "Discerning",
+    "Introverted",
+    "Grounded",
+    "Anxious at times"
+  ],
+  "likes": [
+    "Calendars",
+    "Logic puzzles",
+    "Quiet nights in",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Unclear rules",
+    "Trauma dumping",
+    "Loud parties",
+    "Trusting your gut"
+  ],
+  "facts": {
+    "General Facts": "The only scaled mammal, this tree dweller has a knack for sniffing out its insect prey.",
+    "Physical Description": "Sunda Pangolins range from one to three feet in length, and their pointed heads allow them to wriggle into insect burrows and nests to forage with their long tongues. They are armored on the outside, much like an armadillo, and have stubby legs and long claws.",
+    "Is it Predator or Prey?": "Exclusively an insectivore, their primary prey are ants, larvae, and termites. They scavenge using their long snout and claws, digging into the earth and through rotted trees. They are subject to predators and must be aware of their surroundings.",
+    "Community and Trust": "Most species of pangolins are shy and antisocial, and tend to live alone. Occasionally they can be observed in pairs.",
+    "Is it Assertive": "These creatures are competitive with other pangolins during mating. They mark their territory using scent, which also helps attract potential mates. While they are known for their defensive roll, they can use their tails as weapons.",
+    "Does it Migrate?": "Sunda Pangolins aren't migratory, and spend much of their lives in trees when they are not foraging for food. As a species, they are found in Central and Southern Africa, although their habitat and range is shrinking.",
+    "Where is it on the Food Chain?": "They are vulnerable to attack from clouded leopards and tigers, but their biggest threat is humans. This has resulted in their defensive posture.",
+    "Endangered Status": "Sunda Pangolins aren't just the only scaled mammal, they are the most trafficked mammal in the world. Today, most species of Pangolin are critically endangered by the IUCN Red List, like the Sunda Pangolin. Thankfully, with international cooperation to make their trade illegal and habitat protection, the Sunda Pangolin stands a chance."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/pangolin/",
+    "https://www.iucnredlist.org/species/12763/123584856"
+  ],
+  "charity": "African Wildlife Foundation",
+  "charityURL": "https://www.awf.org/",
+  "charityDesc": "The African Wildlife Foundation is based in Africa. Its focus on collaborating with local organizations makes them uniquely equipped to drive change.",
+  "donationURL": "https://secure.awf.org/page/119125/donate/1"
+}

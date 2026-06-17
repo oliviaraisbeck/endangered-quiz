@@ -1,0 +1,74 @@
+{
+  "name": "Sea Otter",
+  "title": "Protector",
+  "description": "A wave surfing creature as cute as it is critical to the environment, the sea otter has had many ups and downs in population. We must do more to protect this fun-loving, social, and intelligent creature: cute pictures aren\u2019t cutting it.",
+  "color": "#5895bb",
+  "status": "EN",
+  "why": "When confronted with an ever-changing world, you respond with adaptability and facts. You always strive to be better for yourself and those around you, which can lead you to be hard on yourself. But this strictness doesn\u2019t extend to your loved ones, who once you trust, you would do anything to protect.",
+  "image": "/images/sea_otter.jpg",
+  "logo": "/logo/sea_otter_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "A clever hunter, sea otters create tools to access shellfish, but must be flexible to avoid predators. You are also flexible, and adapt as situations change."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Sea otters famously join hands when resting, and these furry islands can be composed of as many as 2,000 otters! You make decisions with the group in mind, and form strong ties."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Sea otters prefer to hunt alone, but are not territorial. While you enjoy the company of others, you may take time to warm up, and enjoy alone time."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Sea otters can be found within a few miles of their home range year round. You think through your decisions carefully, and focus on concrete details."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Sea Otters act as both predator and prey, so they occupy a position of caution and opportunity. You can be guarded and sometimes stress can get the better of you."
+    }
+  ],
+  "traits": [
+    "Ready for anything",
+    "Empathetic",
+    "Reserved",
+    "Logical",
+    "A perfectionist"
+  ],
+  "likes": [
+    "Planning surprise parties",
+    "Intimate conversations",
+    "Puzzles",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Instruction manuals",
+    "Bad manners",
+    "Loud parties",
+    "Random chance"
+  ],
+  "facts": {
+    "General Facts": "Snuggles serving a purpose! This keystone species has improving numbers, but could still use a helping hand (to hold.)",
+    "Physical Description": "With a long body, short snout, flat tail, and small eyes, sea otters are one of the cutest creatures around. Its hind feet are flat and webbed, and its fur is the densest in the animal kingdom, providing all of its warmth.",
+    "Is it Predator or Prey?": "A predator that is also prey, they feed off of other marine life such as sea urchins and shellfish. An example of their intelligence, the sea otter uses tools such as rocks and sticks to access shellfish. They are voracious predators, and they play an important role in keeping down populations of urchins that would otherwise be detrimental to their habitat.",
+    "Community and Trust": "Sea otters famously join hands when resting, creating some of their best photo moments. They rest in ten to 100 same-sex groups called rafts. The largest observed raft was composed of 2,000 males! Sea otters can be territorial in mating season, but otherwise they have no desire for conflict, and fighting is rare.",
+    "Is it Assertive": "Sea otters are not territorial and are cooperative with other otters. They do not exhibit aggression towards other species, and flee when they are nervous.",
+    "Does it Migrate?": "Sea otters can be found within a few miles of their home range year round. The sea otter population surrounding California may have been as high as 150,000 to 300,000 otters, but in the modern day, they only occupy a fraction of their original territories.",
+    "Where is it on the Food Chain?": "Sea Otters act as both predator and prey, so they occupy a position of caution and opportunity. Carefully observing their surroundings for threats is just as important as chasing their next meal. Sea otters are a keystone species because they also provide food for other predators, so they are helping both below and above where they sit on the food chain!",
+    "Endangered Status": "Some populations have bounced back since conservation efforts began, but other populations have declined rapidly. The IUCN Red List categorizes Sea otters as endangered in several of their territories. Reducing rampant overfishing and protecting shoreline habitats will be important for its future recovery."
+  },
+  "sources": [
+    "https://www.britannica.com/animal/sea-otter",
+    "https://www.iucnredlist.org/species/7750/219377647"
+  ],
+  "charity": "The Sea Otter Foundation and Trust",
+  "charityURL": "https://seaotterfoundationtrust.org/",
+  "charityDesc": "The Sea Otter Foundation and Trust gives direct grants to universities, scientists, and conservationists to protect otters and educate the public on their plight.",
+  "donationURL": "https://seaotterfoundationtrust.org/donate"
+}

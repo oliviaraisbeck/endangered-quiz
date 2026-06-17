@@ -1,0 +1,75 @@
+{
+  "name": "Migratory Monarch Butterfly",
+  "title": "Counselor",
+  "description": "One of the most famous migratory animals on earth, this small but brave explorer embarks on thousand mile journeys in large protective groups.",
+  "color": "#5895bb",
+  "status": "VU",
+  "why": "Social and sensitive, you enjoy exploring the emotions and ideas of those around you. You pride yourself on being open minded, but your sensitivity can get the better of you and lead to stress.",
+  "image": "/images/migratory_monarch_butterfly.jpg",
+  "logo": "/logo/migratory_monarch_butterfly_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Monarchs primarily consume nectar from milkweed, but can adjust as needed. You remain flexible when things change."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Monarchs travel in large groups known as roosts and sleep in groups to improve their odds of survival. You also prize your bonds with others, and keep your friends close."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Coexisting with all creatures is necessary to their survival, and they don't fight with others. You are outgoing, and enjoy sharing your ideas."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "The migratory monarch butterfly undertakes a famous migration of 3,000 plus miles from the east coast of the US and Canada to the mountains of Mexico. You enjoy exploring ideas and theories, and are future oriented."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "They are constantly under threat by predators. Sometimes stress and nerves can get the better of you."
+    }
+  ],
+  "traits": [
+    "Flexible",
+    "Empathetic",
+    "Outgoing",
+    "Open minded",
+    "A perfectionist"
+  ],
+  "likes": [
+    "Empty planners",
+    "Careful compliments",
+    "Meeting new people",
+    "Sharing ideas and theories"
+  ],
+  "dislikes": [
+    "Assembling furniture",
+    "Poor manners",
+    "The quiet game",
+    "Memorization"
+  ],
+  "facts": {
+    "General Facts": "Black, orange and white all over, this is one recognizable tiny traveler.",
+    "Physical Description": "The migratory monarch butterfly evolved its orange, black and white coloration to signal that they are poisonous to predators. Their average wingspan is four inches, and they live for three to five weeks.",
+    "Is it Predator or Prey?": "Their diet consists of nectar from milkweeds first and foremost, and is supplemented by flowers and vegetation. Its predators include birds, beetles, and mice, to name a few.",
+    "Community and Trust": "Monarchs do not socialize in the traditional sense. When migrating, during the day they fly alone. But at night, they travel in large hordes known as roosts. They also sleep in groups to improve their chances when faced with predators.",
+    "Is it Assertive": "These butterflies certainly match the reputation of their species. Coexisting with other animals is necessary to their survival, and they don't fight one another, (although sometimes their mating rituals can make it appear otherwise.)",
+    "Does it Migrate?": "They travel as far as 3,000 miles from Canada\u2019s east coast to the mountains of Mexico. They hibernate from November through March, before undertaking the journey all over again.",
+    "Where is it on the Food Chain?": "As a small insect, they are constantly under threat by predators, which contributes to their short lifespan.",
+    "Endangered Status": "While these beautiful butterflies aren't endangered, they are categorized as vulnerable by the IUCN Red List. They deserve to be highlighted because their plight is like many other small species. Habitat loss and pesticides threaten their population, so environmental protections are critical to their future survival."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/monarch-butterfly/",
+    "https://www.iucnredlist.org/species/194052138/246096271",
+    "https://www.worldwildlife.org/species/monarch-butterfly"
+  ],
+  "charity": "The National Wildlife Federation",
+  "charityURL": "https://www.nwf.org/",
+  "charityDesc": "The National Wildlife Federation preserves the United State's natural landscapes for future generations of people and endangered species.",
+  "donationURL": "https://support.nwf.org/page/89607/donate/1?ea.tracking.id=SRC&gclsrc=aw.ds&gad_source=1&gad_campaignid=23266753855&gbraid=0AAAAAD_rpHUnqMvZaNXTrvaOEU9V38Exe&gclid=CjwKCAiA8vXIBhAtEiwAf3B-gyjH2z63O97sbyanZx3g7-rT2EWko6wHTpw9cjWNqKSnDCeBu707DxoCOfsQAvD_BwE"
+}

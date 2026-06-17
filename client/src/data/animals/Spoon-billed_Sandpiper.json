@@ -1,0 +1,75 @@
+{
+  "name": "Spoon-billed Sandpiper",
+  "title": "Soul Searcher",
+  "description": "An innovative critter-catcher, this sandpiper uses its utensil-shaped beak to stir up prey from the shores it calls home. Exploratory and adaptable, this bird must always be guarded as it embarks on impressive migrations each year that take it across the globe.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "Among friends, you\u2019re a trusted confidant and safe place. You may take time to open up, and can be protective of your loved ones and yourself. But once someone earns your trust, they\u2019ll discover a wealth of imagination and caring, and your constant desire to grow.",
+  "image": "/images/spoon-billed_sandpiper.jpg",
+  "logo": "/logo/spoon-billed_sandpiper_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "\u201cSpoon-billed\u201d is more than a fun name. This sandpiper uses its beak to stir up prey in the sand, then scoops it up. You like to have a plan in mind, but adapt quickly as situations change."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Moderately social birds, they make these huge migrations alongside others, and nest near one another. You consider other\u2019s feelings when making decisions."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "However, Spoon-bills can be territorial when resources are scarce. You can be reserved, especially in big groups."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Adaptiveness comes in handy, as some species of sandpiper can travel 8,000 miles nonstop. You enjoy exploring new ideas, and pride yourself on being open-minded."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Even when hunting, the Spoon-billed Sandpiper is often being hunted. This requires constant diligence. Sometimes pressure and self-doubt can get the better of you."
+    }
+  ],
+  "traits": [
+    "Type B",
+    "Sensitive",
+    "Introverted",
+    "Imaginative",
+    "Protective"
+  ],
+  "likes": [
+    "Open schedules",
+    "Fireside chats",
+    "Learning new things",
+    "Talking about hopes and dreams"
+  ],
+  "dislikes": [
+    "Instruction manuals",
+    "Talking over people",
+    "Loud parties",
+    "Memorization"
+  ],
+  "facts": {
+    "General Facts": "You might recognize this bird from the Pixar short, or a day by the ocean watching them skitter through the waves.",
+    "Physical Description": "TSpoon-billed Sandpipers have stout bodies and long, slender legs. Like many sandpipers, they have brown and white feathers, and stand at just over five inches. As the name suggests, their spoon-shaped bills set them apart from other species.",
+    "Is it Predator or Prey?": "When hunting along the seashores they call home, they employ a method, called sewing, where they peck the sand as they run. Sewing turns the top layer of the sand into a \"soup\" to trap prey. Then, using its spoon shaped bill, it can scoop up the worms, miniature red crabs, and amphipods that are critical to its diet. Read on to learn about its predators.",
+    "Community and Trust": "These sandpipers are social birds, and migrate with others. Especially when food is plentiful, nests can be close together. Mothers care for their young until they are mature enough to hunt on their own.",
+    "Is it Assertive": "Spoon-billed Sandpipers live alongside many other creatures. These coastal environments are estuaries for a huge variety of animals and plants. When resources are scarce, sandpipers can be extremely territorial.",
+    "Does it Migrate?": "This bird is known to have a wide range. They breed in North East Russia, then travel 5,000 miles to reach South East Asia, where they spend the winter. Some species of sandpiper have even been known to travel 8,000 miles nonstop!",
+    "Where is it on the Food Chain?": "Even while they are hunting, the Spoon-billed Sandpiper is often being hunted. Larger birds threaten them as adults, and predators scour the dunes for their nests. Both pose an equal threat to this species, so they have to be guarded throughout their life.",
+    "Endangered Status": "The IUCN Red List categorizes the Spoon-billed Sandpiper as critically endangered, with a best guess estimate of about 420 mature individuals remaining in the wild. In order to protect this unique and intelligent key species, coastal development should be stopped in areas they rely on to raise their young, and hunting should be legally prohibited, especially in their winter habitats."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/sandpiper/",
+    "https://www.iucnredlist.org/species/22693452/154738156#habitat-ecology",
+    "https://www.edgeofexistence.org/species/spoon-billed-sandpiper/"
+  ],
+  "charity": "Birdlife International",
+  "charityURL": "https://www.birdlife.org/",
+  "charityDesc": "Birdlife International maintains an advanced database to help conservationists, and drive change.",
+  "donationURL": "https://www.birdlife.org/donate/"
+}

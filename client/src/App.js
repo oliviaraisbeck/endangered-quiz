@@ -7,7 +7,7 @@ import Results from './pages/Results';
 import Layout from './Layout';
 import About from './pages/About';
 import Mission from './pages/Mission';
-import Animals from './pages/Animals';
+import Animals from './pages/OurAnimals';
 import AnimalPage from './pages/AnimalPage';
 import Help from './pages/Help';
 

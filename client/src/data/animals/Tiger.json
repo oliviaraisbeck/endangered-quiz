@@ -1,0 +1,74 @@
+{
+  "name": "Tiger",
+  "title": "Lead Scientist",
+  "description": "With powerful jaws, claws, and expert hunting skills, this striped cat is even feared by other apex predators.",
+  "color": "#5895bb",
+  "status": "EN",
+  "why": "You\u2019re as organized and highly effective as this big cat. You value personal space, and take time to form strong connections. Your mighty reputation comes with well-deserved confidence.",
+  "image": "/images/tiger.jpg",
+  "logo": "/logo/tiger_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "A deadly predator, you tend to \"kill\" any problem you set your eyes on. You\u2019re highly effective at work, and always develop an attack plan in advance."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "These cats are solitary, and maintain distinct territories where they live and hunt. You believe logic should guide important decisions, and it takes time to earn your trust."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Tigers are territorial and fend off others as needed, spacing out across hundreds of miles. You value your personal space and time to recharge."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "They observe territories and travel short distances to find food as needed. You value realism and think through your decisions carefully."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Tigers are extremely confident in their environments. You are resilient, and do not struggle to regulate your emotions."
+    }
+  ],
+  "traits": [
+    "Type-A",
+    "Discerning",
+    "Self-reliant",
+    "Realistic",
+    "Confident"
+  ],
+  "likes": [
+    "Labels and organization",
+    "Logical decisions",
+    "Solo hobbies",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Unclear rules",
+    "Oversharing",
+    "Loud parties",
+    "Trusting only gut instinct"
+  ],
+  "facts": {
+    "General Facts": "With powerful jaws, claws, and expert hunting skills, this striped cat is even feared by other apex predators.",
+    "Physical Description": "The tiger's distinct orange and black stripes make it one of the most recognizable creatures on earth. Every tiger has their own stripe pattern, which helps them blend into their forest habitats. Their teeth grow to four inches long, and they can weigh anywhere from 240-675 pounds.",
+    "Is it Predator or Prey?": "Tigers are carnivores who eat almost anything they set their eyes on, (including other big cats!) They can travel at speeds up to 60 miles per hour. They are an apex predator, sitting at the top of their food chain.",
+    "Community and Trust": "These cats are solitary, and maintain distinct territories. Tigers communicate using scent, body language, and vocalizations. Like house cats, baring teeth and growling signals distrust, and rubbing up against others signals closeness. During mating season, tigers come together briefly. Mothers care for their young for the first two years of their life.",
+    "Is it Assertive": "Tigers are territorial and fend off others. They prefer to intimidate one another before they resort to fighting, but if necessary, males fight over breeding opportunities, and female tigers fend off other females. Typically, male tiger territories overlap with the ranges of a few females, but they prefer to be spaced out across several hundred miles.",
+    "Does it Migrate?": "They observe territories and travel short distances to find food as needed. Some types of tigers migrate in the winter, such as the Siberian Tiger.",
+    "Where is it on the Food Chain?": "Tigers are extremely confident in their environments, with human activities posing the largest threat to this already endangered species. When tigers are young they must be more careful, but their confidence grows with age.",
+    "Endangered Status": "Due to hunting, the division of their habitats, and destruction of the forests tigers rely on, tigers are listed as endangered by the IUCN Red List. In order to save the wild tiger population, their habitats must be protected and expanded, and hunting further restricted."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/tiger/",
+    "https://www.iucnredlist.org/species/15955/214862019"
+  ],
+  "charity": "",
+  "charityURL": "https://panthera.org/",
+  "charityDesc": "Panthera is devoted to preservation of wild big cats. This focused mission helps drive their effectiveness and trustworthiness.",
+  "donationURL": "https://panthera.org/support-us"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Giant Panda",
+  "title": "Thinker",
+  "description": "The giant panda\u2019s black and white coloration and large size could be intimidating, if not for their round features and low-key lifestyle. One of the most iconic endangered species on the planet, they demonstrate the potential of conservation efforts, as well as the challenges.",
+  "color": "#5895bb",
+  "status": "VU",
+  "why": "Your easygoing nature and big imagination takes you on all sorts of adventures, even if they are all mental. Your few very close friends appreciate your open-mindedness, and trust that you\u2019ll make decisions that are right for you. Time alone is crucial to your happiness, as well as mental stimulation.",
+  "image": "/images/giant_panda.jpg",
+  "logo": "/logo/giant_panda_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Bamboo composes 99% of the panda's diet, but that's the only area they can be called inflexible. Their low-key nature is much like yours, where you value being open minded and spontaneous."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Pandas are solitary creatures besides during their mating season. You prefer to make decisions based on logic and objective analysis, opposed to emotion."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "They mark their territory with their scent glands and scratch marks. You prioritize having a place to destress alone after a busy day."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Pandas migrate for food and during the winter months. They even keep mental maps of their home territories to remember where food is most plentiful. You also observe patterns and possibilities for opportunity, and enjoy exploring ideas and theories."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "As adults, they have no natural predators except for humans. You are self-assured, and generally emotionally stable."
+    }
+  ],
+  "traits": [
+    "Open-minded",
+    "Discerning",
+    "Introverted",
+    "Imaginative",
+    "Self-assured"
+  ],
+  "likes": [
+    "Free days",
+    "Spotting patterns and clues",
+    "Independent hobbies",
+    "Lofty hopes and dreams"
+  ],
+  "dislikes": [
+    "Instruction manuals",
+    "Name games",
+    "Big personalities",
+    "Memorization"
+  ],
+  "facts": {
+    "General Facts": "One of the most iconic endangered species on the planet, this asian bear is still vulnerable today.",
+    "Physical Description": "In the mountainous forests of China, the Giant Panda eats 40% of its body weight daily. Their chunky, black and white patterned bodies are unique among bears. They weigh between 150-240 pounds, and don't hibernate.",
+    "Is it Predator or Prey?": "Bamboo composes over 99% of a giant panda's diet, but bamboo provides little energy relative to other foods. As a result, pandas spend 12-15 hours a day eating just to reach their nutritional needs.",
+    "Community and Trust": "Pandas are solitary besides during their mating season. Once the cubs are born, female pandas raise their young alone. Due to the nutritional difficulty in keeping both cubs alive, mothers raise the stronger cub in the wild. Sometimes the cub will remain with their mothers for a few years. However, once the female is pregnant again, the cub must move on.",
+    "Is it Assertive": "Sections from scent glands and scratch marks on trees are used to mark panda\u2019s territory. Males have double the territory relative to females, and where their territory intersects with a female, they claim breeding rights.",
+    "Does it Migrate?": "Pandas migrate for food and during the winter months. Scientists have determined that pandas keep mental maps of their home ranges, and move to maximize food availability. When movement is not necessary, pandas try to be as sedentary as possible to avoid wasting precious energy.",
+    "Where is it on the Food Chain?": "As adults, they have no natural predators except for humans. However, as cubs they are vulnerable to leopards and birds of prey. After all, they weigh only a few ounces and measure a few inches long when they start their lives.",
+    "Endangered Status": "A true success story, the giant panda was once predicted to be extinct in the wild. Today, there are over 2,000 adults, bringing them to vulnerable status by the IUCN Red List. The tireless work of the Chinese government can be attributed to this success. The giant panda is a clear example of the success of breeding campaigns and habitat protection, so its story should be"
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/giant-panda-bear/",
+    "https://www.iucnredlist.org/species/712/121745669",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10083218/"
+  ],
+  "charity": "World Wildlife Fund",
+  "charityURL": "https://www.worldwildlife.org/",
+  "charityDesc": "One of the most iconic environmental groups, the World Wildlife Fund drives research, legislation, and preservation of endangered species and animal habitats.",
+  "donationURL": "https://protect.worldwildlife.org/page/90206/donate/1?en_og_source=Web_Donation&ea.tracking.id=Web_Topnav&supporter.appealCode=AWE2605OQ18299A09256RX&_gl=1*tlapn*_ga*NzQ3Mzc1MDIyLjE3NjUwNjQ5Mzc.*_ga_FK6M9RK84Z*czE3NjUwNjQ5MzYkbzEkZzAkdDE3NjUwNjQ5MzYkajYwJGwwJGgxOTEyNzc5Mzky"
+}

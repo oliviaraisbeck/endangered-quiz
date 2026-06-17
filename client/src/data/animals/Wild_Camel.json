@@ -1,0 +1,74 @@
+{
+  "name": "Wild Camel",
+  "title": "Philosopher",
+  "description": "Known for thriving in the extreme heat it calls home, they can go days without water, but not without travel buddies. Wild Bactrian Camels are distinct from the domesticated camels we know and love, but no less valuable.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "Friendship and creativity fuel you, but you choose the times to branch outside of your chosen family carefully. You are open minded, extremely perseverent, and self possessed. You and your unique contributions are respected, and for good reason.",
+  "image": "/images/wild_camel.jpg",
+  "logo": "/logo/wild_camel_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "One of the most adaptable species on the planet, its arid home ranges from 122 degrees fahrenheit in the day to -22 at night. They also can go days without water. You are resilient and flexible."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Wild camels live in herds of up to 40, and a dominant male defends the group. You are empathetic, and are similarly protective of your loved ones."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Their amazing distant eyesight gives them the ability to decide what creatures it comes across. You prioritize your alone time."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "They are fully migratory, and travel great distances to find water and food. You are imaginative, and explore patterns and possibilities."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Due to their size and lack of predators, these camels are generally confident in their environment. You are also confident, and have effective strategies for regulating stress."
+    }
+  ],
+  "traits": [
+    "Resilient",
+    "Empathetic",
+    "Introverted",
+    "Imaginative",
+    "Self possessed"
+  ],
+  "likes": [
+    "Empty planners",
+    "Quality time",
+    "Familiar groups",
+    "Talking about ideas and theories"
+  ],
+  "dislikes": [
+    "Math problems",
+    "Bad manners",
+    "Loud parties",
+    "Small talk"
+  ],
+  "facts": {
+    "General Facts": "Known for thriving in the extreme heat it calls home, this creature can go days without water, but not without travel buddies.",
+    "Physical Description": "Wild Bactrian camels are a distinct species to the camels that we know and love, which were domesticated between 3,000 and 6,000 years ago. Wild Bactrian camels are two humped, and only reside in Mongolia and the northwestern region of China. They average seven feet tall. The Wild Camel: Not Predator or Prey Their primary source of food is shrubbery, and they travel great distances to find water at the base of mountains and valleys. Wild camels may lack predators, but not toughness. They are known as one of the toughest and most adaptable creatures on earth. The arid, dry landscapes they call home range from 122 degrees in the summer to a low of \u221222 degrees in the winter.",
+    "Community and Trust": "The Wild Bactrian Camel lives in herds with up to 40 individuals and their young, led by one dominant male. The dominant male then defends his harem, as the group is called, from other males by biting, spitting, and leaning on any aggressors.",
+    "Is it Assertive": "While domesticated camels are trusting of humans, Wild Bactrian Camels have adapted excellent distance eyesight and will avoid contact with other species whenever possible. If confronted, males will fiercely defend their harem.",
+    "Does it Migrate?": "They are fully migratory, and travel great distances to find water and food. They often congregate at the bottom of mountains, where water and the brush they rely on is plentiful.",
+    "Where is it on the Food Chain?": "Due to their size and lack of predators, these camels are generally confident in their environment. Since the climate they live in is so intense, they no longer face the large predators they would have worried about historically. There is even evidence that these camels can survive nuclear radiation.",
+    "Endangered Status": "The IUCN Red List categorizes the Wild Bactrian Camel as critically endangered, and there are only 950 mature adults believed to exist in the wild. Drought is one of the largest threats to this creature, but human development and hunting are causes for concern. Current conservation efforts include creating nature reserves and breeding in captivity, and with support, those efforts are projected to stabilize its population declines."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/camel/",
+    "https://www.iucnredlist.org/species/63543/12689285",
+    "https://www.edgeofexistence.org/species/wild-camel/"
+  ],
+  "charity": "The Wild Camel Protection Foundation",
+  "charityURL": "https://www.wildcamels.com/",
+  "charityDesc": "The only charity dedicated solely to the preservation of wild camel populations.",
+  "donationURL": "https://www.wildcamels.com/help-us/sponsorship/"
+}

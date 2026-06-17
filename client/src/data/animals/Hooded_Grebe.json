@@ -1,0 +1,75 @@
+{
+  "name": "Hooded Grebe",
+  "title": "Founder",
+  "description": "Hooded grebes are independent creatures that travel for companionship and food. Friendly but guarded, they spend much of their time foraging.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "You enjoy talking about ideas in a group, but are particular about who you really let in. Once you trust someone, they\u2019ll be treated to a true friend who cares about their future, and thinks before making big decisions.",
+  "image": "/images/hooded_grebe.jpg",
+  "logo": "/logo/hooded_grebe_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "The grebe hunts for invertebrates and vegetation in the lakes it calls home. You prefer to know what you're doing each day."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Largely solitary, it prefers to live alone except for breeding season. You make decisions based on logic, and take your time instead of leading with emotion."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Hooded Grebes are usually okay with their neighbors, and can nest near one another. You are comfortable meeting new people and get along with others easily."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "They migrate for mating season, and in the winter months travel to Santa Cruz. You enjoy exploration, and are future-oriented."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Hooded grebes have to be alert the entirety of their lives. Sometimes stress and nerves can get the better of you."
+    }
+  ],
+  "traits": [
+    "Organized",
+    "Discerning",
+    "Outgoing",
+    "Imaginative",
+    "Careful"
+  ],
+  "likes": [
+    "To-do lists",
+    "Logic puzzles",
+    "Group outings",
+    "Planning for the future"
+  ],
+  "dislikes": [
+    "Cheating in games",
+    "Oversharing",
+    "Meditation",
+    "Graphs and charts"
+  ],
+  "facts": {
+    "General Facts": "In the most remote parts of Patagonia, this distinct subspecies of grebe nests with hundreds of others.",
+    "Physical Description": "Hooded grebes are mostly white, but have a dark grey back that goes up to their neck. They have a red, peaked forecrown. These birds typically measure 13 inches in length. Their lobed toes act like propeller blades.",
+    "Is it Predator or Prey?": "The Hooded Grebe hunts aquatic vertebrae and eats vegetation in lakes. This vegetation also serves as the grebes' nesting sites. Ground predators such as minks can pose a serious threat.",
+    "Community and Trust": "These birds are typically solitary, but come together during mating season. As many as 130 breeding pairs unite at isolated lakes in Patagonia, Argentina. Once they hatch, males help care for the chicks for a time, providing some food before letting them embark on their own.",
+    "Is it Assertive": "Hooded Grebes are territorial over their small nesting areas, but are okay with neighbors in larger colonies. The degree of friendliness strongly depends on the time of year. Overall, grebes are not known to be aggressive.",
+    "Does it Migrate?": "They migrate for mating season and when the weather cools. In those winter months, they nest in the estuaries of the Atlantic coast of Santa Cruz.",
+    "Where is it on the Food Chain?": "Hooded Grebes have to be alert the entirety of their lives. The American mink poses a threat to the grebe at all ages, and has been known to decimate half of the breeding population in any area at times.",
+    "Endangered Status": "Climate change is the biggest risk to this unique species. Many of the lakes and vegetation it relies on are vulnerable to extreme weather. Habitat destruction through excessive grazing from sheep is another major concern. Hooded Grebes are listed as critically endangered by the IUCN Red List."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/grebe/",
+    "https://www.iucnredlist.org/species/22696628/145837361",
+    "https://www.edgeofexistence.org/species/hooded-grebe/"
+  ],
+  "charity": "BirdLife",
+  "charityURL": "https://www.birdlife.org/",
+  "charityDesc": "BirdLife International maintains an advanced database to help conservationists, and drive change.",
+  "donationURL": "https://www.birdlife.org/donate/"
+}
