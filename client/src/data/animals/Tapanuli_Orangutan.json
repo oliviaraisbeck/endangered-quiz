@@ -1,0 +1,75 @@
+{
+  "name": "Tapanuli Orangutan",
+  "title": "Lawyer",
+  "description": "Super smart and self reliant, Tapanuli Orangutans are guarded emotionally and physically, since they live high in the trees.",
+  "color": "#5895bb",
+  "status": null,
+  "why": "You pride yourself on your resourcefulness and reasoning, and value intelligence. In groups, you express yourself well, but struggle with confidence at times. Your few close friends see this vulnerability, but strangers would never be able to tell.",
+  "image": "/images/tapanuli_orangutan.jpg",
+  "logo": "/logo/tapanuli_orangutan_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "They create tools, such as cups made of bark, and use sticks to collect bugs. You create strategies and plans for your work and life."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Once the Tapanuli Orangutan is about ten, it lives alone except during mating season. You identify with being a realist, and let logic guide you over emotion."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Orangutans prefer not to fight, and are conflict avoidant unless confronted. You get along well with others, and enjoy talking about topics you're passionate about."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "This species resides in the broadleaf forests of Tapanuli, in an isolated area of just over 300 square miles. You value realism, and friends consider you practical."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "They are subject to large predators such as tigers and snakes, and this requires them to be cautious in their environment. Sometimes stress and self-doubt can get the better of you."
+    }
+  ],
+  "traits": [
+    "Type-A",
+    "Discerning",
+    "Extroverted",
+    "Logical",
+    "Guarded"
+  ],
+  "likes": [
+    "To-do lists",
+    "The right tool for the job",
+    "Friend's friends",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Lack of closure",
+    "Fake smiling",
+    "Long presentations",
+    "Going off of memory"
+  ],
+  "facts": {
+    "Physical Description": "Tapanuli Orangutans are unique to other primates because they spend most of their lives in the trees. To swing from branch to branch, they evolved to have long arms and strong hands with opposable thumbs. They have red, frizzy hair and flat faces compared to other orangutans.",
+    "Is it Predator or Prey?": "A tree dwelling scavenger, this omnivore eats mostly fruit, lizards, and bugs. They are very intelligent, and create tools to assist in their day to day. Examples include cups made of bark to collect rain water, and sticks to gather bugs to eat. They also create mental maps of their homes to track what food will be available throughout the year.",
+    "Community and Trust": "They prefer to live alone, and are observed together only when a mother is raising her young and during mating. Young Tapanuli Orangutans stay with their mothers until they are about ten, and then have been observed visiting their mothers into their teen years. When it is time to meet a partner, male orangutans release a loud call that can be heard from up to a mile away.",
+    "Is it Assertive": "Tapanuli Orangutans prefer not to fight, and unless confronted, are conflict avoidant. If food is scarce, or if males are competing for a mate, they have been known to fight, sometimes to the point of serious injury.",
+    "Does it Migrate?": "This species resides in the broadleaf forests of Tapanuli, South of Lake Toba, in an isolated area of just over 300 square miles. They do not have the ability to leave this territory due to human encroachment.",
+    "Where is it on the Food Chain?": "They are subject to large predators such as snakes, and this requires them to be cautious in their environment. Their size and position high in the trees gives them some security in their home ranges.",
+    "Endangered Status": "Deforestation is the largest threat to these beautiful creatures, as with all orangutans. Their homes are increasingly being divided by farming and human development. The IUCN Red List designated the Tapanuli Orangutan as critically endangered, and only by protecting their habitats and preventing hunting can the 800 estimated orangutans carry on in their natural habitats."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/tapanuli-orangutan/",
+    "https://www.iucnredlist.org/species/120588639/259042400",
+    "https://orangutan.org/orangutan-facts/orangutan-behavior/",
+    "https://en.wikipedia.org/wiki/Tapanuli_orangutan"
+  ],
+  "charity": "The Orangutan Project",
+  "charityURL": "https://www.theorangutanproject.org/",
+  "charityDesc": "A powerful example of direct intervention, the Orangutan Project is creating emergency services for injured and sick apes. Since it is run by locals, they uniquely understand the needs of orangutans.",
+  "donationURL": "https://www.theorangutanproject.org/donate/"
+}

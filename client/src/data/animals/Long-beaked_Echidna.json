@@ -1,0 +1,76 @@
+{
+  "name": "Long-Beaked Echidna",
+  "title": "Analyst",
+  "description": "The echidna is an egg laying mammal, a trait it only shares with the platypus. With a spiked back, narrow snout and long tongue used to forage for insects, it is truly one of a kind, and shows off the limitless ability of nature to adapt for any situation.",
+  "color": "#5895bb",
+  "status": null,
+  "why": "Like this unique species, you quickly adjust no matter the situation, and are flexible in your approach when armed with the facts. You are friendly to everyone, but guarded when admitting acquaintances to your inner circle. This careful approach serves you well, but can lead to anxiety.",
+  "image": "/images/long-beaked_echidna.jpg",
+  "logo": "/logo/long-beaked_echidna_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Like an ant eater, echidnas forage with their snouts and claws. You are adaptable and ready to navigate the unfamiliar."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Female echidnas raise their young for 200 days, but then live out the remainder of their lives alone. You make decisions based on logic, and your close friends identify you as a realist."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "They live alongside many other creatures. You are comfortable in groups, and enjoy socializing, but appreciate your alone time."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Echidnas do not migrate due to their slow pace and limited territory. You draw from your previous experiences, and value facts."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "The definition of conflict avoidant, echidnas curl into a spiky ball when threatened. You can be conflict avoidant, and sometimes stress and nerves can get the better of you."
+    }
+  ],
+  "traits": [
+    "Adaptable",
+    "Discerning",
+    "Outgoing",
+    "Pragmatic",
+    "A perfectionist"
+  ],
+  "likes": [
+    "New approaches",
+    "Facts and figures",
+    "Meeting new people",
+    "Careful decisions"
+  ],
+  "dislikes": [
+    "Instruction manuals",
+    "Oversharing",
+    "Long presentations",
+    "Random chance"
+  ],
+  "facts": {
+    "General Facts": "One of earth's oldest living mammals, the list of their oddities is longer than the traits echidnas share with others.",
+    "Physical Description": "Echidnas are a genetic marvel, one of earth's two mammals that lay eggs along with the platypus. Unlike its counterpart, the echidna is not aquatic. Its robust body is covered in spines, and when threatened, it curls into a ball. From its small, long snout emerges a long tongue that is used like an anteaters' to hunt insects.",
+    "Is it Predator or Prey?": "Long-beaked echidnas forage like ant eaters, using their claws to make entrances into insect hills and nests, then wiggling in their narrow snouts. Once inside, their long, sticky tongue can lap up larvae, insects, and worms.",
+    "Community and Trust": "Individuals live out their lives alone, only coming together to mate. While little is known about their behavior since long beaked echidnas are so rare, the mating rituals of short beaked echidnas can provide a good guess. After mating, females are responsible for raising their young and care for them for about 200 days.",
+    "Is it Assertive": "Echidnas are not known for their assertiveness. They prefer sheltered environments, and long-beaked echidnas have been known to tunnel. They also seek out caves, overturned trees, and other enclosed spaces for added safety.",
+    "Does it Migrate?": "Echidnas' limited migration is due to their slow pace and lack of habitable territory. From our limited observation, their only exploratory movements are in pursuit of food. Little is otherwise known since placing trackers is challenging due to their barbed backs.",
+    "Where is it on the Food Chain?": "Echidnas are relatively low on the food chain. They do forage for insects, but that\u2019s where their predatory behavior begins and ends. The definition of conflict avoidant, they curl into a spiky ball when threatened.",
+    "Endangered Status": "Long beaked echidnas are critically endangered, with Sir David Attenborough's long beaked echidna in particular being so rare that it was only spotted again in 2023 since its initial discovery. Hunting by humans is their biggest threat, since local populations see their by-products as valuable. Only through further legal protection will they be able to recover from their current status as critically endangered by the IUCN Red List."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/echidna/",
+    "https://www.iucnredlist.org/species/136322/21964353",
+    "https://www.edgeofexistence.org/species/attenboroughs-long-beaked-echidna/",
+    "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0020/92441/Short-Beaked-Echidna.pdf"
+  ],
+  "charity": "The Nature Conservancy",
+  "charityURL": "https://www.nature.org/en-us/",
+  "charityDesc": "The Nature Conservancy is a global driver of habitat preservation and the reversal of climate change. They offer general donations, or the ability to select regions you would like to support.",
+  "donationURL": "https://preserve.nature.org/page/80429/donate/1"
+}

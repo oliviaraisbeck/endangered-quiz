@@ -1,0 +1,75 @@
+{
+  "name": "Blakiston's Fish-owl",
+  "title": "Visionary",
+  "description": "Fantastic predators, the Blakiston's Fish Owl is a confident and formidable 10 pounds. They mate for life, and value their home turf.",
+  "color": "#5895bb",
+  "status": "EN",
+  "why": "You may have lofty dreams, but deep down you value a quiet life with your loved ones by your side. Your creativity and confidence lets you see the world from many perspectives, and those willing to listen will cherish your ideas.",
+  "image": "/images/blakiston's_fish-owl.jpg",
+  "logo": "/logo/blakiston's_fish-owl_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Called a fish owl for a reason, they adapted for their water-based prey. Similarly, you prefer to formulate a plan and know what your day holds."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "These owls are monogamous and mate for life, and both parents care for their young. You form strong, emotional bonds and prioritize others."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Outside of their life partner, these owls will fight off intruders within their territory, and are very independent. You prefer quieter environments and the company of loved ones."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "These owls find forested areas near water to live out their lives. Their flight allows them to see the world from all angles, and you too are future oriented and enjoy exploring ideas from many perspectives."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "As adults and apex predators, they have no natural threats. You are generally emotionally resilient and confident."
+    }
+  ],
+  "traits": [
+    "Diligent",
+    "Loving",
+    "Introverted",
+    "Creative",
+    "Stable"
+  ],
+  "likes": [
+    "Goals and landmarks",
+    "Working together",
+    "Solo hobbies",
+    "Talking about new ideas"
+  ],
+  "dislikes": [
+    "Improvising",
+    "Interrupting",
+    "Loud parties",
+    "\u201cThat\u2019s impossible\u201d"
+  ],
+  "facts": {
+    "General Facts": "The largest species of owl, these formidable fishermen coexist with many endangered creatures in North East Asia.",
+    "Physical Description": "These fish-owls have a long bill, husky body, and brown and tan plumage. Their wing flaps are also silent, like some other owl species. Female owls are about 25% larger than males, weighing in at up to 10 pounds.",
+    "Is it Predator or Prey?": "Blakistons' are the apex predators of their food chain, and are uniquely adapted to catch fish. Some of their prey include catfish, salmon, and lamprey.",
+    "Community and Trust": "These owls are monogamous and mate for life. Both parents care for their young and divide labor in hunting and protection. They teach their offspring until they are ready to fly the nest and find life partners of their own.",
+    "Is it Assertive": "Once they leave the nest, Blakiston's find their own territory and are solitary until it is time to mate. They can be territorial within their turf. They're known to be fighters, and are willing to be aggressive to defend their loved ones and territory.",
+    "Does it Migrate?": "While these owls find forested areas near bodies of water to live for the duration of their lives, their flight makes them open to a wide range of experiences and sights.",
+    "Where is it on the Food Chain?": "Their young are preyed upon by snakes and other owls. They must be aware of their surroundings, but as adults and apex predators, have no natural threats.",
+    "Endangered Status": "The largest threat to these awe-inspiring owls is habitat destruction, as human settlement and deforestation infringes on the specific habitats they require. The IUCN Red list places them in endangered status, with population decreasing. Creating more protected habitats with healthy bodies of water is crucial to their survival."
+  },
+  "sources": [
+    "https://a-z-animals.com/blog/the-largest-owl-in-the-world/",
+    "https://www.iucnredlist.org/species/22689007/93214159",
+    "https://en.wikipedia.org/wiki/Blakiston%27s_fish_owl#:~:text=Superficially%2C%20this%20owl%20somewhat%20resembles,that%20do%20not%20appear%20upright."
+  ],
+  "charity": "BirdLife International",
+  "charityURL": "https://www.birdlife.org/",
+  "charityDesc": "Birdlife International maintains an advanced database to help conservationists, and drive change.",
+  "donationURL": "https://www.birdlife.org/donate/"
+}

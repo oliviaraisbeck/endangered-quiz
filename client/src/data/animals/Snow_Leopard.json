@@ -1,0 +1,76 @@
+{
+  "name": "Snow Leopard",
+  "title": "Quester",
+  "description": "Snow leopards are elusive predators that live high in the icy mountains. When confronted, they prefer to flee over fight.",
+  "color": "#5895bb",
+  "status": "VU",
+  "why": "Among your many adventures is your desire to improve yourself every day. You value learning new things, research, and surpassing your many goals. Sometimes this can lead you to self-isolate, and you can be hard on yourself.",
+  "image": "/images/snow_leopard.jpg",
+  "logo": "/logo/snow_leopard_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Hunting in its snowy, mountainous habitat requires diligence and skill. You also pursue goals with dedication and planning."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Snow leopards require plenty of territory to thrive. It takes time for someone to earn your trust."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Extremely rare, solitary, and living in one of the most remote environments on earth, they're hardly extroverted. You prioritize your alone time."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Snow leopards prefer their home ranges, but travel down the mountains in the colder seasons. You pride yourself on your open mindedness and adventurous spirit."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Despite the snow leopard's formidable hunting ability and status as an apex predator, they are highly elusive. You can be conflict avoidant and sensitive to stress."
+    }
+  ],
+  "traits": [
+    "Driven",
+    "Guarded",
+    "Self-reliant",
+    "Curious",
+    "Nervous"
+  ],
+  "likes": [
+    "To-do lists",
+    "Riddles and puzzles",
+    "Alone time",
+    "Exploring new places"
+  ],
+  "dislikes": [
+    "Long vacations",
+    "Personal questions",
+    "Loud parties",
+    "Formulaic answers"
+  ],
+  "facts": {
+    "General Facts": "A big cat with a tiny meow, this iconic hunter weathers the icy mountains of Afghanistan through Mongolia.",
+    "Physical Description": "Snow leopards have thick, long fur in shades of gray and white, with black rosettes and spots. They have piercing green or gray eyes, and are smaller than other cats of their genus. Their long, thick tails are padded with fur and fat to also function as a blanket and face cover.",
+    "Is it Predator or Prey?": "snow leopards are apex predators in their mountainous, rocky homes. While their prey vary depending on the region, some examples include ibex, argali, and blue sheep.",
+    "Community and Trust": "Living alone is ideal for these big cats. A study in the Gobi Desert found that home ranges for snow leopards only overlapped 20% of the time, despite the limited sanctuary they have to roam. Occasional cooperation between snow leopards has been observed, but overwhelmingly they require their own ranges to thrive.",
+    "Is it Assertive": "Snow leopards are territorial and mark their turf with their scent glands and urine. They are willing to fight, but are more likely to flee. They avoid interactions with humans, and are extremely solitary and elusive overall. Not to mention that they live in some of the most remote environments on earth.",
+    "Does it Migrate?": "Snow leopards defend and patrol their home ranges, but also migrate depending on the season. In the colder months, snow leopards descend from more extreme altitudes.",
+    "Where is it on the Food Chain?": "Despite the snow leopard's formidable hunting ability and status as an apex predator, snow leopards are highly elusive, and often abandon their food when confronted. This has led to their status as one of the most difficult animals to catch on camera.",
+    "Endangered Status": "The biggest threat facing snow leopards is habitat destruction and human intervention. They are protected under law in several of the countries where they reside. The IUCN Red List lists them as vulnerable. Careful settlement of natural habitats and counteracting global warming will be important for their continued survival."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/snow-leopard/",
+    "https://www.iucnredlist.org/species/22732/50664030",
+    "https://www.worldwildlife.org/species/snow-leopard",
+    "https://snowleopard.org/snow-leopard-facts/behavior/"
+  ],
+  "charity": "Snow Leopard Trust",
+  "charityURL": "https://snowleopard.org/",
+  "charityDesc": "The Snow Leopard Trust powers research and habitat preservation by partnering with local communities.",
+  "donationURL": "https://snowleopard.org/take-action/"
+}

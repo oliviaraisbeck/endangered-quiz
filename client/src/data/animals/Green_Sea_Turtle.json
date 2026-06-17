@@ -1,0 +1,74 @@
+{
+  "name": "Green Sea Turtle",
+  "title": "Vagabond",
+  "description": "Green from the vegetation that makes up its diet, these herbivores traverse the temperate and tropical seas using a literal inner compass. Preferring to travel alone, they only come together with others to breed.",
+  "color": "#5895bb",
+  "status": "EN",
+  "why": "You are a magnetic and worldly conversationalist who enjoys learning new things. Socializing in a group comes easily to you, but your few close friends know that you take time to trust. You keep an open mind, and like to forge your own path. The decision on where to go next comes down to what interests you.",
+  "image": "/images/green_sea_turtle.jpg",
+  "logo": "/logo/green_sea_turtle_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "An herbivore, the green sea turtle gets its green color from seagrass and algae it finds floating along in the temperate waters. You are openminded, and enjoy the unexpected."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Green sea turtles traverse their preferred temperate seas alone. You are guided by logic, and pride yourself on making smart choices."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Posing no threat to others as an herbivore, the green sea turtle is a welcome neighbor to all. You enjoy socializing, and consider yourself outgoing."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "To navigate their extensive journeys across the seas, they possess the ability to sense the earth's magnetic field. You are adept at identifying patterns and possibilities, and enjoy exploring ideas and theories."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Sharks, crocodiles, and occasionally land mammals serve as predators to the green sea turtle, leading to its shell. You can be similarly guarded, and sometimes struggle with self-doubt."
+    }
+  ],
+  "traits": [
+    "Flexible",
+    "Protective",
+    "Outgoing",
+    "Imaginative",
+    "Guarded"
+  ],
+  "likes": [
+    "Empty planners",
+    "Riddles and puzzles",
+    "Parties",
+    "Talking about ideas and theories"
+  ],
+  "dislikes": [
+    "Authority",
+    "Irrational decisions",
+    "Long presentations",
+    "\u201cIt\u2019s always done this way\u201d"
+  ],
+  "facts": {
+    "General Facts": "After a challenging start on a moonlit beach, they face a challenging, solely aquatic lifestyle.",
+    "Physical Description": "Green sea turtles are primarily green due to the plants they eat. They have progressive coloration that ranges from yellow green, green-ish red, to reddish brown. They have a large, strong shell, and grow to be three to four feet long. Counting their impressive armor, they weigh in at up to 440 pounds.",
+    "Is it Predator or Prey?": "When they are young, these turtles are omnivores, feasting on jellyfish and invertebrates. As they grow, they become herbivores, chomping through seagrass and algae with their serrated mouth.",
+    "Community and Trust": "Green sea turtles come together to mate while at sea, then females travel great distances to lay their eggs on the same beach year after year. From birth, up until the first time they mate, they survive on their own. The vast majority of sea turtles born do not live to adulthood.",
+    "Is it Assertive": "As adults, they face direct predators infrequently, and are not antagonistic with other creatures or fellow turtles. Tiger sharks are one of the few species posing a consistent risk to adult turtles.",
+    "Does it Migrate?": "They are extensive travelers, and inhabit tropical and subtropical waters all over the world. To navigate during their extensive journeys, they possess the ability to sense the earth's magnetic field.",
+    "Where is it on the Food Chain?": "Sharks, crocodiles, and during the nesting phase\u2014large land mammals\u2014 threaten green sea turtles, leading to their defensive adaptations. Further, sea turtles often fall victim to human interference. Since they are omnivorous when they first hatch, they fall above other creatures such as jellyfish and mollusks, but below the predators that patrol their waters.",
+    "Endangered Status": "Pollution, trophy hunting, and habitat destruction are just a few reasons why the green sea turtle is classified as endangered on the IUCN Red List. To make matters worse, global warming tilts the gender of turtles female, further endangering the species\u2019 future. Like many vulnerable ocean inhabitants, which can too easily be out of sight out of mind, only human intervention can save the green sea turtle."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/sea-turtle/",
+    "https://www.iucnredlist.org/species/4615/247654386"
+  ],
+  "charity": "MOTE (Marine Laboratory and Aquarium)",
+  "charityURL": "https://mote.org/",
+  "charityDesc": "MOTE, the Marine Laboratory and Aquarium, powers research on the oceans to drive change. From their mission statement: \"We advance marine science and education leading to new discoveries, revitalization, sustainability and greater public understanding of our oceans.\"",
+  "donationURL": "https://mote.org/support/donate/"
+}

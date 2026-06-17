@@ -1,0 +1,74 @@
+{
+  "name": "Axolotl",
+  "title": "Historian",
+  "description": "Resembling an alien on earth, the axolotl is an extremely rare salamander that only exists in the wild within a few waterways in Mexico. They are solely aquatic carnivores, but must be wary of predators and the continuous threat of humans.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "As unique as this incredible species, you\u2019re a realist that carefully makes your way through the world. You\u2019re willing to wait for the right moment, and weigh the facts carefully when making decisions. The close friends you keep benefit from your honesty and flexibility.",
+  "image": "/images/axolotl.jpg",
+  "logo": "/logo/axolotl_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Floating along until they sense their prey, axolotls wait for an opening to strike. You are spontaneous, and adapt as situations change."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Solitary salamanders, they prefer their independence. You can take some time to let others in, and use your head when making decisions."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Much of their time is spent hiding under rocks and vegetation at the bottom of lakes. You wouldn\u2019t go quite that far, but alone time is important to you."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Since they can only be found in the Lake Xochimilco region of Mexico, axolotls do not have the luxury of migration. You consider yourself a realist, and prefer concrete details and facts."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "More prone to hiding than fighting, axolotls are elusive and nervous since they serve as prey more than a predator. Sometimes stress and nerves can get the better of you."
+    }
+  ],
+  "traits": [
+    "Type B",
+    "Discerning",
+    "Introverted",
+    "Pragmatic",
+    "Careful"
+  ],
+  "likes": [
+    "Empty planners",
+    "Riddles and puzzles",
+    "Solo hobbies",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Bosses",
+    "Truth or dare",
+    "High pressure meetings",
+    "Trusting your gut"
+  ],
+  "facts": {
+    "General Facts": "These salamanders are the closest we come to having aliens on earth! Unlike other salamanders, axolotls keep their gills as adults, but risk losing their habitat.",
+    "Physical Description": "Axolotls typically grow to be nine inches long and come in a variety of colors, such as brown, grey, black, white, and pink. Their most distinct feature are their external gills, which most salamanders lose in adulthood, but axolotls keep throughout their lives. They have a wide flat head and underdeveloped limbs.",
+    "Is it Predator or Prey?": "Axolotls are carnivores that eat worms, insects, tadpoles, and shrimp. They hunt using smell, and when they perceive prey, they snap at the food and suck it into their stomachs using vacuum force. Since they are small and lack many defenses, they are vulnerable to predators. Larger aquatic life and birds pose a consistent threat.",
+    "Community and Trust": "These strange salamanders are solitary, and prefer to be alone. However, during mating season, they show a wider range of behavior. To court a female, the male axolotl performs a courtship dance using visual and chemical signals. Once they have mated, they lay anywhere from 100-1000 eggs per spawning. Parents do not care for their young.",
+    "Is it Assertive": "Since these critters are small and vulnerable for much of their lives, they do not fight or interact with others. They spend much of their time hiding at the bottom of the lakes under rocks and vegetation.",
+    "Does it Migrate?": "Since they can only be found in the Lake Xochimilco region of Mexico, axolotls do not have the luxury of migration. Unfortunately, even that habitat has been largely reduced to canals, making their survival even more difficult.",
+    "Where is it on the Food Chain?": "More prone to hiding than fighting, axolotls are elusive and nervous since they serve as prey more than a predator. Invasive species such as tilapia and perch can decimate what little remains of the population without intervention.",
+    "Endangered Status": "According to the IUCN Red List, these unique creatures are critically endangered. With only 50-1000 individuals in the wild, the axolotl is in dire need of our help. Decreasing pollution, increasing protection, and continuing to breed axolotls in captivity will all remain important measures to preserve this species."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/axolotl/",
+    "https://www.iucnredlist.org/species/1095/53947343"
+  ],
+  "charity": "MOJA (The Youth Movement for Water, AC)",
+  "charityURL": "https://www.moja.ong/",
+  "charityDesc": "MOJA, the (Youth Movement for Water, AC), is a Mexican environmental organization directly supporting habitat conservation in the Lake Xochimilco region, in addition to many other local environmental missions.",
+  "donationURL": "https://www.moja.ong/donar/"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Giant Ibis",
+  "title": "Charge Nurse",
+  "description": "A beautiful wading bird that relies on others, it's the largest of its species, and the most in need of our help.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "You are caring, confident, and not afraid to take charge as needed. Your adaptability allows you to shift gears in ever-changing situations. You prefer to work with the facts, but you won\u2019t compromise on being sensitive to others.",
+  "image": "/images/giant_ibis.jpg",
+  "logo": "/logo/giant_ibis_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "The Giant Ibis forages for frogs, mole crickets, and more with their long, curved beak. You are similarly exploratory and enjoy surprises."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "They live together in large flocks, and even fly in unison. You try to make decisions with everyone's best interest at heart."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "They can be territorial, but non-related groups are often seen eating and socializing together. You enjoy exploring ideas with others and conversing."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Giant Ibis can be found in lowland lakes, swamps, and flooded plains, and they are not considered migratory. You are grounded in your decisions, and value being practical, putting extra weight on facts and experience."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Since it is a larger bird, they are more confident than many others, even stealing food from humans. You are confident and self-assured."
+    }
+  ],
+  "traits": [
+    "Flexible",
+    "Empathetic",
+    "Outgoing",
+    "Realistic",
+    "Confident"
+  ],
+  "likes": [
+    "Empty planners",
+    "Team games",
+    "Friend's friends",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Instruction manuals",
+    "Bad manners",
+    "Long presentations",
+    "Trusting your gut"
+  ],
+  "facts": {
+    "General Facts": "A beautiful wading bird that relies on others, it's the largest of its species, and the most in need of our help.",
+    "Physical Description": "Giant Ibis are the largest of the Ibis species, and grow to over three feet in length and average ten pounds. They have long legs and a long, curved beak. Their nostrils are at the base of the beak and not the end so they can search for prey underwater without stopping to breathe.",
+    "Is it Predator or Prey?": "Giant Ibis forage for prey such as frogs and mole crickets, which are believed to make up the bulk of their diet. They also enjoy small amphibians, reptiles, eels, and crustaceans.",
+    "Community and Trust": "Social birds, Giant Ibis typically live together in large flocks. They fly in unison, either in \"V\" shapes or straight lines. Monogamous behavior has been observed, with the same birds coming together to mate. Family groups can reside together year-round. Once born, both parents care for their young until they are self-sufficient.",
+    "Is it Assertive": "The Giant Ibis can be territorial. However, when they are not nesting during the dry season, non-related groups can eat and socialize together. They have to be aware of their surroundings, especially as a vulnerable species. They are generally not afraid of humans.",
+    "Does it Migrate?": "It can be found in lowland lakes, swamps, and flooded plains. When the time comes, they travel to breeding grounds in groups. Their population is limited to Cambodia, southern Laos, and parts of Vietnam. They are not considered migratory by these standards, however.",
+    "Where is it on the Food Chain?": "Since it is a larger bird, they are more confident than many others. In fact, more secure species of ibis have been observed stealing food from humans!",
+    "Endangered Status": "Habitat destruction is the largest threat to these beautiful birds. Their habitats have been drained for croplands, and nearby forests have been leveled for rubber and cassava. Global warming is also attributed to dehydrating their breeding grounds. Fewer than 300 Giant Ibis adults are now believed to exist in the wild, leading the giant ibis to critically endangered status on the IUCN Red List."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/ibis/",
+    "https://www.iucnredlist.org/species/22697536/134200680",
+    "https://www.edgeofexistence.org/species/giant-ibis/"
+  ],
+  "charity": "BirdLife International",
+  "charityURL": "https://www.birdlife.org/",
+  "charityDesc": "Birdlife International maintains an advanced database to help conservationists, and drive change.",
+  "donationURL": "https://www.birdlife.org/donate/"
+}

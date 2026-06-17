@@ -1,0 +1,75 @@
+{
+  "name": "Saola",
+  "title": "Wanderer",
+  "description": "Called the Asian unicorn, saolas have only been known to science since 1992 due to their rarity and mountainous environment. They are herbivores that rely on the brush in their evergreen habitats to sustain their solitary lifestyle. Notoriously elusive, they spend much of their time avoiding predators.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "Imagination and curiosity sustains your vibrant inner life. Some may consider you introverted, but you\u2019re always open to new experiences. The lucky few you keep close know your introversion can stem from anxiety, so they can bring you out of your shell by discussing your passions.",
+  "image": "/images/saola.jpg",
+  "logo": "/logo/saola_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "A herbivore, its evergreen habitat is full of foliage to graze. You are comfortable with plans changing, and shifting gears as needed,"
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Saolas occasionally travel in small groups, but spend much of their lives alone. You may take some time to warm up to others, and weigh the facts when coming to decisions."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Saolas maintain a large territory. You value your alone time, and are known as a good listener with friends."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Locals have observed their extensive movements throughout their mountainous territories. You enjoy exploring ideas and theories, and pride yourself on your creativity."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "As prey, they must be aware of their surroundings and are notoriously elusive. Sometimes stress can get the better of you."
+    }
+  ],
+  "traits": [
+    "Exploratory",
+    "Discerning",
+    "Reserved",
+    "Imaginative",
+    "Careful"
+  ],
+  "likes": [
+    "Self-directed tasks",
+    "Feedback",
+    "Solo hobbies",
+    "Talking about hopes and dreams"
+  ],
+  "dislikes": [
+    "Instruction manuals",
+    "Oversharing",
+    "Loud talking",
+    "Group puzzles"
+  ],
+  "facts": {
+    "General Facts": "Called the Asian unicorn, saolas have only been known to science since 1992 due to its rarity and mountainous environment.",
+    "Physical Description": "An antelope species that resides in the mountainous forests of Vietnam and Laos, optimistic estimates say a few hundred saolas may exist in the wild. Known as the Asian unicorn, their horns can grow to be 50 centimeters long. This, along with their horse-like appearance, lead to the nickname.",
+    "Is it Predator or Prey?": "A herbivore, they eat grass, herbs, and leaves. Their preferred evergreen habitat is full of foliage. They face many predators, and spend much of their time avoiding threats, whether in the form of other creatures, or humans.",
+    "Community and Trust": "Usually solitary, saolas have been known to travel in small groups, with as many as seven members according to local sightings. This is certainly the exception, with most sightings of single individuals. Males are too territorial to form bonds with others, and maintain large swaths of lands where they chase off competitors.",
+    "Is it Assertive": "To mark their territory, males secrete a sticky, smelly liquid from their large maxillary glands. They maintain large territories.",
+    "Does it Migrate?": "Locals have observed its movements up and down their mountainous territories when food and water becomes scarce in the winter. Little else is known about their movements.",
+    "Where is it on the Food Chain?": "Little is known of their movements and behaviors, largely because they spend much of their time being preyed on by tigers, crocodiles, and avoiding people\u2014their most dangerous predator. They are an elusive and rare sight, befitting of their nickname.",
+    "Endangered Status": "The saola is critically endangered according to the IUCN Red List, and populations only continue to decline. Best estimates say as few as 50 adults could remain. Trophy hunting for their horns and deforestation are the biggest causes, both of which are preventable. While hunting saolas purposefully is outlawed, they are too often bycatch from traps set for other creatures. Carving out more protected land can reverse this deadly course."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/saola/",
+    "https://www.iucnredlist.org/species/18597/166485696",
+    "https://www.worldwildlife.org/species/saola"
+  ],
+  "charity": "The Saola Foundation",
+  "charityURL": "https://www.saolafoundation.org/",
+  "charityDesc": "Founded in 2020, the Saola Foundation focuses on preserving biodiversity in the Annamite Mountains. It directly benefits the saola, large-antlered Muntjac, and the unidentified leaf monkey. Protecting this ecosystem helps many more.",
+  "donationURL": "https://www.saolafoundation.org/donate/"
+}

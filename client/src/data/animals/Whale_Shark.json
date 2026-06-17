@@ -1,0 +1,74 @@
+{
+  "name": "Whale Shark",
+  "title": "Adventurer",
+  "description": "A gentle giant who prefers to coast through the open seas alone, the whale shark is an enigma. Scientists know little about its social behavior, travel patterns, and even exact population. But what we have learned indicates a beautiful creature in need of our help.",
+  "color": "#5895bb",
+  "status": "EN",
+  "why": "Your fact-driven decision making, combined with confidence and imagination, makes you a magnetic journeyman who moves the conversation forward. Keeping an open mind is foundational to your approach, and you let ideas take you in new directions. Many people count you as a friend, but only a few truly have your heart.",
+  "image": "/images/whale_shark.jpg",
+  "logo": "/logo/whale_shark_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "The whale shark is a passive feeder, and swims through fields of krill to get a meal. You keep an open mind, and go with the flow."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Largely solitary, it roams the open seas alone. You make decisions based on objective facts opposed to emotion, and think through your options carefully."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Gentle giants, whale sharks don\u2019t mind when divers hitch a ride on their dorsal fin. You enjoy meeting new people and making friends."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Scientists believe whale sharks are highly nomadic. You pride yourself on your creativity and enjoy abstract conversations."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Due to their lack of natural predators and massive size, they are famously unbothered by human contact, even allowing divers to grab onto their dorsal fins for a ride. You are confident and self assured."
+    }
+  ],
+  "traits": [
+    "Flexible",
+    "Direct",
+    "Friendly",
+    "Imaginative",
+    "Confident"
+  ],
+  "likes": [
+    "Open roads",
+    "Citing sources",
+    "Friend's friends",
+    "Freewheeling discussions"
+  ],
+  "dislikes": [
+    "Paperwork",
+    "Oversharing",
+    "Long presentations",
+    "Memorization"
+  ],
+  "facts": {
+    "General Facts": "The world's largest fish has a name that may seem intimidating, but there's no need to fear this toothy giant.",
+    "Physical Description": "Neither a whale nor the usual image of a shark, the whale shark grows to be 40 to 60 feet long.They are dark grey on top with subtle dots and stripes. Their large mouth always stays open, and is full of several rows of small teeth, called rasps.",
+    "Is it Predator or Prey?": "Technically a predator, the whale shark doesn\u2019t hunt in the traditional sense. A passive feeder, whale sharks keep their mouth open to catch krill, then push the water out of their gills as they swallow. Due to their size, whale sharks do not face predators as adults, but the young and very old may be subject to attack by other large species.",
+    "Community and Trust": "Whale sharks are solitary creatures besides while mating, and often while feeding. They have been observed eating in groups, called schools. Otherwise, they travel the temperate seas they prefer alone. Very little is understood about their social behavior beyond these observations.",
+    "Is it Assertive": "Whale sharks coexist in the same area as others without conflict. They are only bothered by other animals when they feel threatened.",
+    "Does it Migrate?": "Whale sharks are found in all tropical and temperate seas save for the Mediterranean. Scientists believe they are highly nomadic, but besides congregating where food is plentiful, little else is known.",
+    "Where is it on the Food Chain?": "Due to their lack of natural predators and massive size, they are famously unbothered by human contact, even allowing divers to grab onto their dorsal fins for a ride. They are curious and interact with boats, but this rarely leads to harm.",
+    "Endangered Status": "Whale Sharks are endangered under the IUCN Red List, and their populations continue to decrease by many estimates. (Although it is difficult to definitively conclude what these exact numbers look like.) Part of the challenge is their long life cycle, where it takes at least 25 years for the fish to reach sexual maturity. Like many fish, current fishing practices that prioritize efficiency and not environmental impact pose a serious risk to the future of our iconic and gentle ocean friend."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/whale-shark/",
+    "https://www.iucnredlist.org/species/19488/2365291"
+  ],
+  "charity": "Oceana",
+  "charityURL": "https://oceana.org/",
+  "charityDesc": "Direct from their website, \"Oceana is the largest international advocacy organization focused solely on ocean conservation.\" Their focus on sustainable fishing benefits animals, the environment, and endangered creatures.",
+  "donationURL": "https://oceana.org/resources/ways-to-give-donate-now/"
+}

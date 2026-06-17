@@ -1,0 +1,75 @@
+{
+  "name": "Orca Whale",
+  "title": "Party Planner",
+  "description": "Perhaps the most intelligent, social, and certainly largest dolphin, the orca whale is as friendly as it is fearsome.",
+  "color": "#5895bb",
+  "status": null,
+  "why": "You\u2019re a social and sensitive person who values your pod. Your drive and imagination makes you a trustworthy and welcome presence at work and in life, and you liven up any gathering.",
+  "image": "/images/orca_whale.jpg",
+  "logo": "/logo/orca_whale_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "With the help of their pod, orcas are known to be able to take down prey 30 times their size. You use every resource and connection at your disposal to achieve your goals."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Orcas travel in pods for their entire life. Some pods even form their own dialects. You consider the feelings of others when you make decisions, and empathy is one of your best qualities."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Orca whales have been known to be too confident, accidentally hurting boats and other creatures when they play! You don't mind being the center of attention, and enjoy making friends."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Orcas roam the seas as they please, based on food availability, time of year, and weather. You enjoy exploring ideas and theories, and are imaginative and creative."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "The ultimate apex predator, they can take on any animal they might encounter with the help of their pod. You are resilient and confident, and are willing to ask for help from your friends."
+    }
+  ],
+  "traits": [
+    "Diligent",
+    "Empathetic",
+    "Extroverted",
+    "Imaginative",
+    "Confident"
+  ],
+  "likes": [
+    "Setting goals",
+    "Working as a team",
+    "Friend's friends",
+    "Talking about hopes and dreams"
+  ],
+  "dislikes": [
+    "Unclear rules",
+    "Insensitive people",
+    "Long presentations",
+    "Memorization"
+  ],
+  "facts": {
+    "General Facts": "Beautiful, intelligent and social creatures, these fearsome dolphins are incredibly driven.",
+    "Physical Description": "With its distinct white and black patterning, the orca is the largest member of the dolphin family. A male can measure in at 33 feet long, and weigh 22,000 pounds!",
+    "Is it Predator or Prey?": "Orcas are known for coordinated hunting in their pods. With the help of others, they can take down prey up to 30 times their size. Sailors witnessed this impressive feat, leading to the popular nickname \"killer whale.\u201d Generalist eaters, they eat everything from fish, to larger whales, to birds.",
+    "Community and Trust": "Orcas live in groups, called pods, for their entire life. When travelling, the pod can number 5-15, but once in the ocean, they can top 100. Incredibly, not only do orcas have advanced communication, they even have unique dialects that only their pod can speak. Scientists even refer to some differences between pods as \"accents!\" Orcas value community, family, and play.",
+    "Is it Assertive": "Since orcas sit at the absolute top of the food chain, even eating other apex predators, they are very confident in their environment. With other species, they can be aggressive, and have been known to play too rough with other sea creatures, and eat any species they deem edible. They may be a bit too extroverted!",
+    "Does it Migrate?": "Where orcas reside depends on food availability, weather, and time of year. As a result, while not all orca whales are considered migratory, they are free roaming creatures.",
+    "Where is it on the Food Chain?": "The ultimate apex predator, they can take on any animal they might encounter with the help of their pod. (A good life lesson!)",
+    "Endangered Status": "According to the IUCN Red List, orcas are data deficient, meaning they do not have enough research to determine their endangered status. However, according to the United States in the Endangered Species Act, they are a protected species. Like several confirmed endangered marine species, orca populations would benefit from bycatch reduction efforts and efforts to reduce pollution."
+  },
+  "sources": [
+    "https://us.whales.org/whales-dolphins/facts-about-orcas/",
+    "https://www.iucnredlist.org/species/15421/50368125",
+    "https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/southern-resident-killer-whale-orcinus-orca"
+  ],
+  "charity": "The Whale and Dolphins Conservation (WDC)",
+  "charityURL": "https://us.whales.org/",
+  "charityDesc": "The Whale and Dolphins Conservation is the leading global non-governmental organization (NGO) for whales and dolphins.",
+  "donationURL": "https://us.whales.org/?form=SUPPORTWDC"
+}

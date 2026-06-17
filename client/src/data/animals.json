@@ -1,164 +1,164 @@
 {
   "African Wild Dog": {
-    "P/Q": "PT/QF",
-    "Social": "AC",
-    "Environ": "AC",
-    "Migrat": "MOB",
-    "Neuro": "AC"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "AC",
+    "Environment Behavior": "AC",
+    "Migration": "MOB",
+    "Neuroticism": "AC"
   },
   "Northern Rockhopper Penguin": {
-    "P/Q": "PT/QF",
-    "Social": "AC",
-    "Environ": "AC",
-    "Migrat": "MOB",
-    "Neuro": "RE"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "AC",
+    "Environment Behavior": "AC",
+    "Migration": "MOB",
+    "Neuroticism": "RE"
   },
   "Vaquita": {
-    "P/Q": "PT/QF",
-    "Social": "AC",
-    "Environ": "AC",
-    "Migrat": "IDL",
-    "Neuro": "AC"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "AC",
+    "Environment Behavior": "AC",
+    "Migration": "IDL",
+    "Neuroticism": "AC"
   },
   "Red Wolf": {
-    "P/Q": "PT/QF",
-    "Social": "AC",
-    "Environ": "AC",
-    "Migrat": "IDL",
-    "Neuro": "RE"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "AC",
+    "Environment Behavior": "AC",
+    "Migration": "IDL",
+    "Neuroticism": "RE"
   },
   "Orca": {
-    "P/Q": "PT/QF",
-    "Social": "AC",
-    "Environ": "RE",
-    "Migrat": "MOB",
-    "Neuro": "AC"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "AC",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
+    "Neuroticism": "AC"
   },
   "Blakiston's Fish-owl": {
-    "P/Q": "PT/QF",
-    "Social": "AC",
-    "Environ": "RE",
-    "Migrat": "MOB",
-    "Neuro": "RE"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "AC",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
+    "Neuroticism": "RE"
   },
   "Lion": {
-    "P/Q": "PT/QF",
-    "Social": "AC",
-    "Environ": "RE",
-    "Migrat": "IDL",
-    "Neuro": "AC"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "AC",
+    "Environment Behavior": "RE",
+    "Migration": "IDL",
+    "Neuroticism": "AC"
   },
   "Sea Otter": {
-    "P/Q": "PT/QF",
-    "Social": "AC",
-    "Environ": "RE",
-    "Migrat": "IDL",
-    "Neuro": "RE"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "AC",
+    "Environment Behavior": "RE",
+    "Migration": "IDL",
+    "Neuroticism": "RE"
   },
   "Great white shark": {
-    "P/Q": "PT/QF",
-    "Social": "RE",
-    "Environ": "AC",
-    "Migrat": "MOB",
-    "Neuro": "AC"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "RE",
+    "Environment Behavior": "AC",
+    "Migration": "MOB",
+    "Neuroticism": "AC"
   },
   "Hooded Grebe": {
-    "P/Q": "PT/QF",
-    "Social": "RE",
-    "Environ": "AC",
-    "Migrat": "MOB",
-    "Neuro": "RE"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "RE",
+    "Environment Behavior": "AC",
+    "Migration": "MOB",
+    "Neuroticism": "RE"
   },
   "Chinese Alligator": {
-    "P/Q": "PT/QF",
-    "Social": "RE",
-    "Environ": "AC",
-    "Migrat": "IDL",
-    "Neuro": "AC"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "RE",
+    "Environment Behavior": "AC",
+    "Migration": "IDL",
+    "Neuroticism": "AC"
   },
   "(Tapanuli) Orangutan": {
-    "P/Q": "PT/QF",
-    "Social": "RE",
-    "Environ": "AC",
-    "Migrat": "IDL",
-    "Neuro": "RE"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "RE",
+    "Environment Behavior": "AC",
+    "Migration": "IDL",
+    "Neuroticism": "RE"
   },
   "Great Hammerhead": {
-    "P/Q": "PT/QF",
-    "Social": "RE",
-    "Environ": "RE",
-    "Migrat": "MOB",
-    "Neuro": "AC"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "RE",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
+    "Neuroticism": "AC"
   },
   "Snow Leopard": {
-    "P/Q": "PT/QF",
-    "Social": "RE",
-    "Environ": "RE",
-    "Migrat": "MOB",
-    "Neuro": "RE"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "RE",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
+    "Neuroticism": "RE"
   },
   "Tiger": {
-    "P/Q": "PT/QF",
-    "Social": "RE",
-    "Environ": "RE",
-    "Migrat": "IDL",
-    "Neuro": "AC"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "RE",
+    "Environment Behavior": "RE",
+    "Migration": "IDL",
+    "Neuroticism": "AC"
   },
   "Sunda Pangolin": {
-    "P/Q": "PT/QF",
-    "Social": "RE",
-    "Environ": "RE",
-    "Migrat": "IDL",
-    "Neuro": "RE"
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "RE",
+    "Environment Behavior": "RE",
+    "Migration": "IDL",
+    "Neuroticism": "RE"
   },
   "African Forest Elephant": {
-    "P/Q": "QL/QU",
-    "Social": "AC",
-    "Environ": "AC",
-    "Migrat": "MOB",
-    "Neuro": "AC"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "AC",
+    "Environment Behavior": "AC",
+    "Migration": "MOB",
+    "Neuroticism": "AC"
   },
   "Migratory Monarch Butterfly": {
-    "P/Q": "QL/QU",
-    "Social": "AC",
-    "Environ": "AC",
-    "Migrat": "MOB",
-    "Neuro": "RE"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "AC",
+    "Environment Behavior": "AC",
+    "Migration": "MOB",
+    "Neuroticism": "RE"
   },
   "Giant Ibis": {
-    "P/Q": "QL/QU",
-    "Social": "AC",
-    "Environ": "AC",
-    "Migrat": "IDL",
-    "Neuro": "AC"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "AC",
+    "Environment Behavior": "AC",
+    "Migration": "IDL",
+    "Neuroticism": "AC"
   },
   "Archey's Frog": {
-    "P/Q": "QL/QU",
-    "Social": "AC",
-    "Environ": "AC",
-    "Migrat": "IDL",
-    "Neuro": "RE"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "AC",
+    "Environment Behavior": "AC",
+    "Migration": "IDL",
+    "Neuroticism": "RE"
   },
   "Wild Camel": {
-    "P/Q": "QL/QU",
-    "Social": "AC",
-    "Environ": "RE",
-    "Migrat": "MOB",
-    "Neuro": "AC"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "AC",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
+    "Neuroticism": "AC"
   },
   "Spoon-billed Sandpiper": {
-    "P/Q": "QL/QU",
-    "Social": "AC",
-    "Environ": "RE",
-    "Migrat": "MOB",
-    "Neuro": "RE"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "AC",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
+    "Neuroticism": "RE"
   },
   "Cross River Gorilla": {
-    "P/Q": "QL/QU",
-    "Social": "AC",
-    "Environ": "RE",
-    "Migrat": "IDL",
-    "Neuro": "AC"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "AC",
+    "Environment Behavior": "RE",
+    "Migration": "IDL",
+    "Neuroticism": "AC"
   },
   "Rusty Patched Bumblebee": {
     "Class of P/Q": "QL/QU",
@@ -168,59 +168,59 @@
     "Neuroticism": "RE"
   },
   "Whale Shark": {
-    "P/Q": "QL/QU",
-    "Social": "RE",
-    "Environ": "RE",
-    "Migrat": "MOB",
-    "Neuro": "AC"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "RE",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
+    "Neuroticism": "AC"
   },
   "Green Sea Turtle": {
-    "P/Q": "QL/QU",
-    "Social": "RE",
-    "Environ": "AC",
-    "Migrat": "MOB",
-    "Neuro": "RE"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "RE",
+    "Environment Behavior": "AC",
+    "Migration": "MOB",
+    "Neuroticism": "RE"
   },
   "Black Rhino": {
-    "P/Q": "QL/QU",
-    "Social": "RE",
-    "Environ": "RE",
-    "Migrat": "IDL",
-    "Neuro": "AC"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "RE",
+    "Environment Behavior": "RE",
+    "Migration": "IDL",
+    "Neuroticism": "AC"
   },
   "Long-Beaked Echidnas": {
-    "P/Q": "QL/QU",
-    "Social": "RE",
-    "Environ": "AC",
-    "Migrat": "IDL",
-    "Neuro": "RE"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "RE",
+    "Environment Behavior": "AC",
+    "Migration": "IDL",
+    "Neuroticism": "RE"
   },
   "Giant Panda": {
-    "P/Q": "QL/QU",
-    "Social": "RE",
-    "Environ": "RE",
-    "Migrat": "MOB",
-    "Neuro": "AC"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "RE",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
+    "Neuroticism": "AC"
   },
   "Saola": {
-    "P/Q": "QL/QU",
-    "Social": "RE",
-    "Environ": "RE",
-    "Migrat": "MOB",
-    "Neuro": "RE"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "RE",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
+    "Neuroticism": "RE"
   },
   "Kakapo": {
-    "P/Q": "QL/QU",
-    "Social": "RE",
-    "Environ": "AC",
-    "Migrat": "IDL",
-    "Neuro": "AC"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "RE",
+    "Environment Behavior": "AC",
+    "Migration": "IDL",
+    "Neuroticism": "AC"
   },
   "Axolotl": {
-    "P/Q": "QL/QU",
-    "Social": "RE",
-    "Environ": "RE",
-    "Migrat": "IDL",
-    "Neuro": "RE"
+    "Class of P/Q": "QL/QU",
+    "Social Behavior": "RE",
+    "Environment Behavior": "RE",
+    "Migration": "IDL",
+    "Neuroticism": "RE"
   }
 }

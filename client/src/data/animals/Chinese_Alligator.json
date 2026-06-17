@@ -1,0 +1,75 @@
+{
+  "name": "Chinese Alligator",
+  "title": "Prosecutor",
+  "description": "The Chinese Alligator is a self-reliant predator that spends much of its time underground in burrows. It is friendly with others, and prefers familiar surroundings.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "Organization, logic, and confidence lead you to make smart decisions, and give you a reputation as steady and reliable. You may be outgoing and social, but you keep a tight inner circle.",
+  "image": "/images/chinese_alligator.jpg",
+  "logo": "/logo/chinese_alligator_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Much like the alligator, you wait for the right moment to attack, and think through your choices."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Chinese Alligators are solitary, but in a sweet mother moment, carry their babies from their hatching spots to their mouths at the beginning of their lives. You value your loved ones, but believe in making rational decisions and leading with logic."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "Chinese Alligators have been observed living with others in complex burrows, complete with multiple rooms, entrances, and even indoor swimming pools. Even if you're not in a multi-story mansion, you enjoy gatherings and making friends."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "They do not migrate, and shelter in burrows during the colder months. You value realism, and pay special attention to your previous experiences."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "The only threat to the Chinese Alligator are humans, and otherwise they are confident. You are similarly self-assured, and are skilled at regulating your emotions."
+    }
+  ],
+  "traits": [
+    "Organized",
+    "Discerning",
+    "Outgoing",
+    "Pragmatic",
+    "Self assured"
+  ],
+  "likes": [
+    "Planners",
+    "Logical decisions",
+    "Hosting parties",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Unclear rules",
+    "Oversharing",
+    "Too much alone time",
+    "Trusting your gut"
+  ],
+  "facts": {
+    "General Facts": "The American alligator's only living counterpart, these small but mighty creatures are armored on all sides.",
+    "Physical Description": "Dark grey or black in color, and armored even on their bellies, these alligators are 5-7 feet long, and weigh 80-100 pounds. Compared to their cousin the American alligator, which can be 11 feet long, they're quite small.",
+    "Is it Predator or Prey?": "Opportunistic predators, they eat small mammals, water birds, fish, and aquatic mollusks. Hatchlings eat insects, spiders and other invertebrates.",
+    "Community and Trust": "These gators are solitary, and only come together to mate. Mothers tenderly carry babies from their hatching spots to the water in their mouths, and care for them for their first winter.",
+    "Is it Assertive": "Chinese Alligators have been observed living with others in their complex burrows. These burrows are large enough for them to turn around, and sometimes contain multiple rooms, entrances, and even indoor swimming pools. They can coexist with other gators without conflict, but can become aggressive during mating season.",
+    "Does it Migrate?": "Chinese alligators do not migrate, and shelter in burrows during the colder months.",
+    "Where is it on the Food Chain?": "The only threat to the Chinese Alligator are humans. Habitat destruction and hunting are their primary threats. Ironically, they don\u2019t pose a big threat to humans, and avoid them whenever possible. They rarely encounter people, since they hunt at night.",
+    "Endangered Status": "The IUCN Red List places Chinese Alligators as critically endangered. Their population has fallen to less than 100 individuals, and their outlook at this time is grim, even with intervention. If we want to protect this unique and resilient species, the clock is ticking!"
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/chinese-alligator/",
+    "https://www.iucnredlist.org/species/867/3146005",
+    "https://www.edgeofexistence.org/species/chinese-alligator/"
+  ],
+  "charity": "World Wildlife Fund",
+  "charityURL": "https://www.worldwildlife.org/",
+  "charityDesc": "One of the most iconic environmental groups, the World Wildlife Fund drives research, legislation, and preservation of endangered species and animal habitats.",
+  "donationURL": "https://protect.worldwildlife.org/page/90206/donate/1?en_og_source=Web_Donation&ea.tracking.id=Web_Topnav&supporter.appealCode=AWE2605OQ18299A09256RX&_gl=1*tlapn*_ga*NzQ3Mzc1MDIyLjE3NjUwNjQ5Mzc.*_ga_FK6M9RK84Z*czE3NjUwNjQ5MzYkbzEkZzAkdDE3NjUwNjQ5MzYkajYwJGwwJGgxOTEyNzc5Mzky"
+}

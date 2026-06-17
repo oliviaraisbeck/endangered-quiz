@@ -1,0 +1,75 @@
+{
+  "name": "Cross River Gorilla",
+  "title": "Defender",
+  "description": "Fierce for its family, the world's largest primate prefers to intimidate over fight. It is a vegetarian, foraging exclusively in 3,000 miles of remote rainforest. They are known for their intelligence and resourcefulness, and desperately need our help.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "You keep a close inner circle that you would defend with your life. In life, you are ready for ever-changing circumstances, and value facts. While you carry yourself with a quiet confidence, you still need to take time for yourself.",
+  "image": "/images/cross_river_gorilla.jpg",
+  "logo": "/logo/cross_river_gorilla_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Vegetarians, these gorillas forage for food and are very resourceful. You are willing to find things out as you go, and adapt as things don\u2019t go according to plan."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "They live in strong family groups and nest together. You are empathetic, and value your relationships."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "However, they are notoriously shy when confronting other creatures, which is partially why scientists struggle to determine their exact population. You can be shy yourself, and prefer smaller gatherings."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "These gorillas are now limited to a very small, fragmented territory in Cameroon and Nigeria. You are grounded in your decision making, and value realism."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Due to their size and strength, the Cross River gorilla is a self-assured creature that will stick up for itself when necessary. You are confident and resilient."
+    }
+  ],
+  "traits": [
+    "Resourceful",
+    "Empathetic",
+    "Reserved",
+    "Pragmatic",
+    "Confident"
+  ],
+  "likes": [
+    "Empty planners",
+    "Team games",
+    "Solo hobbies",
+    "Citing sources"
+  ],
+  "dislikes": [
+    "Busy work",
+    "Loud personalities",
+    "Long parties",
+    "Unprovable theories"
+  ],
+  "facts": {
+    "General Facts": "Fierce for its family, the world's largest primate prefers to threaten over fight.",
+    "Physical Description": "Unlike the Mountain Gorilla, whose populations have improved in recent years with great conservation efforts and attention, the Cross River Gorilla is increasingly threatened. Compared to Mountain gorillas, they have a slender, shorter build. On the crest of their triangular heads, they also have red fur that makes them easily recognizable.",
+    "Is it Predator or Prey?": "As vegetarians, they spend much of their day eating berries, vines, leaves and nuts. They only forage outside of their territories when food is scarce, and prefer to stay in their remote home turfs. When threatened, these gorillas prefer to scare off any intruders rather than fight. Their biggest threat is humans, but they are also preyed on by crocodiles and big cats.",
+    "Community and Trust": "Cross River gorillas are as social as their more famous counterparts, and form strong family groups. A dominant male\u2014often silverbacks, named for their grey hair\u2014 leads a group of about seven females and their young. They nest on the forest floor for most of the year, and in the tree-tops during the rainy season.",
+    "Is it Assertive": "Cross River gorillas are notoriously difficult to observe and track. Scientists know very little about their behavior because of the mountainous, rainy, dense forests they call home. They are described as shy by most scientists and humans, which is why we are unable to get a direct count of their population.",
+    "Does it Migrate?": "These gorillas are now limited to a very small, fragmented territory. Their rainforest homes are spread across about 3,000 square miles in Cameroon and Nigeria. Farms, human settlements, and deforestation have split their populations, further endangering their survival.",
+    "Where is it on the Food Chain?": "Due to their size and strength, the Cross River gorilla is a self-assured creature that will stick up for itself when necessary. Beyond that, their behavior is not widely known due to its remote environment, and since it is the most rare mammal in Asia.",
+    "Endangered Status": "Cross River gorillas are in grave need of our help, and are critically endangered according to the IUCN Red List. There are only 250-300 individuals estimated in the wild, due to hunting and the segmentation of their populations. Thankfully, their forests are now protected by the governments of Cameroon and Nigeria. Hopefully, if they receive more attention and help like their famous Mountain gorilla cousins, they have a fighting chance."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/cross-river-gorilla/",
+    "https://www.iucnredlist.org/species/39998/102326240",
+    "https://www.worldwildlife.org/species/cross-river-gorilla"
+  ],
+  "charity": "The Rainforest Trust",
+  "charityURL": "https://www.rainforesttrust.org/",
+  "charityDesc": "The Rainforest Trust partners with local organizations to protect crucial habitats for endangered species. They have powered land protection for dozens of endangered species, including the Cross River Gorilla.",
+  "donationURL": "https://www.rainforesttrust.org/get-involved/ways-to-give/"
+}

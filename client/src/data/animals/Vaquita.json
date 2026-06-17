@@ -1,0 +1,74 @@
+{
+  "name": "Vaquita",
+  "title": "Quiet Leader",
+  "description": "Little is known about the vaquita since only 2-10 are believed to remain in the wild. It is theorized that like its dolphin cousins, friendship is very important, and they are highly intelligent. They are confined to a small area, which keeps them safe.",
+  "color": "#5895bb",
+  "status": "CR",
+  "why": "A rare combination of caring, dedicated, and grounded, you are a natural leader, but one who chooses to lead by example. You thrive in many environments, but you prefer clear boundaries and benefit from space, much like how the Vaquita only exists in the sheltered Sea of Cortez.",
+  "image": "/images/vaquita.jpg",
+  "logo": "/logo/vaquita_logo.png",
+  "understandResult": [
+    {
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Vaquitas hunt fish and invertebrates, but occasionally eat underwater plants. You are proactive and goal-oriented, and actively seek out your next target."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
+      "text": "Little may be known about its social behavior, but if it is similar to its dolphin cousins, personal relationships are crucial to its wellbeing. You too consider the impact your choices will have on your loved ones."
+    },
+    {
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "They are non-territorial and don't dominate their environments, living alongside others peacefully. However, their rarity makes them extremely elusive and difficult to observe. You lean towards introversion."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
+      "text": "Vaquitas have only been found in the relatively sheltered waters of the Sea of Cortez. You focus on concrete details, and are practical in your decisions."
+    },
+    {
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Since the Sea of Cortez is protected from strong currents and large creatures, the Vaquita is confident in its environment. You do not struggle to regulate your emotions."
+    }
+  ],
+  "traits": [
+    "A go-getter",
+    "Caring",
+    "Secretly introverted",
+    "Realistic",
+    "Self-assured"
+  ],
+  "likes": [
+    "Schedules",
+    "Team games",
+    "Time to think",
+    "Facts and figures"
+  ],
+  "dislikes": [
+    "Vague instructions",
+    "One-upmanship",
+    "Talking too much",
+    "Unrealistic ideas"
+  ],
+  "facts": {
+    "General Facts": "The rarest of all known marine animals! Little is known about the world's smallest cetacean.",
+    "Physical Description": "The vaquita is a small porpoise that weighs in at 90 pounds, and has dark coloration around its eyes which resembles eyeliner.",
+    "Is it Predator or Prey?": "It hunts invertebrates and fish, but is also an omnivore. It is difficult to ascertain if it faces many predators, but it is theorized that since it occupies a protected and relatively shallow body of water, it is saved from some of the larger marine life that would threaten it otherwise.",
+    "Community and Trust": "Vaquitas have been observed living in pods of 2-10 individuals. Little is known about its social behavior, but if it is similar to its dolphin cousins, social bonds are a critical part of its life and wellbeing.",
+    "Is it Assertive": "They are non-territorial and do not dominate their ocean environments. Like other porpoises, they are believed to live alongside many sea creatures peacefully. Since they often swim within 500 feet of the surface, they are vulnerable to fishing nets and human intervention. Nonetheless, they are still extremely rare and difficult to observe.",
+    "Does it Migrate?": "Vaquitas have only been found in the relatively sheltered waters of the Sea of Cortez. As a result, it is believed they rely on the protection this area provides to survive.",
+    "Where is it on the Food Chain?": "Protected from strong currents and larger creatures, the Vaquita is confident in its environment.",
+    "Endangered Status": "There may be as few as 10 individual Vaquitas left in the wild. At the time of publication, the IUCN Red List lists Vaquitas as critically endangered, with its most optimistic count at 18 individuals. Greater care by the fishing industry would go a long way towards keeping this mysterious cousin of the dolphin alive."
+  },
+  "sources": [
+    "https://a-z-animals.com/animals/vaquita/",
+    "https://www.iucnredlist.org/species/17028/214541137"
+  ],
+  "charity": "Sea Shepherd",
+  "charityURL": "https://seashepherd.org/",
+  "charityDesc": "Sea Shepherd is a direct action group that stops illegal poachings of protected ocean creatures. They offer many ways to help and get involved.",
+  "donationURL": "https://seashepherd.org/support-us/"
+}

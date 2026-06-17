@@ -48,7 +48,7 @@
     background: #234155;
 }
 
-.animal-wrapper:nth-last-child(-n+1)::after{ /*should be -n+2 once an even number*/
+.animal-wrapper:nth-last-child(-n+2)::after{ 
     display: none;
 }
 
