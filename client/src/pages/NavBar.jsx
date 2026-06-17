@@ -2,11 +2,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
-import logo from '../data/chinchilla vanilla mates.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
+  const logo = "/images/chinchilla_vanilla.png"; 
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
@@ -14,9 +13,9 @@ function Navbar() {
       <div className="navbar-logo">
         <Link to="/home">
           <img src={logo} alt="Go to Home page" className="logo-img"/>
+          <span>Animal Ally </span>
         </Link>
-        <span>Animal Ally</span>
-        </div>
+      </div>
 
       <div className="hamburger" onClick={toggleMenu}>
         &#9776; {/* Hamburger icon (☰) */}

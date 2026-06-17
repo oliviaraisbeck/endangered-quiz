@@ -104,7 +104,7 @@ const traitRanges = {
         <div className="animal-results">
           {animalDetails ? (
             <div className="animal-details">
-              <div className="animal-header section">
+              <div className="animal-header">
                 <div className="animal-info left">
                   <div className="animal-title">
                     <h2>{"Your animal is the...  "}</h2>
@@ -126,7 +126,7 @@ const traitRanges = {
                 <div className="polaroid"> 
                   <img className="polaroid-img" src={animalDetails.image} alt={animalDetails.name} />
                   <p className="polaroid-title bold">"The {animalDetails.title}"</p>
-                  <div className="animal-logo-circle">
+                  <div className="animal-logo-circle" style={{background: animalDetails.color}}>
                     <img
                       src={animalDetails.logo.replace("client/src/", "/")}
                       alt={`${animalDetails.name} logo`}
@@ -135,27 +135,33 @@ const traitRanges = {
                   </div>
                 </div>
               </div>
-              <div className="animals-grid section"> {/* cssed in main cause idk whats happening? */}
-                <div className="traits">
+              <div className="traits-grid lower-padding"> 
+                <div>
                   <p className="traits-header bold"> Your friends call you...</p>
-                  {animalDetails.traits.map((line, index) => (
-                    <p key={index}>{line}</p>
-                  ))}
+                  <div className='traits-list'>
+                    {animalDetails.traits.map((line, index) => (
+                        <p className="trait-item bold traits-color1" key={index}>{line}</p>
+                    ))}
+                  </div>
                 </div>
-                <div className="traits">
+                <div>
                   <p className="traits-header bold"> Likes</p>
-                  {animalDetails.likes.map((line, index) => (
-                    <p key={index}>{line}</p>
-                  ))}
+                  <div className='traits-list'>
+                    {animalDetails.likes.map((line, index) => (
+                      <p  className="trait-item bold traits-color2" key={index}>{line}</p>
+                    ))}
+                  </div>
                 </div>
-                <div className="">
+                <div>
                   <p className="traits-header bold"> Dislikes</p>
-                  {animalDetails.dislikes.map((line, index) => (
-                    <p key={index}>{line}</p>
-                  ))}
+                  <div className='traits-list'>
+                    {animalDetails.dislikes.map((line, index) => (
+                      <p className="trait-item bold traits-color3" key={index}>{line}</p>
+                    ))}
+                  </div>
                 </div>
               </div>
-              <div className="understand-grid left section">
+              <div className="understand-grid left lower-padding">
                 <h2>Understand your results</h2>
 
                 <div className="understand-layout">
@@ -242,13 +248,16 @@ const traitRanges = {
                 </div>
               </div>
               <div className="banner endangered-banner">
+                
                 <div className="endangered-info">
-                  <div>
+                  <div className='endangered-sm'>
+                    <img className="endangered-img" src={animalDetails.logo} alt={animalDetails.name} style={{background: animalDetails.color}}/>
+                  </div>
+                  <div className="endangered-status">
                     <h2>Endangered Status</h2>
                     <div className="status-scale">
                       {statusOptions.map((item) => {
                         const isActive = animalDetails.status === item.key;
-
                         return (
                           <div className="status-item" key={item.key}>
                             <div className={`status-circle ${item.key} ${isActive ? "active" : ""}`}>
@@ -259,9 +268,9 @@ const traitRanges = {
                         );
                       })}
                     </div>
-                  </div>
-                  <div>
                     <p>{animalDetails.facts["Endangered Status"]}</p>
+                    <h2>How to Help</h2>
+                    <p>{animalDetails.charityDesc}</p>
                     <button
                       onClick={() => {
                       console.log("Opening URL:", animalDetails.donationURL);
@@ -270,6 +279,9 @@ const traitRanges = {
                       >
                       HELP NOW!
                     </button>
+                  </div>
+                  <div className='endangered-sm'>
+                    <img className="endangered-img" src={animalDetails.image} alt={animalDetails.name}/>
                   </div>
                 </div>
               </div>

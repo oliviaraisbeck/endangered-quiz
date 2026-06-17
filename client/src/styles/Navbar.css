@@ -27,7 +27,15 @@
     margin-right: 12px;
     vertical-align: middle;
   }
+
+  .navbar-logo a { /*anchor override?*/
+    text-decoration: none;
+  }
   
+  .navbar-logo span {
+    color: #333;
+    text-decoration: none;
+  }
   
   .hamburger {
     font-size: 24px;

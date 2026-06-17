@@ -55,13 +55,43 @@
   font-size: 32px;
 }
 
-.traits{
-  border-right: 3px solid #ddd;
+.traits-grid{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 3rem;
 }
 
 .traits-header{
   font-size: 24px;
 }
+
+.traits-list{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.traits-list > :nth-child(odd) {
+  align-self: flex-start; 
+}
+
+.trait-item {
+  border-radius: 24px;
+  padding: 1rem;
+  min-width: 40%;
+  max-width: 60%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin: 0.4rem;
+}
+
+.traits-color1{ background: rgba(154, 210, 219, 1);}
+.traits-color3{ background: rgba(213, 79, 83, 0.8);}
+.traits-color2{ background: rgba(150, 201, 118, 1); }
 
 .understand-grid {
   margin-bottom: 2rem;
@@ -100,26 +130,6 @@
 }
 
 /* each bar row */
-.bar-row {
-  opacity: 0.4;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.bar-row.active {
-  opacity: 1;
-}
-
-/* default = gray */
-.bar-row .bar {
-  background: #ddd;
-}
-
-/* active = gradient */
-.bar-row.active .bar {
-  background: linear-gradient(to right, #5895bb, #96c976);
-}
-
 .bar-container {
   position: relative;
   width: 100%;
@@ -149,7 +159,7 @@
 }
 
 .bar-wrapper.active .bar {
-  background: linear-gradient(to right, #5895bb, #96c976);
+  background: linear-gradient(to right, #96c976, #5895bb);
 }
 
 .arrow-wrapper {
@@ -177,30 +187,22 @@
 }
 
 .understand-text-panel {
+  transform: translateY(-1.5rem);
   width: 50%;
   flex-shrink: 0;
   position: relative;
   display: flex;
   align-items: stretch;
-}
-
-.text-nav {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-}
-
-.text-nav button {
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
+  border-radius: 24px;
+  padding-top: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .nav-arrow {
+  transform: translateY(-1.4rem);
   background: none;
   border: none;
-  font-size: 28px;
+  font-size: 68px;
   cursor: pointer;
   opacity: 0.6;          /* ALWAYS visible */
   color: #000;           /* ensures contrast */
@@ -214,7 +216,7 @@
 .nav-arrow:hover {
   background: none;
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.1) translateY(-1.4rem);
 }
 
 .nav-left {
@@ -237,97 +239,29 @@
 }
 
 .endangered-info {
- 
-  justify-content: space-between;
+  display: flex;
   align-items: center;
   gap: 2rem;
-  color: white !important;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-.endangered-info * {
+.endangered-banner * {
   color: white;
 }
 
-.endangered-info > * {
-  flex: 1;
+.endangered-info .status-label{
+  color: white;
 }
 
-.endangered-info .status-scale{
-  flex-direction: row; 
+.endangered-img{
+  margin-top: 1rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 6rem;
+  object-fit: cover;
+  /*background: #5895bb;*/
 }
-
-
-/*
-
-.understand-card {
-    margin-bottom: 3rem;
-}
-
-
-/* Wrapper that holds arrow + percentage */
-/*
-.arrow-wrapper {
-  position: absolute;
-  top: -20px;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Percentage label */
-/*
-.arrow-label {
-  font-size: 12px;
-  font-weight: bold;
-  margin-bottom: 2px;
-}
-
-/* Arrow pointer */
-/*
-.arrow {
-  width: 0;
-  height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-bottom: 10px solid black;
-}
-
-/* Labels under the bar (Low / High or custom) *//*
-.bar-labels {
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  margin-top: 4px;
-  opacity: 0.7;
-}
-
-.understand-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-bottom: 0rem;
-  align-items: center; /* THIS vertically centers the bar vs text */
-/*}
-
-/* Left side */
-/*
-.understand-text {
-  width: 50%;
-} */
-
-/* Right side */
-/*
-.understand-visual {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.understand-title{
-  text-align: center;
-}*/
 
 
 

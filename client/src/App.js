@@ -9,6 +9,7 @@ import About from './pages/About';
 import Mission from './pages/Mission';
 import Animals from './pages/OurAnimals';
 import AnimalPage from './pages/AnimalPage';
+import Help from './pages/Help';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="mission" element={<Mission />} />
           <Route path="animals" element={<Animals />} />
           <Route path="/animals/:animalKey" element={<AnimalPage />} />
+          <Route path="helpNow" element={<Help />} />
         </Route>
       </Routes>
     </Router>
