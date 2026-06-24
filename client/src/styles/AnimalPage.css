@@ -59,7 +59,7 @@
 .status-circle.CR { --status-color: #d54f53; }
 .status-circle.EN { --status-color: #b46441; }
 .status-circle.NE { --status-color: #d29d86; }
-.status-circle.V  { --status-color: #ded27c; }
+.status-circle.VU  { --status-color: #ded27c; }
 .status-circle.DD { --status-color: #b6b7b7; }
 
 .status-circle {
@@ -138,6 +138,37 @@
 .arrow-wrapper.right {
   left: 85%;
 }
+
+.bar-container {
+  position: relative;
+}
+
+.bar-description {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 110%;
+  
+  width: 20rem;
+  padding: 1rem;
+
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+
+  text-align: center;
+  z-index: 10;
+}
+
+.bar-container:hover .bar-description {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-5px);
+}
+
 
 /* FACTS */
 

@@ -28,7 +28,7 @@ const AnimalPage = () => {
 
   const statusOptions = [
     { key: "DD", label: "Data Deficient" },
-    { key: "V", label: "Vulnerable" },
+    { key: "VU", label: "Vulnerable" },
     { key: "NE", label: "Near Endangered" },
     { key: "EN", label: "Endangered" },
     { key: "CR", label: "Critically Endangered" }
@@ -144,6 +144,9 @@ const AnimalPage = () => {
           </div>
           <div className="animal-page-bars">
             {animalDetails.understandResult?.map((item, index) => {
+              console.log(animalDetails.name);
+              console.log(animalTypes[animalDetails.name]);
+              console.log("Available names:", Object.keys(animalTypes));
               const labels = traitLabels[item.key] || { left: "Left", right: "Right" };
 
               const traitCode = animalTypes[animalDetails.name][item.key]; 
@@ -169,6 +172,10 @@ const AnimalPage = () => {
 
                   <div className={`arrow-wrapper ${value}`}>
                     <div className="arrow" />
+                  </div>
+
+                  <div className="bar-description">
+                    {item.text}
                   </div>
 
                 </div>

@@ -15,7 +15,7 @@ const Results = () => {
 
   const statusOptions = [
     { key: "DD", label: "Data Deficient" },
-    { key: "V", label: "Vulnerable" },
+    { key: "VU", label: "Vulnerable" },
     { key: "NE", label: "Near Endangered" },
     { key: "EN", label: "Endangered" },
     { key: "CR", label: "Critically Endangered" }
@@ -69,24 +69,24 @@ const Results = () => {
 
   const traitLabels = {
   "Class of P/Q": {
-    left: "Organized",
-    right: "Adaptable"
+    left: "Adaptable",
+    right: "Organized"
   },
   "Social Behavior": {
     left: "Family First",
     right: "Independent"
   },
   "Environment Behavior": {
-    left: "Extrovert",
-    right: "Introvert"
+    left: "Introvert",
+    right: "Extrovert"
   },
   "Migration": {
-    left: "Open-minded",
-    right: "Fact-forward"
+    left: "Fact-forward",
+    right: "Open Minded"
   },
   "Neuroticism": {
-    left: "Confident",
-    right: "Introspective"
+    left: "Introspective",
+    right: "Confident"
   }
   };
 

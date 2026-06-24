@@ -9,29 +9,29 @@
   "logo": "/logo/african_forest_elephant_logo.png",
   "understandResult": [
     {
-      "title": "Herbivore scavengers, African Forest Elephants must be flexible and adaptable. You are spontaneous, and open to new information.",
-      "key": "",
+      "title": "Organization",
+      "key": "Class of P/Q",
+      "text": "Herbivore scavengers, African Forest Elephants must be flexible and adaptable. You are spontaneous, and open to new information."
+    },
+    {
+      "title": "Community",
+      "key": "Social Behavior",
       "text": "These elephants form deep social bonds, and live in herds of mothers and their calves, while males can be more solitary or live in bachelor groups. You prioritize your relationships and the feelings of your loved ones."
     },
     {
-      "title": "They live peacefully along with many creatures and other elephants in their territories. You are outgoing, and are energized by social interactions.",
-      "key": "",
+      "title": "Extroversion",
+      "key": "Environment Behavior",
+      "text": "They live peacefully along with many creatures and other elephants in their territories. You are outgoing, and are energized by social interactions."
+    },
+    {
+      "title": "Exploration",
+      "key": "Migration",
       "text": "They are fully nomadic, and travel extensively for resources and to mate. You pride yourself on your openmindedness, and exploring ideas and theories excites you."
     },
     {
-      "title": "Due to their size and dominance, they do not have natural predators as adults. You are also confident and resilient.",
-      "key": "",
-      "text": "African Forest Elephant"
-    },
-    {
-      "title": "African Forest Elephant Facts",
-      "key": "",
-      "text": "Extremely intelligent, this social giant might be among the first when you imagine the animals of Africa."
-    },
-    {
-      "title": "African Forest Elephant Physical Description",
-      "key": "",
-      "text": "Weighing up to six tons and growing up to ten feet tall, the African Forest Elephant is awe-inspiring. Relative to other elephants, its tusks are straighter, which help it move through the jungle. When communicating with others, they produce sounds so low they can't be heard by humans."
+      "title": "Confidence",
+      "key": "Neuroticism",
+      "text": "Due to their size and dominance, they do not have natural predators as adults. You are also confident and resilient."
     }
   ],
   "traits": [
