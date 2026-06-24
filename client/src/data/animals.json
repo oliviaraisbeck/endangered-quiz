@@ -1,5 +1,5 @@
 {
-  "African Wild Dog": {
+  "Orca Whale": {
     "Class of P/Q": "PT/QF",
     "Social Behavior": "AC",
     "Environment Behavior": "AC",
@@ -13,49 +13,49 @@
     "Migration": "MOB",
     "Neuroticism": "RE"
   },
-  "Vaquita": {
+  "Lion": {
     "Class of P/Q": "PT/QF",
     "Social Behavior": "AC",
     "Environment Behavior": "AC",
     "Migration": "IDL",
     "Neuroticism": "AC"
   },
-  "Red Wolf": {
+  "Rusty Patched Bumblebee": {
     "Class of P/Q": "PT/QF",
     "Social Behavior": "AC",
     "Environment Behavior": "AC",
     "Migration": "IDL",
     "Neuroticism": "RE"
-  },
-  "Orca": {
-    "Class of P/Q": "PT/QF",
-    "Social Behavior": "AC",
-    "Environment Behavior": "RE",
-    "Migration": "MOB",
-    "Neuroticism": "AC"
   },
   "Blakiston's Fish-owl": {
     "Class of P/Q": "PT/QF",
     "Social Behavior": "AC",
     "Environment Behavior": "RE",
     "Migration": "MOB",
+    "Neuroticism": "AC"
+  },
+  "African Wild Dog": {
+    "Class of P/Q": "PT/QF",
+    "Social Behavior": "AC",
+    "Environment Behavior": "RE",
+    "Migration": "MOB",
     "Neuroticism": "RE"
   },
-  "Lion": {
+  "Vaquita": {
     "Class of P/Q": "PT/QF",
     "Social Behavior": "AC",
     "Environment Behavior": "RE",
     "Migration": "IDL",
     "Neuroticism": "AC"
   },
-  "Sea Otter": {
+  "Red Wolf": {
     "Class of P/Q": "PT/QF",
     "Social Behavior": "AC",
     "Environment Behavior": "RE",
     "Migration": "IDL",
     "Neuroticism": "RE"
   },
-  "Great white shark": {
+  "Great White Shark": {
     "Class of P/Q": "PT/QF",
     "Social Behavior": "RE",
     "Environment Behavior": "AC",
@@ -76,14 +76,14 @@
     "Migration": "IDL",
     "Neuroticism": "AC"
   },
-  "(Tapanuli) Orangutan": {
+  "Tapanuli Orangutan": {
     "Class of P/Q": "PT/QF",
     "Social Behavior": "RE",
     "Environment Behavior": "AC",
     "Migration": "IDL",
     "Neuroticism": "RE"
   },
-  "Great Hammerhead": {
+  "Great Hammerhead Shark": {
     "Class of P/Q": "PT/QF",
     "Social Behavior": "RE",
     "Environment Behavior": "RE",
@@ -160,7 +160,7 @@
     "Migration": "IDL",
     "Neuroticism": "AC"
   },
-  "Rusty Patched Bumblebee": {
+  "Sea Otter": {
     "Class of P/Q": "QL/QU",
     "Social Behavior": "AC",
     "Environment Behavior": "RE",
@@ -170,7 +170,7 @@
   "Whale Shark": {
     "Class of P/Q": "QL/QU",
     "Social Behavior": "RE",
-    "Environment Behavior": "RE",
+    "Environment Behavior": "AC",
     "Migration": "MOB",
     "Neuroticism": "AC"
   },
@@ -181,14 +181,14 @@
     "Migration": "MOB",
     "Neuroticism": "RE"
   },
-  "Black Rhino": {
+  "Kakapo": {
     "Class of P/Q": "QL/QU",
     "Social Behavior": "RE",
-    "Environment Behavior": "RE",
+    "Environment Behavior": "AC",
     "Migration": "IDL",
     "Neuroticism": "AC"
   },
-  "Long-Beaked Echidnas": {
+  "Long-Beaked Echidna": {
     "Class of P/Q": "QL/QU",
     "Social Behavior": "RE",
     "Environment Behavior": "AC",
@@ -209,10 +209,10 @@
     "Migration": "MOB",
     "Neuroticism": "RE"
   },
-  "Kakapo": {
+  "Black Rhino": {
     "Class of P/Q": "QL/QU",
     "Social Behavior": "RE",
-    "Environment Behavior": "AC",
+    "Environment Behavior": "RE",
     "Migration": "IDL",
     "Neuroticism": "AC"
   },
