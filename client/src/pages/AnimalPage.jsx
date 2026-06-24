@@ -144,9 +144,6 @@ const AnimalPage = () => {
           </div>
           <div className="animal-page-bars">
             {animalDetails.understandResult?.map((item, index) => {
-              console.log(animalDetails.name);
-              console.log(animalTypes[animalDetails.name]);
-              console.log("Available names:", Object.keys(animalTypes));
               const labels = traitLabels[item.key] || { left: "Left", right: "Right" };
 
               const traitCode = animalTypes[animalDetails.name][item.key]; 
