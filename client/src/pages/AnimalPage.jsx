@@ -86,6 +86,46 @@ const AnimalPage = () => {
       key !== "General Facts"
   );
 
+function matchCase(original, replacement) {
+  if (original === original.toUpperCase()) {
+    return replacement.toUpperCase();
+  }
+
+  if (original[0] === original[0].toUpperCase()) {
+    return replacement.charAt(0).toUpperCase() + replacement.slice(1);
+  }
+
+  return replacement.toLowerCase();
+}
+
+function convertYouToThey(text) {
+  if (!text) return text;
+
+  let result = text;
+
+  // helper wrapper for case-aware replacements
+  const replace = (regex, replacement) => {
+    result = result.replace(regex, (match) =>
+      matchCase(match, replacement)
+    );
+  };
+
+  // expand contractions first
+  replace(/\byou're\b/gi, "they are");
+  replace(/\byou are\b/gi, "they are");
+
+  // possessives / reflexive
+  replace(/\byourself\b/gi, "themselves");
+  replace(/\byourselves\b/gi, "themselves");
+  replace(/\byour\b/gi, "their");
+  replace(/\byours\b/gi, "theirs");
+
+  // subject/object
+  replace(/\byou\b/gi, "they");
+
+  return result;
+}
+
   return (
     <div className="container">
       <div className="animal-top-nav">
@@ -172,7 +212,7 @@ const AnimalPage = () => {
                   </div>
 
                   <div className="bar-description">
-                    {item.text}
+                    {convertYouToThey(item.text)}
                   </div>
 
                 </div>
