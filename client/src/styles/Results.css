@@ -31,6 +31,11 @@
     flex-direction: column;
 }
 
+.results-buttons{
+  display: flex;
+  gap: 2rem;
+}
+
 .polaroid {
   margin-top: 5rem;
   position: relative;

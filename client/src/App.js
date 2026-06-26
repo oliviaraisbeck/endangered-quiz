@@ -10,6 +10,7 @@ import Mission from './pages/Mission';
 import Animals from './pages/OurAnimals';
 import AnimalPage from './pages/AnimalPage';
 import Help from './pages/Help';
+import { ScrollToTop } from "./pages/NavBar";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         {/* All pages use Layout, which includes the Navbar */}
         <Route path="/" element={<Layout />}>

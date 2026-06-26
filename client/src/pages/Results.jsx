@@ -9,9 +9,32 @@ const Results = () => {
 
   const [animalDetails, setAnimalDetails] = useState(null);
 
-  const categoryScores = location.state?.categoryScores || {};
+  const [categoryScores, setCategoryScores] = useState({});
 
   const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const newScores = location.state?.categoryScores;
+
+    if (newScores && Object.keys(newScores).length > 0) {
+      // User just finished quiz - overwrite old results
+      localStorage.setItem(
+        "animalQuizResults",
+        JSON.stringify(newScores)
+      );
+
+      setCategoryScores(newScores);
+
+      window.dispatchEvent(new Event("quizCompleted"));
+    } else {
+      // User came from navbar - load previous results
+      const savedResults = localStorage.getItem("animalQuizResults");
+
+      if (savedResults) {
+        setCategoryScores(JSON.parse(savedResults));
+      }
+    }
+  }, [location.state]);
 
   const statusOptions = [
     { key: "DD", label: "Data Deficient" },
@@ -58,7 +81,8 @@ const Results = () => {
       .catch((err) => console.error(err));
   }, [nameKey]);
 
-  if (Object.keys(categoryScores).length === 0) {
+  
+  if (Object.keys(categoryScores).length === 0 && !localStorage.getItem("animalQuizResults")) {
     return (
       <div className="container">
         <h1 className="title">Your Quiz Results</h1>
@@ -111,15 +135,18 @@ const traitRanges = {
                     <h2 className="animal-name bold">{animal}!</h2>
                   </div>
                   <p className="description">{animalDetails.description}</p>
-                  <button
-                    className="button1"
-                    onClick={() => {
-                    console.log("Opening URL:", animalDetails.donationURL);
-                    window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
-                  }}
-                    >
-                    HELP NOW!
-                  </button>
+                  <div className="results-buttons">
+                    <button
+                      className="button1"
+                      onClick={() => {
+                      console.log("Opening URL:", animalDetails.donationURL);
+                      window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
+                    }}
+                      >
+                      HELP NOW!
+                    </button>
+                    <button onClick={() => navigate('/quiz')}>Take The Quiz Again </button>
+                  </div>
                   <h2 className="why">Why the {animal}</h2>
                   <p className="description"> {animalDetails.why} </p>
                 </div>
