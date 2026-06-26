@@ -266,8 +266,8 @@ const AnimalPage = () => {
       </div>
       <div className="banner endangered-banner">
           <div className="endangered-info">
-            <div className='endangered-sm'>
-              <img className="endangered-img" src={animalDetails.logo} alt={animalDetails.name} style={{background: animalDetails.color}}/>
+            <div className='endangered-sm' style={{background: animalDetails.color}}>
+              <img className="endangered-img" src={animalDetails.logo} alt={animalDetails.name}/>
             </div>
             <div className="endangered-status">
               <h2>Endangered Status</h2>
@@ -284,7 +284,7 @@ const AnimalPage = () => {
               </button>
             </div>
             <div className='endangered-sm'>
-              <img className="endangered-img" src={animalDetails.image} alt={animalDetails.name} />
+              <img className="endangered-second-img" src={animalDetails.image} alt={animalDetails.name} />
             </div>
           </div>
         </div>

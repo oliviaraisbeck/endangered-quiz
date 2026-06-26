@@ -254,13 +254,25 @@
   color: white;
 }
 
-.endangered-img{
-  margin-top: 1rem;
+.endangered-sm{
   width: 12rem;
   height: 12rem;
-  border-radius: 6rem;
-  object-fit: cover;
-  /*background: #5895bb;*/
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.endangered-img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: contain;
+}
+
+.endangered-second-img{
+  height: 100%;
 }
 
 

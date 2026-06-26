@@ -69,24 +69,24 @@ const Results = () => {
 
   const traitLabels = {
   "Class of P/Q": {
-    left: "Adaptable",
-    right: "Organized"
+    left: "Organized",
+    right: "Adaptable"
   },
   "Social Behavior": {
     left: "Family First",
     right: "Independent"
   },
   "Environment Behavior": {
-    left: "Introvert",
-    right: "Extrovert"
+    left: "Extrovert",
+    right: "Introvert"
   },
   "Migration": {
-    left: "Fact-forward",
-    right: "Open Minded"
+    left: "Open-minded",
+    right: "Fact-forward"
   },
   "Neuroticism": {
-    left: "Introspective",
-    right: "Confident"
+    left: "Confident",
+    right: "Introspective"
   }
   };
 
@@ -280,8 +280,8 @@ const traitRanges = {
                       HELP NOW!
                     </button>
                   </div>
-                  <div className='endangered-sm'>
-                    <img className="endangered-img" src={animalDetails.image} alt={animalDetails.name}/>
+                  <div className="endangered-sm">
+                    <img className="endangered-second-img" src={animalDetails.image} alt={animalDetails.name}/>
                   </div>
                 </div>
               </div>
