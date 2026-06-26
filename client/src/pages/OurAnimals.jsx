@@ -33,8 +33,7 @@ const Animals = () => {
         <div className="animals-list">
           {animals.map((animal, index) => (
             <div className="animal-wrapper" key={index}>
-              <div className="atitle">
-                <h2 className="our-animal-name">{animal.name}</h2>
+              <h2 className="our-animal-name">{animal.name}</h2>
               <div className="animal-item">
                 <div className="animal-text">
                   
@@ -43,14 +42,6 @@ const Animals = () => {
                   <button onClick={() => goToAnimalPage(animal.name)}>
                       Learn More →
                   </button>
-                  {/*<p className="animal-description">{animal.charityDesc}</p>
-                  <button 
-                    className="button1 char-button" 
-                    onClick={() => {
-                    console.log("Opening URL:", animal.donationURL);
-                    window.open(animal.donationURL, "_blank", "noopener,noreferrer");
-                    }}>
-                      Donate to {animal.charity}</button> */}
                 </div>
                 <div className="animal-image">
                   <img
@@ -66,7 +57,6 @@ const Animals = () => {
                     />
                   </div>
                 </div> 
-              </div>
               </div>
             </div>
             

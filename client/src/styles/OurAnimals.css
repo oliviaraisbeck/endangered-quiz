@@ -92,9 +92,8 @@
 .animal-image{
     position: relative;
     flex-shrink: 0;
-
     display: flex;
-    align-self: flex-end;
+    align-self: flex-start;
     justify-content: center;
     
     margin-left: auto; 

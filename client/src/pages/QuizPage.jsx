@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import '../styles/QuizPage.css'; 
 import { useNavigate } from 'react-router-dom';
 import questionData from '../data/questions.json';
+import { shuffleArray } from './Homepage';
+
+const questions = questionData.questions;
+const shuffleQuestions = shuffleArray(questions); //shuffle questions
 
 const QuizPage = () => {
-  const questions = questionData.questions;
   const navigate = useNavigate();
 
   const [answers, setAnswers] = useState({});
@@ -30,7 +33,7 @@ const QuizPage = () => {
 
     const categoryScores = {};
 
-    questions.forEach((question, index) => {
+    shuffleQuestions.forEach((question, index) => {
         let score = answers[index];
         //const score = answers[index] || 0; // default to 0 if unanswered
         if (score === true) {
@@ -88,23 +91,25 @@ const QuizPage = () => {
   return (
     <div className="container">
       <h1 className="title">Which endangered animal are you most similar to?</h1>
-      <div className="instructions">
-        <h1>Quiz Instructions</h1>
-        <p>Rank the following by how much you agree or disagree with each statement.</p>
-        <div className="scale-visual">
-          <GradientArrow />
-
-          <div className="scale-labels">
-            {[5,4,3,2,1].map((value, i) => (
-              <span key={i} className={`scale-tick tick-${value}`}>
-                {['Strongly Agree','Agree','Neutral','Disagree','Strongly Disagree'][5 - value]}
-              </span>
-            ))}
+      <div className="lower-padding">
+        <div className="instructions">
+          <h1>Quiz Instructions</h1>
+          <p>Rank the following by how much you agree or disagree with each statement.</p>
+          <div className="scale-visual">
+            <GradientArrow />
+            <div className="scale-labels">
+              {[5,4,3,2,1].map((value, i) => (
+                <span key={i} className={`scale-tick tick-${value}`}>
+                  {['Strongly Agree','Agree','Neutral','Disagree','Strongly Disagree'][5 - value]}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
       <form id="quizForm" onSubmit={handleSubmit}>
-        {questions.map((question, index) => (
+        
+        {shuffleQuestions.map((question, index) => (
           <div className="question" key={index}>
             <h3>{question.text}</h3>
             <div className="options">
@@ -117,6 +122,7 @@ const QuizPage = () => {
                             value="true"
                             onChange={(e) => handleChange(e, index)}
                             className="radio-5"
+                            required
                             />
                             <span className="option-text">True</span>
                         </label>
@@ -141,6 +147,7 @@ const QuizPage = () => {
                               value={value}
                               onChange={(e) => handleChange(e, index)}
                               className={`radio-${value}`}
+                              required
                           /></div>
                           <span className="option-text">
                             {[
