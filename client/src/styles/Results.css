@@ -264,16 +264,16 @@
   height: 12rem;
   border-radius: 50%;
   display: flex;
+  background-clip: padding-box;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   flex-shrink: 0;
+
 }
 
 .endangered-img{
-  height: 10rem;
-  width: 10rem;
-  object-fit: contain;
+  height: 100%;
 }
 
 .endangered-second-img{

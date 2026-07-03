@@ -2,10 +2,14 @@ import React, { useState, useEffect } from 'react';
 import '../styles/Results.css';
 import { useLocation, useNavigate } from 'react-router-dom';
 import animalsData from '../data/animals.json';
+import { useRef } from "react";
+import html2canvas from "html2canvas";
+import ShareCard from "./ShareCard";
 
 const Results = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const cardRef = useRef(null);
 
   const [animalDetails, setAnimalDetails] = useState(null);
 
@@ -122,6 +126,35 @@ const traitRanges = {
   "Neuroticism": { min: 5, max: 25 }
 };
 
+const handleShare = async () => {
+    const canvas = await html2canvas(cardRef.current);
+
+    canvas.toBlob(async (blob) => {
+        if (!blob) return;
+
+        const file = new File(
+            [blob],
+            `${animalDetails.name}.png`,
+            {
+                type: "image/png",
+            }
+        );
+
+        if (
+            navigator.canShare &&
+            navigator.canShare({ files: [file] })
+        ) {
+            await navigator.share({
+                files: [file],
+                title: `I'm a ${animalDetails.name}!`,
+                text: `Find out what you are on Animal Ally http://localhost:3000/home`,
+            });
+        } else {
+            alert("Sharing isn't supported on this device.");
+        }
+    });
+};
+
   return (
     <div className="container">
       {animal ? (
@@ -146,6 +179,9 @@ const traitRanges = {
                       HELP NOW!
                     </button>
                     <button onClick={() => navigate('/quiz')}>Take The Quiz Again </button>
+                    <button onClick={handleShare}> {/*move this idk where yet */} 
+                        Share My Animal
+                    </button>
                   </div>
                   <h2 className="why">Why the {animal}</h2>
                   <p className="description"> {animalDetails.why} </p>
@@ -312,6 +348,11 @@ const traitRanges = {
                   </div>
                 </div>
               </div>
+              <ShareCard
+                ref={cardRef}
+                animal={animalDetails}
+                scores={categoryScores}
+              />
             </div>
           ) : (
             <p>Loading animal details...</p>

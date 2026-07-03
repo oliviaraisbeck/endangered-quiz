@@ -1,0 +1,22 @@
+
+.share-card {
+    width: 350px;
+    height: 620px;
+
+    background: white;
+    border-radius: 8px;
+}
+
+.share-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.share-traits{
+    display: flex;
+}
+
+.likes-dislikes{
+    display: flex;
+}
