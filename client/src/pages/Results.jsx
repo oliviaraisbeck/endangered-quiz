@@ -50,7 +50,7 @@ const Results = () => {
       case 'Social Behavior': return score > 15 ? 'RE' : 'AC';
       case 'Environment Behavior': return score > 15 ? 'AC' : 'RE';
       case 'Migration': return score > 15 ? 'MOB' : 'IDL';
-      case 'Neuroticism': return score > 7.5 ? 'AC' : 'RE';
+      case 'Neuroticism': return score > 15 ? 'AC' : 'RE';
       default: return '';
     }
   };
@@ -119,7 +119,7 @@ const traitRanges = {
   "Social Behavior": { min: 5, max: 25 },
   "Environment Behavior": { min: 5, max: 25 },
   "Migration": { min: 5, max: 25 },
-  "Neuroticism": { min: 5, max: 10 }
+  "Neuroticism": { min: 5, max: 25 }
 };
 
   return (
