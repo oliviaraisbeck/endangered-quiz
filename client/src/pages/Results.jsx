@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import animalsData from '../data/animals.json';
 import { useRef } from "react";
 import html2canvas from "html2canvas";
-import ShareCard from "./ShareCard.jsx";
+import ShareCard from "./ShareCardComp.jsx";
 
 const Results = () => {
   const location = useLocation();
