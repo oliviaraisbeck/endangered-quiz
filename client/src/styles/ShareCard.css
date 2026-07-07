@@ -1,69 +1,118 @@
 
 .share-card {
     width: 400px;
-    height: 500px;
-    background: beige;
+    max-height: 800px;
 }
 
 .share-margin{
-    padding-top: 5px!important;
+    padding-top: 20px!important;
 }
 
 .share-text{
     margin: 0px;
     padding: 0;
-    font-size: 20pt;
-}
-
-.share-image-wrapper{
-    border-radius: 50%;
-    z-index: 10;
-    left: 140px;
-    margin-top: 10px;
-    position: absolute;
-}
-
-.share-image {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-}
-
-.trait-item-share{
-    border-radius: 24px;
-    padding: 0.6rem;
-    width: 130px;
-    font-size: 15pt;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    font-size: 21pt;
 }
 
 .share-traits{
-    margin-top: 0px;
-    padding-top: 0px;
     display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: center;
 }
 
-.middle-trait{
-    position:absolute;
-    z-index: 5;
-    margin-left: 115px;
-    padding-top: 110px;
+.share-image-wrapper{
+    display: flex;
+    border-radius: 50%;
+    margin-top: 5px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-image {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.understand-bars-share{
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.bar-share {
+  width: 100%;
+  height: 24px;
+  border-radius: 12px;
+  background: linear-gradient(to right, #5895bb, #96c976);
+}
+
+.bar-floating-title-share {
+    margin: 10px;
+    transform: translateY(-30px);
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.7;
+    pointer-events: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-wrapper-share {
+  position: absolute;
+  top: -15px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-label-share {
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  opacity: 0.75;
+}
+
+.arrow-share {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid black;
+}
+
+.active-label-share{
+    opacity: 1;
+    color: black;
+    font-weight: 900;
 }
 
 .likes-dislikes{
-    padding-top: 35px;
+    padding-top: 15px;
     display: flex;
-    margin-left: 10px;
+    justify-content: center;
     gap: 10px;
 }
 
 .ld-item{
-    background-color: white;
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 25px;
-    border: 2px solid black;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.small-text{
+    margin-top: 5px;
+    font-size: 11pt;
+    padding-left: 0px;
+    list-style-position: outside;
+    margin-left: 10px;
 }

@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import animalsData from '../data/animals.json';
 import { useRef } from "react";
 import html2canvas from "html2canvas";
-import ShareCard from "./ShareCard";
+import ShareCard from "./ShareCard.jsx";
 
 const Results = () => {
   const location = useLocation();
@@ -50,7 +50,7 @@ const Results = () => {
 
   const getHL = (category, score) => {
     switch (category) {
-      case 'Class of P/Q': return score >= 30 ? 'PT/QF' : 'QL/QU';
+      case 'Class of P/Q': return score > 30 ? 'PT/QF' : 'QL/QU';
       case 'Social Behavior': return score > 15 ? 'RE' : 'AC';
       case 'Environment Behavior': return score > 15 ? 'AC' : 'RE';
       case 'Migration': return score > 15 ? 'MOB' : 'IDL';
@@ -169,6 +169,10 @@ const handleShare = async () => {
                   </div>
                   <p className="description">{animalDetails.description}</p>
                   <div className="results-buttons">
+                    <button onClick={() => navigate('/quiz')}>Take The Quiz Again </button>
+                    <button onClick={handleShare}> {/*move this idk where yet */} 
+                        Share My Animal
+                    </button>
                     <button
                       className="button1"
                       onClick={() => {
@@ -177,10 +181,6 @@ const handleShare = async () => {
                     }}
                       >
                       HELP NOW!
-                    </button>
-                    <button onClick={() => navigate('/quiz')}>Take The Quiz Again </button>
-                    <button onClick={handleShare}> {/*move this idk where yet */} 
-                        Share My Animal
                     </button>
                   </div>
                   <h2 className="why">Why the {animal}</h2>
