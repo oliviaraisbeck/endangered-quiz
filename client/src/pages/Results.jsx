@@ -2,10 +2,14 @@ import React, { useState, useEffect } from 'react';
 import '../styles/Results.css';
 import { useLocation, useNavigate } from 'react-router-dom';
 import animalsData from '../data/animals.json';
+import { useRef } from "react";
+import html2canvas from "html2canvas";
+import ShareCard from "./ShareCardComp.jsx";
 
 const Results = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const cardRef = useRef(null);
 
   const [animalDetails, setAnimalDetails] = useState(null);
 
@@ -46,11 +50,11 @@ const Results = () => {
 
   const getHL = (category, score) => {
     switch (category) {
-      case 'Class of P/Q': return score >= 30 ? 'PT/QF' : 'QL/QU';
+      case 'Class of P/Q': return score > 30 ? 'PT/QF' : 'QL/QU';
       case 'Social Behavior': return score > 15 ? 'RE' : 'AC';
       case 'Environment Behavior': return score > 15 ? 'AC' : 'RE';
       case 'Migration': return score > 15 ? 'MOB' : 'IDL';
-      case 'Neuroticism': return score > 7.5 ? 'AC' : 'RE';
+      case 'Neuroticism': return score > 15 ? 'AC' : 'RE';
       default: return '';
     }
   };
@@ -93,24 +97,24 @@ const Results = () => {
 
   const traitLabels = {
   "Class of P/Q": {
-    left: "Organized",
-    right: "Adaptable"
+    left: "Adaptable",
+    right: "Organized"
   },
   "Social Behavior": {
     left: "Family First",
     right: "Independent"
   },
   "Environment Behavior": {
-    left: "Extrovert",
-    right: "Introvert"
+    left: "Introvert",
+    right: "Extrovert"
   },
   "Migration": {
-    left: "Open-minded",
-    right: "Fact-forward"
+    left: "Fact-Forward",
+    right: "Open-Minded"
   },
   "Neuroticism": {
-    left: "Confident",
-    right: "Introspective"
+    left: "Introspective",
+    right: "Confident"
   }
   };
 
@@ -119,7 +123,42 @@ const traitRanges = {
   "Social Behavior": { min: 5, max: 25 },
   "Environment Behavior": { min: 5, max: 25 },
   "Migration": { min: 5, max: 25 },
-  "Neuroticism": { min: 5, max: 10 }
+  "Neuroticism": { min: 5, max: 25 }
+};
+
+const handleShare = async () => {
+    const canvas = await html2canvas(cardRef.current);
+
+    canvas.toBlob(async (blob) => {
+        if (!blob) return;
+
+        const file = new File(
+            [blob],
+            `${animalDetails.name}.png`,
+            {
+                type: "image/png",
+            }
+        );
+
+        try {
+          if (
+            navigator.canShare &&
+            navigator.canShare({ files: [file] })
+          ) {
+            await navigator.share({
+              files: [file],
+              title: `I'm a ${animalDetails.name}!`,
+              text: `Find out what you are on Animal Ally http://localhost:3000/home`,
+            });
+          } else {
+            alert("Sharing isn't supported on this device.");
+          }
+        } catch (error) {
+          if (error.name !== "AbortError") {
+            console.error("Sharing failed:", error);
+          }
+        }
+    });
 };
 
   return (
@@ -136,6 +175,10 @@ const traitRanges = {
                   </div>
                   <p className="description">{animalDetails.description}</p>
                   <div className="results-buttons">
+                    <button onClick={() => navigate('/quiz')}>Take The Quiz Again </button>
+                    <button onClick={handleShare}> {/*move this idk where yet */} 
+                        Share My Animal
+                    </button>
                     <button
                       className="button1"
                       onClick={() => {
@@ -145,7 +188,6 @@ const traitRanges = {
                       >
                       HELP NOW!
                     </button>
-                    <button onClick={() => navigate('/quiz')}>Take The Quiz Again </button>
                   </div>
                   <h2 className="why">Why the {animal}</h2>
                   <p className="description"> {animalDetails.why} </p>
@@ -311,6 +353,13 @@ const traitRanges = {
                     <img className="endangered-second-img" src={animalDetails.image} alt={animalDetails.name}/>
                   </div>
                 </div>
+              </div>
+              <div className="hidden-share-card">
+                <ShareCard
+                  ref={cardRef}
+                  animal={animalDetails}
+                  scores={categoryScores}
+                />
               </div>
             </div>
           ) : (

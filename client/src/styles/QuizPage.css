@@ -111,4 +111,11 @@ html {
 
 .options input[type="radio"]:hover { transform: scale(1.2); }
 
+.quiz-navigation{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
 
