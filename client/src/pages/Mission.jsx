@@ -32,21 +32,21 @@ const Mission = () => {
               <div key={index} className="animal-section">
                 <div className="endangered-sm">
                   <img src={animal.logo} alt={animal.name} className="endangered-img" style={{background: "#5895bb"}}/>
-                </div>
+                </div >
                 <h3>{animal.name}</h3>
-                <div>
+                <div className="endangered-sm">
                   <img src={animal.logo} alt={animal.name} className="endangered-img" style={{background: "#96c97c"}}/>
                 </div>
                 <h3>{animal.name}</h3>
-                <div>
+                <div className="endangered-sm">
                   <img src={animal.logo} alt={animal.name} className="endangered-img" style={{background: "#9ad2db"}}/>
                 </div>
                 <h3>{animal.name}</h3>
-                <div>
+                <div className="endangered-sm">
                   <img src={animal.logo} alt={animal.name} className="endangered-img" style={{background: "#d54f53"}}/>
                 </div>
                 <h3>{animal.name}</h3>
-                <div>
+                <div className="endangered-sm">
                   <img src={animal.logo} alt={animal.name} className="endangered-img" style={{background: "#b46441"}}/>
                 </div>
                 <h3>{animal.name}</h3>
