@@ -140,17 +140,23 @@ const handleShare = async () => {
             }
         );
 
-        if (
+        try {
+          if (
             navigator.canShare &&
             navigator.canShare({ files: [file] })
-        ) {
+          ) {
             await navigator.share({
-                files: [file],
-                title: `I'm a ${animalDetails.name}!`,
-                text: `Find out what you are on Animal Ally http://localhost:3000/home`,
+              files: [file],
+              title: `I'm a ${animalDetails.name}!`,
+              text: `Find out what you are on Animal Ally http://localhost:3000/home`,
             });
-        } else {
+          } else {
             alert("Sharing isn't supported on this device.");
+          }
+        } catch (error) {
+          if (error.name !== "AbortError") {
+            console.error("Sharing failed:", error);
+          }
         }
     });
 };
@@ -348,11 +354,13 @@ const handleShare = async () => {
                   </div>
                 </div>
               </div>
-              <ShareCard
-                ref={cardRef}
-                animal={animalDetails}
-                scores={categoryScores}
-              />
+              <div className="hidden-share-card">
+                <ShareCard
+                  ref={cardRef}
+                  animal={animalDetails}
+                  scores={categoryScores}
+                />
+              </div>
             </div>
           ) : (
             <p>Loading animal details...</p>

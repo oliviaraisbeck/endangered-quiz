@@ -280,6 +280,12 @@
   height: 100%;
 }
 
+.hidden-share-card {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+}
+
 
 
 @media (max-width: 768px) { /*mobile stuff to do more and change later */

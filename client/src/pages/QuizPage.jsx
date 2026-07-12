@@ -8,6 +8,7 @@ const questions = questionData.questions;
 const shuffleQuestions = shuffleArray(questions); //shuffle questions
 
 const QuizPage = () => {
+
   const navigate = useNavigate();
 
   const [answers, setAnswers] = useState({});
@@ -30,6 +31,13 @@ const QuizPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const unanswered = shuffleQuestions.some((_, index) => answers[index] === undefined);
+
+    if (unanswered) {
+      alert("Please answer every question before submitting.");
+      return;
+    }
 
     const categoryScores = {};
 
@@ -87,6 +95,34 @@ const QuizPage = () => {
       </svg>
     );
   };
+  const nextPage = () => {
+    const unanswered = visibleQuestions.some((_, localIndex) => {
+      const index = startIndex + localIndex;
+      return answers[index] === undefined;
+    });
+
+    if (unanswered) {
+      alert("Please answer all questions before continuing.");
+      return;
+    }
+    setPage(prev => prev + 1);
+    window.scrollTo(0, 0);
+  };
+
+  const previousPage = () => {
+    setPage(prev => prev - 1);
+
+    window.scrollTo(0, 0);
+  };
+
+  const QUESTIONS_PER_PAGE = 10; // out of 30 questions 
+  const totalPages = 3; // change if questions change
+  const [page, setPage] = useState(0);
+
+  const startIndex = page * QUESTIONS_PER_PAGE;
+  const endIndex = startIndex + QUESTIONS_PER_PAGE;
+
+  const visibleQuestions = shuffleQuestions.slice(startIndex, endIndex);
 
   return (
     <div className="container">
@@ -108,37 +144,77 @@ const QuizPage = () => {
         </div>
       </div>
       <form id="quizForm" onSubmit={handleSubmit}>
-        
-        {shuffleQuestions.map((question, index) => (
-          <div className="question" key={index}>
-            <h3>{question.text}</h3>
-            <div className="options"> 
-              {[5,4,3,2,1].map(value => (
-                <label key={value} className={'option'}>
-                  <div className="radio-wrapper">
-                    <input
-                      type="radio"
-                      name={`q${index}`}
-                      value={value}
-                      onChange={(e) => handleChange(e, index)}
-                      className={`radio-${value}`}
-                      required
-                  /></div>
-                  <span className="option-text">
-                    {[
-                      'Strongly Disagree',
-                      'Disagree',
-                      'Neutral',
-                      'Agree',
-                      'Strongly Agree',
-                    ][value - 1]}
-                  </span>
-                </label>
-              ))}
+        {visibleQuestions.map((question, localIndex) => {
+          const index = startIndex + localIndex;
+
+          return (
+            <div className="question" key={index}>
+              <h3>{question.text}</h3>
+
+              <div className="options">
+                {[5,4,3,2,1].map(value => (
+                  <label key={value} className={'option'}>
+                          <div className="radio-wrapper">
+                            <input
+                              type="radio"
+                              name={`q${index}`}
+                              value={value}
+                              checked={answers[index] === value}
+                              onChange={(e) => handleChange(e, index)}
+                              className={`radio-${value}`}
+                          /></div>
+                          <span className="option-text">
+                            {[
+                              'Strongly Disagree',
+                              'Disagree',
+                              'Neutral',
+                              'Agree',
+                              'Strongly Agree',
+                            ][value - 1]}
+                          </span>
+                        </label>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
-        <button className="submit-button" type="submit">Submit Quiz</button>
+          );
+        })}
+        <div className="quiz-navigation">
+          {page > 0 && (
+            <button
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                previousPage();
+              }}
+            >
+              ← Previous
+            </button>
+          )}
+
+          <span>
+            Page {page + 1} / {totalPages}
+          </span>
+
+          {page < totalPages - 1 ? (
+            <button
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                nextPage();
+              }}
+            >
+              Next →
+            </button>
+          ) : (
+            <button
+              type="submit"
+            >
+              Submit Quiz
+            </button>
+          )}
+        </div>
       </form>
     </div>
   );
