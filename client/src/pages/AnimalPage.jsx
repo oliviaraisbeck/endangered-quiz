@@ -19,6 +19,7 @@ const AnimalPage = () => {
     : fileKeys[0];
 
   useEffect(() => {
+    setFlippedCards({});
     import(`../data/animals/${animalKey}.json`)
       .then(module => setAnimalDetails(module.default))
       .catch(err => console.error(err));
