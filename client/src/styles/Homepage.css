@@ -75,7 +75,8 @@
 
 .logoLink{
   transform: translateY(1.7rem);
-  width: 440px;
+  width: 30vw;
+  min-width: 350px;
 }
 
 .animal-logo-home, .grid-name{
@@ -91,21 +92,24 @@
   text-decoration: underline;
 }
 
-.right{
-  padding-left: 15%;
-  max-width: 70%;
+.homepage-middle{
+  margin-left: auto;
+  margin-right: auto;
+  width: max(70%, 700px);
   text-align: left;
+
 }
 
 .animals-grid {
-  width: 75%;
   margin-left: auto;
   margin-right: auto;
+  width: max(70%, 800px);
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
 }
 
 .animal-section {
+  
   padding: 30px;
   text-align: center;
   border-right: 3px solid #ddd;
