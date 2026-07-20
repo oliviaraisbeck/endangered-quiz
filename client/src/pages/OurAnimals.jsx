@@ -45,7 +45,7 @@ const Animals = () => {
                 </div>
                 <div className="animal-image">
                   <img
-                    src={animal.image.replace("client/src/", "/")}
+                    src={animal.image.replace("client/src/", "/")} 
                     alt={animal.name}
                     className="animal-thumb"
                   />
