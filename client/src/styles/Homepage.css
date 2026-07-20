@@ -78,6 +78,10 @@
   width: 440px;
 }
 
+.animal-logo-home, .grid-name{
+  cursor: pointer;
+}
+
 .learn-more {
   cursor: pointer;
   font-weight: 500;
