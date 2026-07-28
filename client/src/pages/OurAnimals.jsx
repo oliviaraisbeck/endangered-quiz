@@ -29,7 +29,7 @@ const Animals = () => {
   return (
     <div className="container">
       <div className="animal-container">
-        <h1 className="title">Our Animals</h1>
+        <h1 className="our-title">Our Animals</h1>
         <div className="animals-list">
           {animals.map((animal, index) => (
             <div className="animal-wrapper" key={index}>

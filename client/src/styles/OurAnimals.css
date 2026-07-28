@@ -5,6 +5,11 @@
     padding-left: 5%;
 }
 
+.our-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
 .our-animal-name{
     margin: 0;
 }
