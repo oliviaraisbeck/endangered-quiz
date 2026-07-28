@@ -175,8 +175,8 @@ const handleShare = async () => {
                   </div>
                   <p className="description">{animalDetails.description}</p>
                   <div className="results-buttons">
-                    <button onClick={() => navigate('/quiz')}>Take The Quiz Again </button>
-                    <button onClick={handleShare}> {/*move this idk where yet */} 
+                    <button onClick={() => navigate('/quiz')}>Retake The Quiz</button>
+                    <button onClick={handleShare}> {/*move this? idk where yet */} 
                         Share My Animal
                     </button>
                     <button
