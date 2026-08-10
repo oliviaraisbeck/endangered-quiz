@@ -11,8 +11,6 @@ const importAllAnimals = () => {
 
 const animals = importAllAnimals();
 
-//end delete
-
 const Mission = () => {
     return (
       <div className="container">

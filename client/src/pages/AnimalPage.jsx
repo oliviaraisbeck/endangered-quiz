@@ -19,7 +19,7 @@ const AnimalPage = () => {
     : fileKeys[0];
 
   useEffect(() => {
-    setFlippedCards({});
+    setFlippedCards({}); //reset cards on new page
     import(`../data/animals/${animalKey}.json`)
       .then(module => setAnimalDetails(module.default))
       .catch(err => console.error(err));
@@ -37,24 +37,24 @@ const AnimalPage = () => {
 
   const traitLabels = {
   "Class of P/Q": {
-    left: "Organized",
-    right: "Adaptable"
+    left: "Adaptable",
+    right: "Organized"
   },
   "Social Behavior": {
     left: "Family First",
     right: "Independent"
   },
   "Environment Behavior": {
-    left: "Extrovert",
-    right: "Introvert"
+    left: "Introvert",
+    right: "Extrovert"
   },
   "Migration": {
-    left: "Open-minded",
-    right: "Fact-forward"
+    left: "Fact-forward",
+    right: "Open-minded"
   },
   "Neuroticism": {
-    left: "Confident",
-    right: "Introspective"
+    left: "Introspective",
+    right: "Confident"
   }
   };
 
@@ -81,7 +81,7 @@ const AnimalPage = () => {
     }
   };
 
-  const factEntries = Object.entries(animalDetails.facts || {}).filter(
+  const factEntries = Object.entries(animalDetails.facts || {}).filter( //don't incude these in cards
     ([key]) =>
       key !== "Physical Description" &&
       key !== "General Facts"
@@ -99,7 +99,7 @@ function matchCase(original, replacement) {
   return replacement.toLowerCase();
 }
 
-function convertYouToThey(text) {
+function convertYouToThey(text) { //probably just change copywrite but this is okay for now 
   if (!text) return text;
 
   let result = text;
@@ -122,41 +122,39 @@ function convertYouToThey(text) {
   replace(/\byours\b/gi, "theirs");
 
   // subject/object
-  replace(/\byou\b/gi, "they");
+  replace(/\byou\b/gi, "they"); //also changed for whne should be they - needs to be fixed
 
   return result;
 }
 
   return (
     <div className="container">
-      <div className="animal-top-nav">
+
+      <div className="animal-top-nav"> {/*top buttons */}
         <button
-          className="nav-button"
           onClick={() => navigate("/animals")}
         >
           ← All Animals
         </button>
 
         <button
-          className="nav-button button1"
+          className="button1"
           onClick={() => navigate(`/animals/${nextAnimal}`)}
         >
           Next Animal →
         </button>
-        
       </div>
-      <div className="page-content">
+
+      <div className="page-content"> {/*text and polaroid picture heading */}
         <div className="animal-header-page lower-padding">
           <div className="animal-header-text">
             <h1>{animalDetails.name}</h1>
             <p>{animalDetails.description}</p>
             <div className="status-section">
               <p className="status-title">Conservation Status</p>
-
               <div className="status-scale">
                 {statusOptions.map((item) => {
                   const isActive = animalDetails.status === item.key;
-
                   return (
                     <div className="status-item" key={item.key}>
                       <div className={`status-circle ${item.key} ${isActive ? "active" : ""}`}>
@@ -174,7 +172,7 @@ function convertYouToThey(text) {
           </div>
         </div>
 
-        <h2 className="left">About the {animalDetails.name}</h2>
+        <h2 className="left">About the {animalDetails.name}</h2> {/*About/Why and personality bars*/}
         <p className="left lower-padding">{animalDetails.facts["General Facts"]} {animalDetails.facts["Physical Description"]}</p>
         <div className="personality-section lower-padding">
           <div className="nickname-section left">
@@ -186,46 +184,40 @@ function convertYouToThey(text) {
           <div className="animal-page-bars">
             {animalDetails.understandResult?.map((item, index) => {
               const labels = traitLabels[item.key] || { left: "Left", right: "Right" };
-
               const traitCode = animalTypes[animalDetails.name][item.key]; 
               const value = traitDirectionMap[item.key]?.[traitCode];
 
               return (
                 <div className="bar-container" key={index}>
                   <div className="bar"></div>
-
                   <div className="bar-floating-title">
                     {item.title}
                   </div>
-                  
                   <div className="bar-labels">
                     <span className={value === "left" ? "active-label" : ""}>
                       {labels.left}
                     </span>
-
                     <span className={value === "right" ? "active-label" : ""}>
                       {labels.right}
                     </span>
                   </div>
-
                   <div className={`arrow-wrapper ${value}`}>
                     <div className="arrow" />
                   </div>
-
                   <div className="bar-description">
                     {convertYouToThey(item.text)}
                   </div>
-
                 </div>
               );
             })}
           </div>
-        </div>              
-        <section className="facts-section">
+        </div>     
+
+        <section className="facts-section"> {/*Fact cards */}
           <h2>More About the {animalDetails.name}</h2>
 
           <div className="facts-two-column">
-            <div className="facts-column">
+            <div className="facts-column"> {/* First column*/}
               {factEntries
                 .slice(0, Math.ceil(factEntries.length / 2))
                 .map(([title, text], index) => {
@@ -234,7 +226,7 @@ function convertYouToThey(text) {
                   return (
                     <div
                       key={title}
-                      className={`fact-card color-${index % 7}`}
+                      className={`fact-card color-${index % 6}`}
                       onClick={() =>
                         setFlippedCards(prev => ({
                           ...prev,
@@ -243,11 +235,9 @@ function convertYouToThey(text) {
                       }
                     >
                       <h3>{title}</h3>
-
                       <div className="fact-content">
                         {isOpen && <p>{text}</p>}
                       </div>
-
                       <div className="fact-arrow">
                         {isOpen ? "▲" : "▼"}
                       </div>
@@ -256,11 +246,11 @@ function convertYouToThey(text) {
                 })}
             </div>
 
-            <div className="facts-column">
+            <div className="facts-column"> {/*Second column */}
               {factEntries
                 .slice(Math.ceil(factEntries.length / 2))
                 .map(([title, text], index) => {
-                  const realIndex = index + Math.ceil(factEntries.length / 2);
+                  const realIndex = index + Math.ceil(factEntries.length / 2); {/*index + 3 */}
                   const isOpen = flippedCards[realIndex];
 
                   return (
@@ -289,23 +279,9 @@ function convertYouToThey(text) {
             </div>
           </div>
         </section>
-        
-        {/*
-        <div id="Donation">
-          <h2>Help the {animalDetails.name}</h2>
-          <p>{animalDetails.charityDesc}</p>
-          <button
-              onClick={() => {
-              console.log("Opening URL:", animalDetails.donationURL);
-              window.open(animalDetails.donationURL, "_blank", "noopener,noreferrer");
-          }}
-              >
-              Donate Now
-          </button>
-        </div>
-        */}
       </div>
-      <div className="banner endangered-banner">
+
+      <div className="banner endangered-banner"> {/*Endangered */}
           <div className="endangered-info">
             <div className='endangered-sm' style={{background: animalDetails.color}}>
               <img className="endangered-img" src={animalDetails.logo} alt={animalDetails.name}/>

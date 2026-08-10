@@ -1,8 +1,13 @@
 .animal-container{
     text-align: left;
     padding-top: 20px;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.our-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 .our-animal-name{
@@ -13,13 +18,13 @@
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 4rem;
+    column-gap: 5%;
     row-gap: 2rem;
     align-items: start;
     position: relative;
 }
 
-.animals-list::before{
+.animals-list::before{ /*vertical line*/
     content: "";
     position: absolute;
     top: 0;
@@ -30,15 +35,7 @@
     transform: translateX(-50%);
 }
 
-.animal-wrapper{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    height: 100%;
-
-}
-
-.animal-wrapper::after{
+.animal-wrapper::after{ /*horizonal line*/
     content: "";
     position: absolute;
     left: -2rem;
@@ -48,16 +45,30 @@
     background: #234155;
 }
 
+.animal-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+
+}
+
 .animal-wrapper:nth-last-child(-n+2)::after{ 
     display: none;
 }
 
 .animal-item{
     display: flex;
-    padding: 1rem 2rem 2rem 0;
+    padding: 1.5rem 5% 0 0;
     gap: 1rem;
     align-items: flex-start;
     padding-bottom: 2rem;
+}
+
+.animal-item button{
+    width: auto;
+    max-width: 13rem;
+    min-width: 179px;
 }
 
 .animal-text{
@@ -83,8 +94,8 @@
 
 
 .animal-thumb{
-    width: 240px;
-    height: 240px;
+    width: 20vw;
+    height: 20vw;
     border-radius: 0 !important;
     object-fit: cover;
 }
@@ -95,7 +106,7 @@
     display: flex;
     align-self: flex-start;
     justify-content: center;
-    
+
     margin-left: auto; 
 }
 
@@ -126,4 +137,38 @@
     width: 85px;
     height: 85px;
     object-fit: contain;
+}
+
+@media (max-width: 900px) {  
+
+.animals-list{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 4rem;
+    row-gap: 2rem;
+    align-items: start;
+    position: relative;
+}
+
+.animals-list::before{ /*vertical line*/
+    display: none;
+}
+.animal-wrapper:nth-last-child(-n+2)::after{ /*second to last appear still*/
+    display: flex;
+}
+
+.animal-wrapper:nth-last-child(-n+1)::after{ /*last does not appear*/
+    display: none;
+}
+
+.animal-thumb{
+    width: 25vw;
+    height: 25vw;
+    min-height: 200px;
+    min-width: 200px;
+    border-radius: 0 !important;
+    object-fit: cover;
+}
+  
 }
