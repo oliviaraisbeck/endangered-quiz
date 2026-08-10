@@ -286,6 +286,10 @@
   top: 0;
 }
 
+@media (max-width: 900px) {
+  
+}
+
 
 
 @media (max-width: 768px) { /*mobile stuff to do more and change later */
