@@ -335,6 +335,8 @@
   .understand-layout {
     display: grid;
     grid-template-columns: 1fr;
+    align-items: center;
+    width:97%;
   }
 
   .endangered-sm{
@@ -343,8 +345,23 @@
 
 }
 
+@media (max-width: 768px) { 
 
+  .polaroid {
+    position: relative;
+    width: 12rem;
+    height: 22rem;
+    transform: translateY(-20px);
+    background-color: white;
+    border: 1px solid black;
+  }
 
-@media (max-width: 768px) { /*mobile stuff to do more and change later */
+  .polaroid-img{
+    margin-top: 1rem;
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    border: 1px solid black;
+  }
   
 }

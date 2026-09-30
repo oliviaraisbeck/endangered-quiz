@@ -71,3 +71,14 @@
   padding-bottom: 3rem;
 }
 
+@media (max-width: 768px){
+   h2 {
+    font-size: 30px;
+  }
+
+  p, h3 {
+    font-size: 18px;
+  }
+
+}
+
