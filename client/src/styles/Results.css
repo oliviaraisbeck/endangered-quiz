@@ -346,22 +346,53 @@
 }
 
 @media (max-width: 768px) { 
+  .results-header-grid{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 14.5rem;
+  }
 
   .polaroid {
     position: relative;
-    width: 12rem;
-    height: 22rem;
-    transform: translateY(-20px);
+    width: 14rem;
+    height: 18rem;
+    transform: translateY(0px);
     background-color: white;
     border: 1px solid black;
   }
 
   .polaroid-img{
     margin-top: 1rem;
-    width: 16rem;
-    height: 16rem;
+    width: 12.5rem;
+    height: 12.5rem;
     object-fit: cover;
     border: 1px solid black;
+  }
+
+  .polaroid-title{
+    font-size: 26px;
+  }
+
+  .results-buttons{
+    grid-area: buttons;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .traits-header{
+    font-size: 22px;
+  }
+
+  .trait-item{
+    font-size: 18px;
+    border-radius: 24px;
+    padding: 1rem;
+    min-width: 40%;
+    max-width: 70%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin: 0.4rem;
+  }
+  .traits-list > :nth-child(even) {
+    align-self: flex-start; 
   }
   
 }

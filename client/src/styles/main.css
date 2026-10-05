@@ -80,5 +80,18 @@
     font-size: 18px;
   }
 
+    button {
+    width: 11rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #b46441;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
 }
 
