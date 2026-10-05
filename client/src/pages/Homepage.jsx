@@ -9,7 +9,7 @@ const importAllAnimals = () => {
 
 const animals = importAllAnimals();
 
-export const shuffleArray = (array) => {
+export const shuffleArray = (array) => { //Animals appear on homepage in random order
   const arr = [...array]; 
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -51,38 +51,40 @@ const HomePage = () => {
           </button>
         </div>
       </div>
-      <div className="right about-animal-section">
-        <div>
-          <h2> About Your Animal Ally</h2>
-          <p>The Animal Ally Quiz matches your unique traits with one of 32 endangered animals. Take the quiz to find out more about yourself, and how you can make a difference for your critter.  </p>
-          <div className="navs">
-            <button className="button1" onClick={() => navigate('/quiz')}>Take The Quiz</button>
-            <p className="learn-more" onClick={() => navigate("/about") } >
+      <div className="homepage-middle">
+        <div className="about-animal-section">
+          <div>
+            <h2> About Your Animal Ally</h2>
+            <p>The Animal Ally Quiz matches your unique traits with one of 32 endangered animals. Take the quiz to find out more about yourself, and how you can make a difference for your critter.  </p>
+            <div className="navs">
+              <button className="button1" onClick={() => navigate('/quiz')}>Take The Quiz</button>
+              <p className="learn-more" onClick={() => navigate("/about") } >
+                Learn More →
+              </p>
+            </div>
+          </div>
+          <div className="logo-img-wrapper">
+            <img src={logoLink} alt="Banner" className="logoLink"/>
+          </div>
+        </div>
+        <h2>Our Animals</h2>
+        <p>Every critter on this quiz needs our help, whether they have a current population of seven or are the biggest surviving land mammal.</p>
+      </div>
+      <div className="animals-grid lower-padding">
+        {shuffledAnimals.map((animal, index) => (
+          <div key={index} className="animal-section">
+            <div className="animal-logo-wrapper">
+              <img src={animal.logo} alt={animal.name} className="animal-logo-home" onClick={() => goToAnimalPage(animal.name)}/>
+            </div>
+            <h3 onClick={() => goToAnimalPage(animal.name)} className="grid-name">{animal.name}</h3>
+            <p className="learn-more" onClick={() => goToAnimalPage(animal.name)}>
               Learn More →
             </p>
           </div>
-        </div>
-        <div className="logo-img-wrapper">
-          <img src={logoLink} alt="Banner" className="logoLink"/>
-        </div>
-      </div>
-      <div className="lower-padding">
-        <h2 className="right">Our Animals</h2>
-        <p className="right">Every critter on this quiz needs our help, whether they have a current population of seven or are the biggest surviving land mammal.</p>
-          <div className="animals-grid lower-padding">
-            {shuffledAnimals.map((animal, index) => (
-              <div key={index} className="animal-section">
-                <div className="animal-logo-wrapper">
-                  <img src={animal.logo} alt={animal.name} className="animal-logo-home" />
-                </div>
-                <h3>{animal.name}</h3>
-                <p className="learn-more" onClick={() => goToAnimalPage(animal.name)}>
-                  Learn More →
-                </p>
-              </div>
-            ))}
-          </div>
-      </div>
+        ))}
+      </div>  
+              
+      
       <div className="mission-banner">
         <img src={bannerButterfly} alt="Banner" className="banner-image" />
         <div className="mission-text">

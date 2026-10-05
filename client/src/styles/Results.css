@@ -1,18 +1,37 @@
-.animal-header{            
+.animal-details{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3rem;
+
+}
+.animal-header {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  margin-bottom: 3rem; 
+  flex-direction: column;
+}
+
+.results-header-grid{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 22rem;
+  grid-template-areas:
+  "info   polaroid"
+  "buttons    polaroid"
+  "why    polaroid";
+  column-gap: 3vw;
+  align-items: start; 
 }
 
 .animal-title{
+  margin-top: 0rem;
   display: flex;
   align-items: flex-end;
 }
 
 .animal-name{
   margin-left: 1rem;
+}
+
+.why-animal{
+  grid-area: why;
 }
 
 .why{
@@ -25,22 +44,24 @@
 }
 
 .animal-info {
-    margin-top: 5rem;
-    width: 50%;
+  grid-area: info;
+  margin-top: 0;
     display:flex;
     flex-direction: column;
 }
 
 .results-buttons{
+  grid-area: buttons;
   display: flex;
   gap: 2rem;
 }
 
 .polaroid {
-  margin-top: 5rem;
+  grid-area: polaroid;
   position: relative;
   width: 22rem;
   height: 26rem;
+  transform: translateY(-20px);
   background-color: white;
   border: 1px solid black;
 }
@@ -61,12 +82,9 @@
 }
 
 .traits-grid{
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 3rem;
+  gap: 2vw;
 }
 
 .traits-header{
@@ -100,15 +118,14 @@
 
 .understand-grid {
   margin-bottom: 2rem;
-  width: calc(50% + 22rem + 50px);
-  margin-left: calc((100% - (50% + 22rem + 50px)) / 2);
   display: flex;
   flex-direction: column;
   gap: 0rem;
 }
 
 .understand-layout {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 3rem;
   width: 100%;
   align-items: flex-start;
@@ -116,7 +133,6 @@
 }
 
 .understand-bars {
-  width: 50%;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -193,7 +209,6 @@
 
 .understand-text-panel {
   transform: translateY(-1.5rem);
-  width: 50%;
   flex-shrink: 0;
   position: relative;
   display: flex;
@@ -260,8 +275,8 @@
 }
 
 .endangered-sm{
-  width: 12rem;
-  height: 12rem;
+  width: 13vw;
+  height: 13vw;
   border-radius: 50%;
   display: flex;
   background-clip: padding-box;
@@ -286,12 +301,98 @@
   top: 0;
 }
 
-
-
-@media (max-width: 768px) { /*mobile stuff to do more and change later */
-  img {
-    width: 50%;        
-    max-width: 350px;    
-    margin: 0 auto;      
+@media (max-width: 900px) {
+  .results-header-grid{
+    grid-template-columns: minmax(0, 1fr) 18rem;
+    grid-template-areas:
+    "info   polaroid"
+    "buttons    polaroid"
+    "why    why";
   }
+
+  .why{
+    margin-top: 1rem;
+  }
+
+    .polaroid {
+    position: relative;
+    width: 18rem;
+    height: 22rem;
+    transform: translateY(-20px);
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .polaroid-img{
+    margin-top: 1rem;
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+
+
+  .understand-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    width:97%;
+  }
+
+  .endangered-sm{
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) { 
+  .results-header-grid{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 14.5rem;
+  }
+
+  .polaroid {
+    position: relative;
+    width: 14rem;
+    height: 18rem;
+    transform: translateY(0px);
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .polaroid-img{
+    margin-top: 1rem;
+    width: 12.5rem;
+    height: 12.5rem;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+
+  .polaroid-title{
+    font-size: 26px;
+  }
+
+  .results-buttons{
+    grid-area: buttons;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .traits-header{
+    font-size: 22px;
+  }
+
+  .trait-item{
+    font-size: 18px;
+    border-radius: 24px;
+    padding: 1rem;
+    min-width: 40%;
+    max-width: 70%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin: 0.4rem;
+  }
+  .traits-list > :nth-child(even) {
+    align-self: flex-start; 
+  }
+  
 }
